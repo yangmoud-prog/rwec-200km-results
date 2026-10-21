@@ -3,7 +3,6 @@ from common import *
 import matplotlib as mpl
 mpl.use('Agg')
 import matplotlib.pyplot as plt
-from matplotlib.animation import FuncAnimation,FFMpegWriter
 from prototype import forecast
 import sys
 mpl.rcParams.update({'font.family':['Times New Roman','SimSun'],'font.size':8,'axes.titlesize':9,'axes.labelsize':8,
@@ -105,29 +104,5 @@ def main():
         m=fine>=0;ax.plot(fine[m],rr[0][m,9],ls=ls,lw=1,label=f'RWEC-V {dt:g} h')
     ax.set(xlabel='洪水起点后时间 (h)',ylabel='20 km流量 (m³/s)');ax.legend(fontsize=6)
     panel(ax,'b','固定参数：时间步长尚不稳定');export(fig,'B_ablation_and_timestep')
-    # One synchronized animation; frame interval3h, no scientific resampling.
-    sys.path.insert(0,str(A/'analysis/03_internal_discovery_20261021/.deps'))
-    import imageio_ffmpeg
-    mpl.rcParams['animation.ffmpeg_path']=imageio_ffmpeg.get_ffmpeg_exe()
-    fig,axs=plt.subplots(3,1,figsize=(180/25.4,170/25.4),layout='constrained')
-    ax=axs[0];a,=ax.plot(x,d['z_control'][0],color='#202020',label='HEC固定控制');b,=ax.plot(x,d['z_ref'][0],color='.6',ls='--',label='固定5 m参照')
-    c,=ax.plot(x,d['z_ref'][0],color=COL['RWEC-V'],label='RWEC-V近似')
-    ax.plot(x,x*.1,color='.8',lw=.6);ax.set(xlabel='距出口位置 (km)',ylabel='水面高程 (m)',ylim=(0,27));ax.legend(loc='upper left',ncol=3)
-    m=t>=0
-    axs[1].plot(t[m],d['lb'][m],color='#202020',label='HEC参考');axs[1].plot(t[m],p['lb_km'][m],color=COL['RWEC-V'],label='RWEC-V')
-    axs[1].set(xlabel='洪水起点后时间 (h)',ylabel='回水长度 (km)');axs[1].legend(loc='upper right')
-    axs[2].plot(t[m],d['q_control'][m,10],color='#202020',label='HEC 20 km');axs[2].plot(t[m],p['q'][m,9],color=COL['RWEC-V'],label='RWEC-V 20 km')
-    axs[2].set(xlabel='洪水起点后时间 (h)',ylabel='流量 (m³/s)');axs[2].legend(loc='upper right')
-    v1=axs[1].axvline(0,color='#247A9E',lw=.8);v2=axs[2].axvline(0,color='#247A9E',lw=.8)
-    title=axs[0].set_title('E006 开发内验证：0 h',loc='left')
-    def update(k):
-        a.set_ydata(d['z_control'][k]);b.set_ydata(d['z_ref'][k])
-        qp=p['q'][k,10];yr=np.array([np.interp(qp,lookup['q'],lookup['yref'][:,j]) for j in range(101)])
-        c.set_ydata(x*.1+yr+p['delta_stage'][k]);v1.set_xdata([t[k],t[k]]);v2.set_xdata([t[k],t[k]])
-        title.set_text(f'E006 开发内验证：{t[k]:.0f} h');return a,b,c,v1,v2,title
-    frames=np.flatnonzero((t>=0)&(t<=260))[::3]
-    ani=FuncAnimation(fig,update,frames=frames,blit=False)
-    ani.save(OUT/'animation/E006_synchronized.mp4',writer=FFMpegWriter(fps=8,bitrate=1600),dpi=300)
-    update(int(frames[len(frames)//2]));fig.savefig(OUT/'figures/animation_preview.png',dpi=300);plt.close(fig)
-    print('Figures and synchronized animation complete',flush=True)
+    print('Six static scientific figures complete; animation disabled by current scope',flush=True)
 if __name__=='__main__':main()

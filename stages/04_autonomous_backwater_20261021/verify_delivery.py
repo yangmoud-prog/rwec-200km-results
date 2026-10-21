@@ -38,7 +38,7 @@ def run():
         Chinese_capitalization_warning='English capitalization is inapplicable to Chinese label',
         final_size_visual_inspection='Every static panel and complete figure checked; deterministic hydrographs have no random confidence intervals',
         backend='Python only',source_data='all70 A development pairs plus32 controls; all4 B pilot backgrounds; no event exclusions',
-        animation_frame_interval_h=3,animation_fps=8)
+        animation_requested=False,delivery_format='static figures, tables and editable LaTeX')
     glyph=[]
     for p in sorted((OUT/'figures').glob('*.pdf')):
         result=subprocess.run([sys.executable,str(skill/'scripts/audit_pdf_text.py'),str(p),'--min-pt','5','--json'],capture_output=True,text=True,encoding='utf-8')

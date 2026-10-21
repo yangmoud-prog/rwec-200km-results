@@ -11,7 +11,7 @@
 ```json
 {
   "status": "initial_deliverables_complete_timestep_consistency_failed",
-  "updated": "2026-10-22T00:06:55+08:00",
+  "updated": "2026-10-22T00:44:57+08:00",
   "A_development_events": 70,
   "A_controls": 32,
   "B_pilot_floods": 4,
@@ -20,7 +20,10 @@
   "sealed_test_results_opened": 0,
   "raw_sources_unchanged": true,
   "auto_expand_B": false,
-  "scientific_next_step": "Review pilot evidence; resolve fixed-parameter time-step consistency before expanding HEC experiments"
+  "scientific_next_step": "Review pilot evidence; resolve fixed-parameter time-step consistency before expanding HEC experiments",
+  "animation_requested": false,
+  "delivery_format": "static_figures_tables_editable_latex",
+  "scope_update": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\SCOPE_UPDATE_20261022.md"
 }
 ```
 

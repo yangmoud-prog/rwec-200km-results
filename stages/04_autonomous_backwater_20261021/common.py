@@ -15,7 +15,7 @@ def loadnp(p):
     with np.load(p,allow_pickle=False) as z:return {k:z[k] for k in z.files}
 def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def dirs():
-    for x in ['data','tables','fits','figures','animation','provenance','predictions']:(OUT/x).mkdir(exist_ok=True)
+    for x in ['data','tables','fits','figures','provenance','predictions']:(OUT/x).mkdir(exist_ok=True)
 def extent(dz,x,threshold=.1):
     mask=dz>threshold;ids=np.flatnonzero(mask)
     if not len(ids):return 0.,False,0

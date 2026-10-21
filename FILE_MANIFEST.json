@@ -756,18 +756,18 @@
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/checkpoint.json",
-    "bytes": 480,
-    "sha256": "86e991b05c364f3165da052a89e60a48277ec33a1392ed2d5a5bf57f2269b3bf"
+    "bytes": 720,
+    "sha256": "75bc96aa24b9f76f49dc9416d56cd6e62f67c457c701a092d272a32e786b08c3"
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/common.py",
-    "bytes": 1407,
-    "sha256": "c751460cadf2e3415edbdd4d8f0572fc0a14c582f4a73d62b085bac0dadc7344"
+    "bytes": 1395,
+    "sha256": "128ef8c126dcb86b2af2e368cc981fd9ca22b698c2013a340f6d32d711a5e62c"
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/delivery.json",
-    "bytes": 449,
-    "sha256": "ee0b305d3ad6150c4cdb6305c0445dc7f023af0f947d622a842a8bab7609fbb5"
+    "bytes": 642,
+    "sha256": "4be61a2b0cda1c609ca0494fdf0324693581734967a861fb55442d3450013379"
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/diagnose_hydraulics.py",
@@ -781,8 +781,8 @@
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/FIGURE_CONTRACT.md",
-    "bytes": 1431,
-    "sha256": "4a8e73675a13123911626f0b4722999a1a403656806d777af7e40236be7e55f9"
+    "bytes": 1434,
+    "sha256": "4f42ae4027d880888dd43088cbbbb4d416879914f484391603d006717d5d210e"
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/figures/A_information_and_geometry.png",
@@ -821,8 +821,8 @@
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/figures.py",
-    "bytes": 10428,
-    "sha256": "f7a3b688255dd336b532398d0289d34872b950d1d526699a4e5d38fb8a3fa648"
+    "bytes": 8319,
+    "sha256": "e5342b92bdc28a5670cfbb2bfa0735ebc0176eefcc70c53f4cec9075b11b7433"
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/fit_b.py",
@@ -836,8 +836,8 @@
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/make_report.py",
-    "bytes": 18861,
-    "sha256": "73852a451acf0d225a28b204cd0b90350b9af31e2abbfef5d79dac6ff6ef3741"
+    "bytes": 18847,
+    "sha256": "90c9d36f939d76f1e6b8d888782c87c737aa7b75e28959d9108e7d86fc445a40"
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/prepare_b.py",
@@ -861,8 +861,8 @@
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/provenance/figure_qa.json",
-    "bytes": 8809,
-    "sha256": "1dc5d8fc5646ce3c6194fad804044db22035bfad4225a8fbe3a89db676de818a"
+    "bytes": 9032,
+    "sha256": "dc909153fb72616e36487a75d7c265b9343233777cdb70433ebebb48e08d49ef"
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/provenance/frozen_protocol.json",
@@ -876,13 +876,18 @@
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/REPORT.md",
-    "bytes": 16974,
-    "sha256": "af59930a3d8a373982ffc1631f0aef24d2cb1407b2e5b04309977e3876a03ee7"
+    "bytes": 16958,
+    "sha256": "d416bd9d87edffac2a01db155d9213a8363d0d27e407cb893bc31b2f68b328b6"
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/run_b.py",
     "bytes": 1089,
     "sha256": "243a1a60bb1e585c49faea8cac9075676d86f8cceec3a734783969131eb6cfd7"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/SCOPE_UPDATE_20261022.md",
+    "bytes": 1491,
+    "sha256": "2e42a28b40721da4d888ce3becabd7d291f20b15c66a5366c2797a864fef2404"
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/tables/A_event_geometry.csv",
@@ -991,7 +996,7 @@
   },
   {
     "path": "stages/04_autonomous_backwater_20261021/verify_delivery.py",
-    "bytes": 3572,
-    "sha256": "ffbf833607f4afd07e6e6f86073ffecc37a824932ba6b99f07f4afb00a36946e"
+    "bytes": 3613,
+    "sha256": "bf5c9a33bdfbce33cc0c839e187e0e5ae27aba051bd5f5a78b64aee7d378ff26"
   }
 ]

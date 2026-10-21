@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T00:06:55+08:00",
+  "updated": "2026-10-22T00:44:57+08:00",
   "design_id": "high_stage_hold_v1",
   "active_root": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2",
   "experiment_spec": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\EXPERIMENT_NUMERICS.md",
@@ -56,5 +56,8 @@
   "experiment_A_train_events": 49,
   "experiment_A_internal_validation_events": 21,
   "experiment_B_train_events": 3,
-  "experiment_B_internal_validation_events": 1
+  "experiment_B_internal_validation_events": 1,
+  "animation_requested": false,
+  "delivery_format": "static_figures_tables_editable_latex",
+  "scope_update": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\SCOPE_UPDATE_20261022.md"
 }

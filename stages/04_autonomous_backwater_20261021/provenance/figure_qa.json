@@ -146,8 +146,6 @@
   "final_size_visual_inspection": "Every static panel and complete figure checked; deterministic hydrographs have no random confidence intervals",
   "backend": "Python only",
   "source_data": "all70 A development pairs plus32 controls; all4 B pilot backgrounds; no event exclusions",
-  "animation_frame_interval_h": 3,
-  "animation_fps": 8,
   "PDF_glyph_audits": [
     {
       "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\figures\\A_information_and_geometry.pdf",
@@ -260,20 +258,27 @@
       ]
     }
   ],
-  "MP4_decoding_metadata": {
-    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
-    "codec": "h264",
-    "pix_fmt": "yuv420p(progressive)",
-    "fps": 8.0,
-    "source_size": [
-      2124,
-      2006
-    ],
-    "size": [
-      2124,
-      2006
-    ],
-    "rotate": 0,
-    "duration": 10.88
-  }
+  "animation_requested": false,
+  "current_delivery": "six previously verified static figures",
+  "historical_media_checks": {
+    "animation_frame_interval_h": 3,
+    "animation_fps": 8,
+    "MP4_decoding_metadata": {
+      "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+      "codec": "h264",
+      "pix_fmt": "yuv420p(progressive)",
+      "fps": 8.0,
+      "source_size": [
+        2124,
+        2006
+      ],
+      "size": [
+        2124,
+        2006
+      ],
+      "rotate": 0,
+      "duration": 10.88
+    }
+  },
+  "scope_updated_at": "2026-10-22T00:44:57+08:00"
 }

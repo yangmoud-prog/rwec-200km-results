@@ -144,6 +144,4 @@ E006的RWEC-L和RWEC-V分别将RMSE从51.93降到50.74和50.25 m³/s；六个位
 
 [完整方程、单位、守恒及信息下界推导](EQUATIONS.md) · [冻结方案](PROTOCOL.md) · [参数表](tables/B_parameters.csv) · [长度逐场指标](tables/B_length_metrics.csv) · [数值与因果性检查](tables/B_numerical_causality_checks.csv) · [时间步长逐场结果](tables/B_timestep_sensitivity.csv)。
 
-![E006同步动画](animation/E006_synchronized.mp4)
-
-同步动画对应同一时刻的沿程水面线、回水长度和20 km流量，采用3 h帧间隔及8帧/s播放。完整HEC/HDF、101断面过程与高分辨率图件保存在移动硬盘；阅读仓库只包含报告、方程、关键小表和PNG预览。报告内公式保留可编辑LaTeX，图件中文SimSun、西文与数字Times New Roman。
+本次按2026年10月22日的最新要求交付静态图表，不再制作动画。执行范围修订见[SCOPE_UPDATE_20261022.md](SCOPE_UPDATE_20261022.md)。完整HEC/HDF、101断面过程与高分辨率图件保存在移动硬盘；阅读仓库包含报告、方程、关键小表和PNG预览。报告内公式保留可编辑LaTeX，图件中文SimSun、西文与数字Times New Roman。

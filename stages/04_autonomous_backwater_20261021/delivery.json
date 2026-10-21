@@ -10,5 +10,9 @@
   "report": "REPORT.md",
   "equations": "EQUATIONS.md",
   "figures": 6,
-  "synchronized_animations": 1
+  "historical_animations_created": 1,
+  "animations_in_current_delivery": 0,
+  "animation_requested": false,
+  "delivery_format": "static_figures_tables_editable_latex",
+  "scope_updated_at": "2026-10-22T00:44:57+08:00"
 }
