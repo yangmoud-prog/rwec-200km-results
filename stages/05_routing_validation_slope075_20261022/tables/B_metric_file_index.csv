@@ -1,0 +1,11 @@
+﻿model,file,rows
+RWEC-0,B_event_metrics_model_00.csv,120
+RWEC-0_joint,B_event_metrics_model_01.csv,120
+RWEC-1_oracle,B_event_metrics_model_02.csv,120
+RWEC-1_oracle_joint,B_event_metrics_model_03.csv,120
+RWEC-H,B_event_metrics_model_04.csv,120
+RWEC-H_joint,B_event_metrics_model_05.csv,120
+RWEC-L,B_event_metrics_model_06.csv,120
+RWEC-L_joint,B_event_metrics_model_07.csv,120
+RWEC-V,B_event_metrics_model_08.csv,120
+RWEC-V_joint,B_event_metrics_model_09.csv,120

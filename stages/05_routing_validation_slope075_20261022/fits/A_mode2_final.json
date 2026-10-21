@@ -1,0 +1,15 @@
+{
+  "model": "RWEC-V",
+  "mode": 2,
+  "core": [
+    0.03725298898421776,
+    8.444123015305705,
+    2.330557752838044
+  ],
+  "alpha": 0.0,
+  "loss": 0.11659725700283533,
+  "core_fixed": true,
+  "train_events": 49,
+  "elapsed_s": 10.5992988999933,
+  "closure": "frozen transplanted control assumption"
+}

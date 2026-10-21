@@ -1,0 +1,162 @@
+[
+  {
+    "model": "RWEC-0",
+    "mode": 0,
+    "core": [
+      0.03725298898421776,
+      8.444123015305705,
+      2.330557752838044
+    ],
+    "alpha": 0.0,
+    "loss": 0.11659725700283533,
+    "core_fixed": true,
+    "train_events": 49,
+    "elapsed_s": 0.01640419999603182,
+    "closure": "none"
+  },
+  {
+    "model": "RWEC-L",
+    "mode": 1,
+    "core": [
+      0.03725298898421776,
+      8.444123015305705,
+      2.330557752838044
+    ],
+    "alpha": 0.0,
+    "loss": 0.11659725700283533,
+    "core_fixed": true,
+    "train_events": 49,
+    "elapsed_s": 14.173046700074337,
+    "closure": "frozen transplanted control assumption"
+  },
+  {
+    "model": "RWEC-V",
+    "mode": 2,
+    "core": [
+      0.03725298898421776,
+      8.444123015305705,
+      2.330557752838044
+    ],
+    "alpha": 0.0,
+    "loss": 0.11659725700283533,
+    "core_fixed": true,
+    "train_events": 49,
+    "elapsed_s": 10.5992988999933,
+    "closure": "frozen transplanted control assumption"
+  },
+  {
+    "model": "RWEC-H",
+    "mode": 3,
+    "core": [
+      0.03725298898421776,
+      8.444123015305705,
+      2.330557752838044
+    ],
+    "alpha": 0.0,
+    "loss": 0.11659725700283533,
+    "core_fixed": true,
+    "train_events": 49,
+    "elapsed_s": 9.386710799997672,
+    "closure": "frozen transplanted control assumption"
+  },
+  {
+    "model": "RWEC-1_oracle",
+    "mode": 4,
+    "core": [
+      0.03725298898421776,
+      8.444123015305705,
+      2.330557752838044
+    ],
+    "alpha": 0.0069278582645051325,
+    "loss": 0.09877376348314287,
+    "core_fixed": true,
+    "train_events": 49,
+    "elapsed_s": 1.2430160000221804,
+    "closure": "future stage oracle only"
+  },
+  {
+    "model": "RWEC-0_joint",
+    "mode": 0,
+    "core": [
+      0.03725298898421776,
+      8.444123015305705,
+      2.330557752838044
+    ],
+    "alpha": 0.0,
+    "loss": 0.11659725700283533,
+    "core_fixed": false,
+    "train_events": 49,
+    "elapsed_s": 1.092246099957265,
+    "closure": "none",
+    "refinement_evaluations": 70,
+    "refinement_converged": false
+  },
+  {
+    "model": "RWEC-L_joint",
+    "mode": 1,
+    "core": [
+      0.03725298898421776,
+      8.444123015305705,
+      2.330557752838044
+    ],
+    "alpha": 0.0,
+    "loss": 0.11659725700283533,
+    "core_fixed": false,
+    "train_events": 49,
+    "elapsed_s": 40.67890790000092,
+    "closure": "frozen transplanted control assumption",
+    "refinement_evaluations": 70,
+    "refinement_converged": false
+  },
+  {
+    "model": "RWEC-V_joint",
+    "mode": 2,
+    "core": [
+      0.03725298898421776,
+      8.444123015305705,
+      2.330557752838044
+    ],
+    "alpha": 0.0,
+    "loss": 0.11659725700283533,
+    "core_fixed": false,
+    "train_events": 49,
+    "elapsed_s": 41.799426500103436,
+    "closure": "frozen transplanted control assumption",
+    "refinement_evaluations": 70,
+    "refinement_converged": false
+  },
+  {
+    "model": "RWEC-H_joint",
+    "mode": 3,
+    "core": [
+      0.03725298898421776,
+      8.444123015305705,
+      2.330557752838044
+    ],
+    "alpha": 0.0,
+    "loss": 0.11659725700283533,
+    "core_fixed": false,
+    "train_events": 49,
+    "elapsed_s": 41.022462100023404,
+    "closure": "frozen transplanted control assumption",
+    "refinement_evaluations": 70,
+    "refinement_converged": false
+  },
+  {
+    "model": "RWEC-1_oracle_joint",
+    "mode": 4,
+    "core": [
+      0.04180929266030311,
+      5.314655792760431,
+      1.8977132962837513
+    ],
+    "alpha": 0.01976373176975297,
+    "loss": 0.08619637071291986,
+    "core_fixed": false,
+    "train_events": 49,
+    "elapsed_s": 7.062908299965784,
+    "closure": "future stage oracle only",
+    "refinement_evaluations": 70,
+    "refinement_converged": false
+  }
+]

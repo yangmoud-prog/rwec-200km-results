@@ -1,0 +1,17 @@
+{
+  "model": "RWEC-0_joint",
+  "mode": 0,
+  "core": [
+    0.03725298898421776,
+    8.444123015305705,
+    2.330557752838044
+  ],
+  "alpha": 0.0,
+  "loss": 0.11659725700283533,
+  "core_fixed": false,
+  "train_events": 49,
+  "elapsed_s": 1.092246099957265,
+  "closure": "none",
+  "refinement_evaluations": 70,
+  "refinement_converged": false
+}

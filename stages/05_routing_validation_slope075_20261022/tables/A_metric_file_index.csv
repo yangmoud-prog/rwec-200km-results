@@ -1,0 +1,13 @@
+﻿model,file,rows
+RWEC-0,A_event_metrics_model_00.csv,1032
+RWEC-0_joint,A_event_metrics_model_01.csv,1032
+RWEC-1_oracle,A_event_metrics_model_02.csv,1032
+RWEC-1_oracle_joint,A_event_metrics_model_03.csv,1032
+RWEC-H,A_event_metrics_model_04.csv,1032
+RWEC-H_joint,A_event_metrics_model_05.csv,1032
+RWEC-L,A_event_metrics_model_06.csv,1032
+RWEC-L_joint,A_event_metrics_model_07.csv,1032
+RWEC-L_persist5,A_event_metrics_model_08.csv,1032
+RWEC-V,A_event_metrics_model_09.csv,1032
+RWEC-V_joint,A_event_metrics_model_10.csv,1032
+RWEC-V_persist5,A_event_metrics_model_11.csv,1032

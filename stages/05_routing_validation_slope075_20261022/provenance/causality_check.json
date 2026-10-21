@@ -1,0 +1,21 @@
+{
+  "forecast_signature": "(inflow, dt, params, alpha, mode, lookup)",
+  "future_water_level_input": false,
+  "HEC_internal_flow_input": false,
+  "HEC_length_input": false,
+  "prefix_checks": [
+    {
+      "experiment": "A",
+      "prefix_test_count": 84,
+      "max_future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "experiment": "B",
+      "prefix_test_count": 24,
+      "max_future_input_prefix_difference_m3s": 0.0
+    }
+  ],
+  "identical_A_inflow_prediction_shared_across_scenarios": true,
+  "A_actual_control_not_known": true,
+  "A_transplanted_control_explicit_assumption": true
+}

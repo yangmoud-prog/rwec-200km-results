@@ -56,5 +56,30 @@
     },
     "files": 50,
     "bytes": 2387686
+  },
+  {
+    "stage": "05_routing_validation_slope075_20261022",
+    "status": "阶段交付已生成，质量结论见原报告",
+    "report": "REPORT.md",
+    "checkpoint": {
+      "status": "requested_A_routing_and_B20_pilots_completed",
+      "updated": "2026-10-22T01:44:47+08:00",
+      "A_events": 70,
+      "A_scenarios": 172,
+      "B_floods": 20,
+      "B_HEC_main_completed": 40,
+      "B_HEC_extra_completed": 4,
+      "B_HEC_main_basic_quality_pass": 40,
+      "raw_A_sources_unchanged": true,
+      "original30_test_results_opened": 0,
+      "main_alpha_L_A": 0,
+      "main_alpha_V_A": 0,
+      "main_alpha_L_B": 0,
+      "main_alpha_V_B": 0,
+      "timestep_consistency_passed": false,
+      "all_requested_computations_complete": true
+    },
+    "files": 166,
+    "bytes": 18064972
   }
 ]

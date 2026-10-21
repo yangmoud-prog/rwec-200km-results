@@ -1,0 +1,17 @@
+{
+  "model": "RWEC-H_joint",
+  "mode": 3,
+  "core": [
+    0.03251985432256705,
+    4.3373061797306125,
+    2.2579812034256284
+  ],
+  "alpha": 0.0,
+  "loss": 0.006353772698122976,
+  "core_fixed": false,
+  "train_events": 14,
+  "elapsed_s": 10.600384700112045,
+  "closure": "known physical B control",
+  "refinement_evaluations": 70,
+  "refinement_converged": false
+}

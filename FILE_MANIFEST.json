@@ -998,5 +998,835 @@
     "path": "stages/04_autonomous_backwater_20261021/verify_delivery.py",
     "bytes": 3613,
     "sha256": "bf5c9a33bdfbce33cc0c839e187e0e5ae27aba051bd5f5a78b64aee7d378ff26"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/after_b.py",
+    "bytes": 695,
+    "sha256": "be4d271b710aae9a115c4773f721a42b261b1966ce9609cf3d8c5ad7c61d60eb"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/checkpoint.json",
+    "bytes": 531,
+    "sha256": "d734a529ee525e6a119296b98404f78ff1020ad36548fa84ebc81ae18e3de399"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/common.py",
+    "bytes": 1645,
+    "sha256": "2fcfaef15be5f27c2ad37f57b28d5fec0f07fd09c15a7975a48b402b47b09ae8"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/delivery.json",
+    "bytes": 457,
+    "sha256": "79de150a03eeaa07f81cd9f7459d2b89a58465961ab7df38a79099b768742523"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/diagnostics.py",
+    "bytes": 4834,
+    "sha256": "65f5f125262cc3f04721dd59df427b48f7e3e163da108a91312c799d155888fc"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/EQUATIONS.md",
+    "bytes": 9391,
+    "sha256": "a518f0c434e2032e733c14f288796b58fe4e62c847ed14f2cb431f690be16b95"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/FIGURE_ATLAS.md",
+    "bytes": 3476,
+    "sha256": "4ff73d8d48a2380feaa881e21e60e9e6f8cada4e6934ef0a07952474cb98a970"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/FIGURE_CONTRACT.md",
+    "bytes": 1301,
+    "sha256": "28eef09a8172d5b5e268bc4c83ac426e98d0a286d86317953e54659ab62bd0fa"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_actual_routing_and_nonzero_gains.png",
+    "bytes": 209556,
+    "sha256": "b9fdb54113f5ae2f3399a9de7ae79f0426e40a936e9c353976dc6186793f1ab8"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_same_inflow_unknown_boundary.png",
+    "bytes": 262265,
+    "sha256": "58578b2e52f092d2a1c8b0af7691fb1bf88b2047ac35b5f598dd125482afa6eb"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E006.png",
+    "bytes": 389257,
+    "sha256": "511b99375010102c10cf24277ab36f45214a99ceb379f931767b03de60c7f398"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E010.png",
+    "bytes": 399433,
+    "sha256": "5f34a51bd9016384d1a75b655f37b328665d44ed374e6943dff8580d4ef689ed"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E014.png",
+    "bytes": 387637,
+    "sha256": "509790ccdccd492d77d2988cf8a12a73adf4dd2673ec80f29c30ae605e6d3a1b"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E019.png",
+    "bytes": 389249,
+    "sha256": "bdf29e76328851bc1ea22182dc1bb1588655d7b84bba2510a4785ec9e5a7bde6"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E025.png",
+    "bytes": 355682,
+    "sha256": "38417d795e80afe6950c6d1a5294747060ce903f67ad76ae08f6f2606c95405b"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E026.png",
+    "bytes": 391207,
+    "sha256": "8363ad0a55a42fa742556f14b394a0c5840ae3f8e104bfc6b6dab42bab14c8c5"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E027.png",
+    "bytes": 384902,
+    "sha256": "a1bc76666572ce0b97c20032e367fbd8874585e95e79f0122093e01a02e72ab3"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E032.png",
+    "bytes": 384164,
+    "sha256": "abf1caa148c83fc2f2255784da1223c18b734c9dfa8487f32ad2cb7dd27e18bb"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E037.png",
+    "bytes": 392472,
+    "sha256": "da66f058eaceb0d3994fc4e53cdf71edda14ce90de5f00c24665e3504e7cd202"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E042.png",
+    "bytes": 386710,
+    "sha256": "0c9d35d03bc00947f28d53ce710e15bcb0892fb2264fca9f1621ee849afe030b"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E051.png",
+    "bytes": 383262,
+    "sha256": "55779c6846c7c39df477470b325a09e926cd2f3f755cde742c3a7993c0963ac1"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E060.png",
+    "bytes": 371585,
+    "sha256": "2782e3033f7c51de7239b45718ca00432f271b03f3b81d2c9eec350eda00c515"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E066.png",
+    "bytes": 417267,
+    "sha256": "eddff9e6881a8c4c331532d3aebab6b58c71bf49357cdb955edf9b10b9abe738"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E067.png",
+    "bytes": 380243,
+    "sha256": "98a5c40b6125f78cbcb20868c38eb4ea0816708fa0c08a3b69630f50b6b4db31"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E068.png",
+    "bytes": 392393,
+    "sha256": "d42d7ad1d3094854c522097f3800f24b6f96a0fc3397cd5dae2d674edb9bfec6"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E078.png",
+    "bytes": 389574,
+    "sha256": "7addcfffae9f69a9e14583a800c30e38947d9c9f6e4cee012df7b9d2981c34cf"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E081.png",
+    "bytes": 371399,
+    "sha256": "1712bfdaa27b3d5e9a171eabe8e5648f774da4d698c4bfcebc50228c3065375e"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E085.png",
+    "bytes": 383849,
+    "sha256": "13c39d8b1630ee177d3cf654fe10b854e6e4a3355139e28db47a892b44cb4792"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E089.png",
+    "bytes": 389025,
+    "sha256": "e6b532138cee79b5489b93c6b4323239831b469dc357d08bc025706e6eb9e638"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E090.png",
+    "bytes": 366809,
+    "sha256": "e08e172078476a1d0e0c4cf974c343cf5123147b6aee04f8502c5f1e49dc3ee2"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/A_validation_E094.png",
+    "bytes": 410433,
+    "sha256": "d9be3eb7d56a8f39746523e5943be333deadb39af477df99451619512b9fe7e1"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_ablation_and_timestep.png",
+    "bytes": 164265,
+    "sha256": "74f2bb7ac63f4adca52114d305fcafdc30f3c7ad15ed4e072aef0be067a1dced"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E001.png",
+    "bytes": 147717,
+    "sha256": "7c786423d4a81a6e25e4b2dc1b51f67aa159ec0151a34e78b063c89026add178"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E005.png",
+    "bytes": 152327,
+    "sha256": "bb0317547f8b14910f33a65236c78fb04a45fbc462940eaca58312150a7d3cb2"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E006.png",
+    "bytes": 148547,
+    "sha256": "30681951750eb7be07260bd9ec6a67ba914698e41ccc8ee8b88a53e5a0393475"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E007.png",
+    "bytes": 146767,
+    "sha256": "08ba9b833f33d536fd0ddbd45ab99a76b7845d7fc536733268dc8b640565078b"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E009.png",
+    "bytes": 149012,
+    "sha256": "6a364e87dc9d2776693b28adf9ab3a1bccfd729492985f622a88f0bdf5c891bf"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E021.png",
+    "bytes": 145732,
+    "sha256": "90cec4d9b3730616d23980dbe84cc2246265393b9a8a3ed3d9e1786b4b4cd1f5"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E023.png",
+    "bytes": 144545,
+    "sha256": "0923111cce0cd6ebbfe36239d032a997bea77d8aea5343ca8bbc64c3e828bbec"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E032.png",
+    "bytes": 146483,
+    "sha256": "bc3fb03202f4f012ea083777adeda77c05e5197bc263d7025d3336b93d9f53ee"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E037.png",
+    "bytes": 147128,
+    "sha256": "3a26c2f80872c9d9aac4a730af49f9be7dd8c5e81203d40ec2d37fc5d9ea2a72"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E040.png",
+    "bytes": 146307,
+    "sha256": "9af408a576acb4e7c10ea45fad0bb0b4f70cad311954a3089c9ec6fb1698b174"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E049.png",
+    "bytes": 150323,
+    "sha256": "4ab5cbb9dcaab012a7cf2aca6fb35d2ff0e82a4e057cabc567ccad0023f41648"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E051.png",
+    "bytes": 142692,
+    "sha256": "da0b1ce08843394fd29eef4953c7f281b3a2f55af57d41fc930770fc0ae924d3"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E062.png",
+    "bytes": 143878,
+    "sha256": "e70a3ca84d78c57f46f58fb147e9f232a4c729402436d4e1a7c980e91c3c8738"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E065.png",
+    "bytes": 151489,
+    "sha256": "98bb73d74fa4cb4e650334d4b849b8d81d4fa18a8b285e343d51be16c6260c0d"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E069.png",
+    "bytes": 154465,
+    "sha256": "563dc3ed37c4b45fa0729a635a02b79d567f9564833adf40770f404be3f536b1"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E072.png",
+    "bytes": 135938,
+    "sha256": "593d1f2d2715ef2f3a75785da60601dc1c1e93825677d401f5053b45af936e14"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E076.png",
+    "bytes": 144267,
+    "sha256": "6232a9151ef71209ab95f7baa0e41e9baf24fc8e1b05d9a146966e2c8695ec0f"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E084.png",
+    "bytes": 143243,
+    "sha256": "df350a1c912f19ca5281dee95529688997513cc3aa1b6b1f781ee8f0db3a02e9"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E085.png",
+    "bytes": 150986,
+    "sha256": "d411bab0c1af510302cd2954f15421be85e7d72a0419f874f9b3e677d4326d9e"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_flood_E094.png",
+    "bytes": 151039,
+    "sha256": "df635028024e3f7d9b9b1d3048fd23918094fb18532f70ebb8a31b27fbc58e47"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_longitudinal_profiles.png",
+    "bytes": 263968,
+    "sha256": "e410fb760cd4349b8390e60ffb574cff683290b47048dd35845a754105e8ce4b"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_six_validation_flows.png",
+    "bytes": 321754,
+    "sha256": "1003ea94a0188de9ee4b292cf51bd0d6db84f5c4d004a787bf36988ac385a3d4"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_six_validation_lengths.png",
+    "bytes": 280268,
+    "sha256": "1066960054a757c01676d97d6b62f39fed56268aea9709992342978c370c9792"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures/B_twenty_pilot_hydraulics.png",
+    "bytes": 108442,
+    "sha256": "d0d4ef339e8ae7fac2e977b83967453e916769baadbd0755f22a1a61f77214ed"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/figures.py",
+    "bytes": 11192,
+    "sha256": "46601becbe80f133081c81a29f202b31009ef119724a198927e24116e7b4ba9c"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/final_checks.py",
+    "bytes": 4475,
+    "sha256": "a9bd9ab1c7778b51e5c3922735a510828fe218f5d1ee9031229ec0fc10486811"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_all_final.json",
+    "bytes": 3851,
+    "sha256": "a12f831eabb4292fa7eddd35162f4ac94b74bfd9b80e8803b39c00d248122473"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_core_final.json",
+    "bytes": 1181,
+    "sha256": "904048c99aeaa13e76c29fd2cd23971b441bd3672b2eae5808043df510606f56"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_joint_mode0_final.json",
+    "bytes": 357,
+    "sha256": "fa4f25547f097c6f89227cf8a7c7ac227c79c4fb11ba51c4a64263cb5ca3c976"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_joint_mode1_final.json",
+    "bytes": 391,
+    "sha256": "dc61cd3d231902fc025557a5b6615912d92500d4da9cfd4ece9f58bc96cd4d47"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_joint_mode2_final.json",
+    "bytes": 392,
+    "sha256": "bd580d51a30743ddb4ba6e36238c702f026cc317e9c2fd485c1a255acced179b"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_joint_mode3_final.json",
+    "bytes": 392,
+    "sha256": "130dbd9c01c96f20c3710623ee3535bf12c5cfe90791fde03cc66edb56751d84"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_joint_mode4_final.json",
+    "bytes": 401,
+    "sha256": "1b99d25b87831c3475975ef8cb6036be7328518249e21719c09078f88c52d971"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_mode0_final.json",
+    "bytes": 285,
+    "sha256": "0e630e9b8acab97f2babafc1a0f3e9b75d5cdf9f7cac1353e299f840c3600846"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_mode1_final.json",
+    "bytes": 318,
+    "sha256": "0ad8a336e4f074f5835b5f0c371e227b8c05e012c17aaf204cea3381a215406f"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_mode2_final.json",
+    "bytes": 316,
+    "sha256": "fc974bb660008b4778d197db7ae3e1316ee94fd623bde93d008f5a9e2b33f4a3"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_mode3_final.json",
+    "bytes": 317,
+    "sha256": "4cd96a9731907f0b8ccaa53c7741eaf33824bd72d20a772e09699886d2282859"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_mode4_final.json",
+    "bytes": 329,
+    "sha256": "02ab1f2a7574ba41a55eed9b1077b646c475d10a23040151a3e9cb500245eedf"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/A_six_target_final.json",
+    "bytes": 722,
+    "sha256": "a4a4c4a46b0778b3244f025facc3ba0acaa669b12cc293bb3edbe5395b6768fa"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_all_final.json",
+    "bytes": 3806,
+    "sha256": "7f51a131bccab5639a8a64e056ad314d6aa2d47ce64ab725796058c10ed7a048"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_core_final.json",
+    "bytes": 728,
+    "sha256": "55c437b131c2c6e66ac0257e2e60cfb381e997a677d04536bc0dc6a3bd18c61e"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_joint_mode0_final.json",
+    "bytes": 381,
+    "sha256": "8356d85e387613f49478df6a9a1bbd767b926e41d20ebc082fb1fab8bb2cc0a3"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_joint_mode1_final.json",
+    "bytes": 380,
+    "sha256": "b5b29dee6cb60a51f86a0b5561937d90de2e507fde2188a9cc6ef0b9c8fc07c4"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_joint_mode2_final.json",
+    "bytes": 381,
+    "sha256": "c0a45aac87a083e46f2127de5830272dd445e8239b76f9e0ce64e79d976e9e50"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_joint_mode3_final.json",
+    "bytes": 381,
+    "sha256": "143a1eda4de47687c18dac10d030915fe7734faed649b6bba7155bcc21b09e2e"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_joint_mode4_final.json",
+    "bytes": 388,
+    "sha256": "5ae83de13bc103d16e510a397881c27b6b663949e26773fa6bfc8704983ef248"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_mode0_final.json",
+    "bytes": 309,
+    "sha256": "9d4b7540a5e171491ee04bf2cb996ac27d0cf8861bd629e9b94f8c27ad43a0df"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_mode1_final.json",
+    "bytes": 307,
+    "sha256": "144ba1ca4ed26eaad622d20335003b8322a70d60fa209a80b11d24871c527681"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_mode2_final.json",
+    "bytes": 306,
+    "sha256": "3fb416cc906d3f18098d7ed1c6e3538c5b299aa3266a2afd2c3c2bdea01aa0b3"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_mode3_final.json",
+    "bytes": 307,
+    "sha256": "af3ef7c1277943d05e645ca6a5e34237f41841e323b60d3944499543a8bf03e3"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_mode4_final.json",
+    "bytes": 313,
+    "sha256": "f7ef6bbc6f4422ec3ada9db53ede093ee2ff039448ad17e2732033d791290305"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/fits/B_six_target_final.json",
+    "bytes": 725,
+    "sha256": "3cd27be687d4c330c0ded096d55d7debd10c95ea34dab93b02dcc4165a9bc526"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/hydraulic_core.py",
+    "bytes": 1685,
+    "sha256": "efe440d3732f11463802c3295e96da37523a42aeb62f1685ea8d30a3a2261854"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/make_report.py",
+    "bytes": 21194,
+    "sha256": "3801799c30eafcc33f37f85beb84e3dcf86cbbced7379852be93136d9cedf5be"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/numerical_checks.py",
+    "bytes": 2331,
+    "sha256": "043fac77a204ae71e97f54755ea402d21de8d08447a5eefe76ee2f9fc733cc92"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/prepare_b.py",
+    "bytes": 3041,
+    "sha256": "9e6545ea359ec4538495fea6b643c4124008822c9ed87f021c542b62c30e6eec"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/PROTOCOL.md",
+    "bytes": 2950,
+    "sha256": "e1500f20958a3c899f4f607f6a7de36e479f0b5ed9427184734eabc1112bac1b"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/provenance/causality_check.json",
+    "bytes": 617,
+    "sha256": "4c55e517f1fa4a4c17f606f82ddd905720755c2159f1b6ae8846b689788b067b"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/provenance/figure_qa.json",
+    "bytes": 33663,
+    "sha256": "8cfbc4122479ac3e98d5c6e45808b488e0c48c4f6d36ab9c0d6ca2af8aa8e08f"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/provenance/frozen_protocol.json",
+    "bytes": 19798,
+    "sha256": "75d72de727eb401b929ee1ff05398156da3531b7de45aa8e226baff224800872"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/provenance/verification.json",
+    "bytes": 18865,
+    "sha256": "10de58566b31e7951c68d49e963c1c33ac30f9b7f09527128360b9c5109b4a9a"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/REPORT.md",
+    "bytes": 15530,
+    "sha256": "f4d2854090687375a90561b48afad20ff1371afd6d07759b063f3af9c4660a0d"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/routing_core.py",
+    "bytes": 4900,
+    "sha256": "bae90d01d6badfdb861de9c268d546a39415c6ff9944f8c20d39b3b78394d48e"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/run_b.py",
+    "bytes": 1299,
+    "sha256": "25267cba1a67608c8864e41b629c5823e83f69337f421b450734edd894746365"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/setup_models.py",
+    "bytes": 1014,
+    "sha256": "1c19864d0b0a01bacbbe28fb325c343e446876f2f851e523637a40a48364f77c"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_alpha_grid_by_event.csv",
+    "bytes": 56246,
+    "sha256": "4bf32a4e751abcb914ec6e13237eb37276b58f4e529071d6097b75cfe73eecd4"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_causality_checks.csv",
+    "bytes": 1466,
+    "sha256": "3a46b05474b974f9e90bd0dd903394f90a302a16488fafafe75b77ce443f6ace"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_00.csv",
+    "bytes": 158024,
+    "sha256": "2a4ed5fb240f0469b4ec07077f3128de87294ee2322808e1c06d80e5e9e4e66e"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_01.csv",
+    "bytes": 164216,
+    "sha256": "132fc7b0ff238408ef0d26daed0a1521619ea9c362fcf5536ff23cb16ff85ca2"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_02.csv",
+    "bytes": 165423,
+    "sha256": "57625ad61cbc805f4394bca1257db4816497cdbb8fe893f7ee5c02af635c2b2d"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_03.csv",
+    "bytes": 171569,
+    "sha256": "b57a9b68d26380f73764e69cdadadd311716cfa53286d947d463060a074280cb"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_04.csv",
+    "bytes": 158024,
+    "sha256": "7e2366a4df672df9d23baea4ac507aed2ae0eb859b4181a6dc77095aedf2680c"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_05.csv",
+    "bytes": 164216,
+    "sha256": "6bb8db8e60a57e0530d792b91e7ab23111e2652c1af4d7abf1bd73d74997a018"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_06.csv",
+    "bytes": 158024,
+    "sha256": "8937d55da0c3d27081ffb74169d542954299aea9f3912b9d0adc2fbbe975dc9e"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_07.csv",
+    "bytes": 164216,
+    "sha256": "f2339d407fd89d606878cf7e974dfe2f4bb623d8379b2a2563eee13d970a0b3d"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_08.csv",
+    "bytes": 167312,
+    "sha256": "17c46c0d94a28bd43855df11c0ef4ba9a48873bdc684a9530c405bcd3de91026"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_09.csv",
+    "bytes": 158024,
+    "sha256": "3a92d36aa8b11ccc25b22769c7eb6efe6e2a0cd17e83b1d24dbbd05f5987c09c"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_10.csv",
+    "bytes": 164216,
+    "sha256": "07b074a213fc092659c72bacb79b4e9a59360c17df018e0e99815724b79ea818"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_event_metrics_model_11.csv",
+    "bytes": 167312,
+    "sha256": "1432a50d30bbd595e7212620ede77b4aba0b9b07df73f451d1b07c1ace39bcfe"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_information_bounds_flood_window.csv",
+    "bytes": 30895,
+    "sha256": "02fadd1c9ea1673a3edae5ef8eb7c22b99aa752ce96acf645671833b55a422a9"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_length_metrics.csv",
+    "bytes": 55477,
+    "sha256": "0387e9d8a667f3a7081b646157a3c6e60c76d5bb7eae47faa1af91d3e1295a1a"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_metric_file_index.csv",
+    "bytes": 586,
+    "sha256": "0ff4c60e46fa328b24624fed8cdba4eefd39f519f51ecae658f9710d04d71b20"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_model_failures.csv",
+    "bytes": 5,
+    "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_model_summary.csv",
+    "bytes": 27761,
+    "sha256": "d7132a51980e03f13474936dce967ec492e31124f508160fd74217beea29fa9e"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_nonzero_gain_stress_metrics.csv",
+    "bytes": 667753,
+    "sha256": "0b7919a90b1a5fd27c76cbe08c563cc5afc80905f0da137038b45ab8ed64c1d0"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_numerical_checks.csv",
+    "bytes": 149790,
+    "sha256": "5745179ece969b11249645428f3226f027a1fa58b5163c81ca57a946bd5ee85c"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_parameters.csv",
+    "bytes": 1375,
+    "sha256": "d712d666a4621bdd4d33d2829ec5a1c8264d2d0aeb48a735252201ed76607628"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_position_alpha_stability.csv",
+    "bytes": 644,
+    "sha256": "942b9ff74916af4c2fbe3890f1636625fe09954a02c1dac18e989dd6bf67a6dd"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_profile_volume_errors.csv",
+    "bytes": 83833,
+    "sha256": "ededeeecadc823094527978928c2090971ba7df83b6e678f0e7c1d01a4fbb446"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_section_summary.csv",
+    "bytes": 163503,
+    "sha256": "6e7abaf2a42de44d62d48892c86de301e0681f7042f5e913c7d496335dca0b97"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_six_target_metrics.csv",
+    "bytes": 484990,
+    "sha256": "0751674fa9d20ad65a5c1a48b6f943b39ddd5ec92687fd0227492c1c0e3d4e7c"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_six_target_parameters.csv",
+    "bytes": 341,
+    "sha256": "4914255bcc97e2febe827310690a1cf33a266626e18d2fc138fbeade9d1e7eac"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_suppression_recovery.csv",
+    "bytes": 221953,
+    "sha256": "414c439b4d0f6cb42c01972f998e6ffa73a4fa989a3736a731d807b6be1de7ff"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_timestep_sensitivity.csv",
+    "bytes": 387379,
+    "sha256": "838b4cdd3d65ab9817c4ca5719274c6f61bc22670adcbba90f0d339e7490656a"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_to_B_zero_refit_length.csv",
+    "bytes": 2935,
+    "sha256": "68ad872ebd2d7fd422c723f4a8e7f3b653f6d200e3875f4a24cce5b63bdaa2cf"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/A_to_B_zero_refit_transfer.csv",
+    "bytes": 67240,
+    "sha256": "4c2c32cb4c5bb10f776d5aec6169c61afa450edeb72b2cd0ac43aed674906bd7"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_20pilot_response.csv",
+    "bytes": 3614,
+    "sha256": "d148b869ad49314f267794e44ee5158f660fff0338e95508af5318b03e5db94f"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_alpha_grid_by_event.csv",
+    "bytes": 16417,
+    "sha256": "177154c72d902f5feaad938489334542ee95030a217370bd1c112b16f9cf4df1"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_causality_checks.csv",
+    "bytes": 446,
+    "sha256": "ae8ee69e7c46b10eae68a14da398d8916e580dc12ca3e777f2e927604f2b9f04"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics.csv",
+    "bytes": 191873,
+    "sha256": "dcd71bc0266f91cd359b63f6cd8cc12c3c46d9b14df68717504aa1c550e2b2fc"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics_model_00.csv",
+    "bytes": 18695,
+    "sha256": "c6a45623a573485036c46dfc9f3b3a73a575c074a8a39c2066146a21497fee27"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics_model_01.csv",
+    "bytes": 19415,
+    "sha256": "58d67be8ec8a3d8706e9ccc2f0783bebf6b0f25529ea24057d17d57e2aa6c2b6"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics_model_02.csv",
+    "bytes": 19535,
+    "sha256": "6721143bf72ceb889a305b15255dac86c294ccb824db2bef2195da4dbb430f89"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics_model_03.csv",
+    "bytes": 20255,
+    "sha256": "ffddeb365c4ce5c8bdfbfeac217336abcbadcac92ec0e341256750bb105a79a1"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics_model_04.csv",
+    "bytes": 18695,
+    "sha256": "3cfe832dea4f04be9eb857b41d9ff6868841c9ef9be09069cc1ef3a7e9fff495"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics_model_05.csv",
+    "bytes": 19415,
+    "sha256": "337e346a25e5d66c213d5d741d4e99b7af30a9b91ce7ceef32b3f193cf9958ff"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics_model_06.csv",
+    "bytes": 18695,
+    "sha256": "2d44fced508e3edfaa421e1ed6d5724089fa50962e192d789f794f8a26503ff2"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics_model_07.csv",
+    "bytes": 19415,
+    "sha256": "97f0e546187605356a115f832be0b057f27d1edd6c0061bf51a27d09e85a6a52"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics_model_08.csv",
+    "bytes": 18695,
+    "sha256": "78956f4f29ef583e47f319a0faa962afea539a2b60013c887d6a6477ab35fb88"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_event_metrics_model_09.csv",
+    "bytes": 19415,
+    "sha256": "28f4b762da606b43b9183e5058c09540c6d5652df1ca6500c5a6aac3c41c343f"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_HEC_failures.csv",
+    "bytes": 5,
+    "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_HEC_numerical_sensitivity.csv",
+    "bytes": 2865,
+    "sha256": "e80508835e1c51cbcea4754021076b582f0942cf1ba5a542fe1b167f4c4ccc14"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_HEC_quality.csv",
+    "bytes": 24374,
+    "sha256": "2bdb50415aad85f292f1375d1d6a2fffd518bd2f3069b0336e26c730e4e46174"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_length_metrics.csv",
+    "bytes": 16513,
+    "sha256": "3cc03e738639376c777b8a19672bb0cefdd2ba989bb117414600a010427ed91b"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_metric_file_index.csv",
+    "bytes": 474,
+    "sha256": "de9304c50faca6f7aafccd20422c848bc7db3c887280ffad6bca9b6c53b6ee04"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_model_failures.csv",
+    "bytes": 5,
+    "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_model_summary.csv",
+    "bytes": 7875,
+    "sha256": "d372c9b53749f1f950d16340bcbef43cd9b3848061dc9ca773cabf82365736a4"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_numerical_checks.csv",
+    "bytes": 29066,
+    "sha256": "605868a0df0477a844ad6e4659f82af8832e4a28dc8b876a72c2114c96d03bc9"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_parameters.csv",
+    "bytes": 1326,
+    "sha256": "4c5c349d6bfad39c22998b0133ed3b0d812d99b929037827aed55571959c29e6"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_position_alpha_stability.csv",
+    "bytes": 702,
+    "sha256": "d800b0f539e9266b3ec66cf0669216362672aba00b6786e0616bba670275e45c"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_profile_volume_errors.csv",
+    "bytes": 24841,
+    "sha256": "24d943fa2953dc66d3926406b59e8d6ee8ab5d015e4807bf946018485d9d6f5d"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_section_summary.csv",
+    "bytes": 45631,
+    "sha256": "30087d70661ff97736233e185244680dbe25ef5d4a474ec92956732e304960b1"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_six_target_metrics.csv",
+    "bytes": 57136,
+    "sha256": "5bdc862b1921593e4deffd068e91fd4404131b3797b4d00657892f9b46517b8f"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_six_target_parameters.csv",
+    "bytes": 341,
+    "sha256": "b0dfe5d3ac19db99d9e7076b874c9c1a6689b2a469ae5883c1295a43a6755a88"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_suppression_recovery.csv",
+    "bytes": 60823,
+    "sha256": "fb593059cc7b4a29b5b311f810fe85196384a280a4e318e66837d4a829583f5a"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/B_timestep_sensitivity.csv",
+    "bytes": 47191,
+    "sha256": "2179a70943850b9f05279bf6e1c45e3c5ece693145cc214010bb5a6c7acdcd10"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/primary_parameters.csv",
+    "bytes": 1310,
+    "sha256": "59e842904684a85ae881e4e251d0e62bd377d6a89d9513eff65417d10ee2e64a"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/timestep_comparison.csv",
+    "bytes": 402,
+    "sha256": "c6dbca6a2ab8b802a4ad250d5ab0ee656c2051cbb1799e980f259f521a41d907"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/truth_reversal_by_case.csv",
+    "bytes": 96917,
+    "sha256": "e9385b40ad46a71339df51f0f109de3ec254a6c2f719125e9b4616d18d6bcc1b"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/validation_by_section.csv",
+    "bytes": 781,
+    "sha256": "b9eeb85c278d9c7bf8fa11d3fb93321c6ee8bd9f47de52ba6f08fe0c48cb1bd5"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/tables/validation_primary_comparison.csv",
+    "bytes": 1421,
+    "sha256": "794be4abd3496358af293180f64b4647e765a5180dd433b4117a29a27fcca2bb"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/target_weight_sensitivity.py",
+    "bytes": 3250,
+    "sha256": "b9edb8049d14130a9904137dc97dedc355c9bbeb3169a33b121f166f282844f8"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/validation.py",
+    "bytes": 16459,
+    "sha256": "578d23fe696c4db719a0e124a244ba4e2ffc9cad69685af8e8f3c26661044014"
+  },
+  {
+    "path": "stages/05_routing_validation_slope075_20261022/verify_artifacts.py",
+    "bytes": 3133,
+    "sha256": "47c5402bf84e22966cd8628ad595cd176b6794f8f4b3bedaa72e249bb3271d45"
   }
 ]

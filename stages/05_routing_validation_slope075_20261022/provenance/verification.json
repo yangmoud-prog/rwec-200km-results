@@ -1,0 +1,495 @@
+{
+  "raw_A_sources_unchanged": true,
+  "verified_raw_A_files": 172,
+  "B_frozen_hydraulic_inputs_unchanged": true,
+  "B_frozen_sha256": "b1c5dce05bec2895d674ed7cc828d607b0933a8696462561d54c78e94dac0af7",
+  "B_input_audits": [
+    {
+      "case": "E023_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "01f658befb0b72ed988bdcf0a16193adff277a4ba02af1ed8732321babad4f3f",
+          "after_sha256": "2cab44393e19aacbf8d153c60536bf1282b550fab9b33fdbcbde4e437a332051",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E023_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "13df6574593a4bd5d3f6b6c2f7410cd8c02acc5c6fb7f8ca694038d5ebfedd3a",
+          "after_sha256": "eed412e8b055ab06191a5e375012829dfed2984dcc9654f800e38c820d65632a",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E006_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "4cc2e2eec2260665afe34fbb5f0b4ce252b8f2b57471c6929dc182323204e4fa",
+          "after_sha256": "8717f78096aa96dab7c58a023ee1e8df182f6f2bd78bf0db1b7bc8e8a4e825ea",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E006_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "319d18223137c716e753d341b115d548b28e564b0c3e1c1e29e548052cd779dd",
+          "after_sha256": "321f5bd303d3bb65f20dc17b92021d43cf27ab3c482f0f07c2497f2f0f73fcaf",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E007_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "378caecf4fed4703044c97913d1936f014c369076aff1dd472dbe282d52b3b00",
+          "after_sha256": "56a2e99d0ec5e78ab04ae684542a0bd66e226bb2efbe4197d094b9eb5540b1b2",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E007_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "af875894e0dc1fe283fbfedb27d63785c323af16861ff01c17219de626bdb26b",
+          "after_sha256": "64563e48bf4851849f2cb27b271714f9a855844afb1490bb9d74572e4a5f83f7",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E069_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "06c0929dd5c19fc30d56c0d3e90e17eeb4f8a2bf08227881489904531240841e",
+          "after_sha256": "ce529592247677cacbd59abb823b74351873f83fef4f07d41e9ef9930400ab82",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E069_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "d6e00987073a91d57c72e966093e7de3b0c885b5a83d471ac9508cb06eb5b36d",
+          "after_sha256": "2ab5e476a3a0fb6d6b1ed1d23765d5a8895dcb044affc9cd052292d1c1186a07",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E021_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "ac8af46231af2290f170fd21b54e181b1e623bd12410be58a55e650264a0c998",
+          "after_sha256": "22ff72c2e28f0c5936543cdbfde6694f45227a334869873a62314be50b0f9ae0",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E021_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "ac0d69a9580eefe9cbfa135a10b2c9377f58c077e5337cd41455c13ff5a6ea76",
+          "after_sha256": "c652577867d943cdb5e405ba3a4397da9b1c52a1dc631a88fd7e69c0d06a23fe",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E001_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "74826c6a42adb50efdf22c0f4a9fc443caf698fd6ad964f51e13ae87b4e47644",
+          "after_sha256": "5559f713108dbdfc3fb0469163d1195d7cb0bf161f357e90a35fc3c2f037f66e",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E001_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "a50a87c71dde3b93b183411dfc2f5fc7876d8e5890feb04bb51e56cdb1e358f8",
+          "after_sha256": "a16a6014a9ac5db7bea17e108ad025ec8df13efb0d96fe1f2ea084ba2bf76c2c",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E049_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "25273c680e5997f1cdbbbbc6dff4c4baf00c1ef7260e9fcbe7af0f6e6ba58793",
+          "after_sha256": "192d1b16d4de23567a5d4becb4775d534e41ba1adc7d5c9899e159f12f16aca8",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E049_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "aaf91d573d33ba80cddaf6e081f174831aa632184d31c31495b5b831e516dc05",
+          "after_sha256": "c372b4a376b2c1613f1106bf220cd8e792685dcded641810851f595ec01a02e0",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E065_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "b388d0c30390dae158b61c9473dc6bcab9635e7ce0a7bbdcb6f3420095e29f72",
+          "after_sha256": "8e11f455b428f634f639d94aebfcb58f24876d9959b9c866334b256feaa6aa23",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E065_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "cdee2da0494ff0b8c249b7d42a4249896154342c6dc61abc4ad9bd1743e12841",
+          "after_sha256": "d07b4308e6a797d32b1a7a8408042d02596bb6441a9f839224d14ae4f6bb120b",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E040_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "7312db33f8b2118ed6810f87ab9e71974be33c2166669aa6e73945674c4807d7",
+          "after_sha256": "cc8de6781c461a29729e0dcd24ff174ec4a560f95802c78df23269448e61ec37",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E040_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "a23bb9a71cac05c89fc81edc4bb038cc0d17958b498e4fee6de6742cbb85d0ac",
+          "after_sha256": "8a9a70507a29a70d3c85dfcb21b8df914094b9ff2317d32cdda9a88f594e3841",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E062_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "669fa24c6fd45a188c3e2770687e8979d6e06633ed18259527cecbd6be0ba84a",
+          "after_sha256": "8b0134489c95d04520e4e070a0276d558b7a20892357caf2a9c1c13fc5160d38",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E062_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "6da1e74736913fe76e14fb53865984edee3912ce5f625c009796065adbce31ea",
+          "after_sha256": "74eb9846193a17846837de1078bd5ea91be6d3d8cc5dd63f09389d29b5d994ca",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E076_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "3f989c728ee8b24ca5c837f654d75b001c4bbafea3617596d4457fa8a53422a6",
+          "after_sha256": "5d76771448000163afd1a4ef3b78a65535a682e1121e3ac73e90e32429c9e081",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E076_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "f656af2f5eae6dedbba6b94a225965c3e92c832bef9d077d67dd71d7266e2d25",
+          "after_sha256": "171e2f47c828567717c0bf16ae39e1881d95b305df3b861e02d1b5e6ea1cb8d3",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E084_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "6d6794321cb9ee5a4fd531bc3f008252471bdbb8c453c25a0e30794deccff0fc",
+          "after_sha256": "80e065225a9d9d86463105508bf379a6b66ffd9c21f981d17ec07d8a0c8728d3",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E084_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "f871d44208bdfd71d75713a46f925bd7080e7554bb2b503e9f51c89fccc5a430",
+          "after_sha256": "f6ba366d0bbbba1979a160f1ce4a4b8858a0236ca6ad36b31bd03d8999daefc3",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E072_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "bf4b8159429fa722d4fbc12950ea639517f4d2e0aeb808d90efb162a9cc6ee57",
+          "after_sha256": "9379caae265ccc9171ebe0e9f14b161b4759dc8958ad62e3fdeee4168d58d00b",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E072_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "91873a0bd9f4b4d09dbd0bf7b596d747c7d7c54c757acad20d4634d056e88d5c",
+          "after_sha256": "3833e9c2ed44478a1d514edf1587fa6c29aac8c8097724ab2a3017fa489dc70d",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E005_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "ea3b1705a11c5c6f2ea197ccc01c4c38cc49184032653fe581156f9c8f33d088",
+          "after_sha256": "ab0d653629a6a8ab913c412893f1754947f60f5d7dc8a7e97d8409315d610be1",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E005_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "4bc2a3eab8a68c0e600eb38e4af112ea482faa9a6ce4096ed125529e86a75ed6",
+          "after_sha256": "bb48cbc9d383954af3eee48344cea16453342b3c520601552f8dbd2906c2508f",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E009_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "614b18f6d45331233224b7f272801f002379c60b6ed3ca3793afea057f7b8a31",
+          "after_sha256": "ccbe4d0a25f72cbf257ed43651422381594cb1d9527c2c124f4c9624b452039a",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E009_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "32ecc3c1f159ba4b37fee42e4fceac9b184b8cfa034570adb0c602b98f6dfd06",
+          "after_sha256": "b446ca16d0251479164a5995a22f940604a8d5b37a2f575c279f2f11996e5d3c",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E051_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "c45af51e9f23cff57d35e9780047461c6b5d26993d404d937c3d0e9d9e7c75df",
+          "after_sha256": "fcb1ed99dcdd6e407b4614db0cb525c9db8b29e275603e0440afadaefd58840e",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E051_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "155cc8aac1d41952baf034d13c1dca68ae4682f131162e3741e68598bbd68bae",
+          "after_sha256": "aa8b5ec51dde5c31db72bc0b915acc99560dcb8f9e3b135bcc68ea2ab2433565",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E094_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "3c4f7fa3fc5f1bcd84ef0b2fa3afdccadc1eab9a5112d5d5fd3e4ee8d384d9d0",
+          "after_sha256": "e6f64026d8304d12d61314499d4296380ad8fc0ca4a1aed36ca4038879007764",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E094_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "c5b273cc6d72536cbb969e419941c616ce14d8ee183418f4ab2a000a7a6afd17",
+          "after_sha256": "51dfcc035f76d11d2830c49a4e2f30816ad92c5dbd661e8d6742b85a97b92fac",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E085_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "a3df95a59e3b11c4f6b5e0cb85e922c9f33a105512278ac16beb9f5e1fe25aa3",
+          "after_sha256": "e742e92287297cfcd25f5c8d97df515cc0f6aa2b28a1de4be1f6bd8ff0a1e112",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E085_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "ed5e3c39f7b80a1cf0bcf85de45f1aacbd61168cdd17469145a51fe1ad167ebb",
+          "after_sha256": "9e4e94ce5acc830e2182c4e24edf0b082c96587ae589a00a4bd1fc4636f65aa1",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E037_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "447614bfd2228ad07175651fa66a853c1e97a0cfd4e1aa9ca4349683ed1d0991",
+          "after_sha256": "eedddeeab985c14caba80fcc72fc5be84b0edeea63c2a434baecf02838e453ca",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E037_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "edb1104dc2d4c17397ed25b0d3e191728816edc7a238d0849d310b9de0b07099",
+          "after_sha256": "c8f522a3b463ebdcd1c43148947b43507b127b3a8217b3bc7919c2e717cdba67",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E032_control_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "dbf0d8865609bfc4a65b7e2f0c89f6ea953c644a9841b77dc3bd555f276a2cf2",
+          "after_sha256": "48d05f5fb2e583de38d8a95e550b7a91e8ce6f5e8faae167223e6079625a1c67",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    },
+    {
+      "case": "E032_ref_2km_60s",
+      "geometry_plan_boundary_unchanged": true,
+      "project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "before_sha256": "d4e39ab463357bc2d95e3f2e11a6b772624decb2d786e05701493ffdb8120fc1",
+          "after_sha256": "7ef732f3a1673204733eb0db6cdaa93c376ffafcd91470b42ff9f0ecb29c638c",
+          "reason": "HEC saves display/DSS/GIS metadata"
+        }
+      ]
+    }
+  ],
+  "sealed_test_results_opened": 0,
+  "all20_B_events_retained": true,
+  "A_B_mixed_calibration": false,
+  "transfer_A_to_B_actually_computed": true,
+  "animation_requested": false,
+  "independently_frozen_previous_stage_inputs_verified": 242,
+  "previous_manifest_sha256": "767f744ea3f485c10833fe3019546602d1bf86fdb07ad6ced4888cdd30badba5"
+}

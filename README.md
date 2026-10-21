@@ -8,6 +8,7 @@
 | [02_candidate_models_20261021](stages/02_candidate_models_20261021/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 4.17 MiB |
 | [03_internal_discovery_20261021](stages/03_internal_discovery_20261021/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 4.48 MiB |
 | [04_autonomous_backwater_20261021](stages/04_autonomous_backwater_20261021/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 2.28 MiB |
+| [05_routing_validation_slope075_20261022](stages/05_routing_validation_slope075_20261022/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 17.23 MiB |
 
 [同步与读取方法](SYNC.md) · [文件校验清单](FILE_MANIFEST.json)
 

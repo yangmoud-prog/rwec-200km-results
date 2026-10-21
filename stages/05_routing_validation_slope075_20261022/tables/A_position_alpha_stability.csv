@@ -1,0 +1,15 @@
+﻿mode,xc_km,best_training_grid_alpha,gain_vs_alpha0_loss,grid_min,grid_max,lower_bound_selected,upper_bound_selected
+1,20,0.0,0.0,0.0,1.0,True,False
+1,40,0.0,0.0,0.0,1.0,True,False
+1,60,0.0,0.0,0.0,1.0,True,False
+1,80,1.0,2.755735141071053e-05,0.0,1.0,False,True
+1,100,0.0,0.0,0.0,1.0,True,False
+1,120,0.0,0.0,0.0,1.0,True,False
+1,0,0.0,0.0,0.0,1.0,True,False
+2,20,0.005,3.155785092336105e-05,0.0,1.0,False,False
+2,40,0.025,0.0004437699468649442,0.0,1.0,False,False
+2,60,0.0,0.0,0.0,1.0,True,False
+2,80,0.0,0.0,0.0,1.0,True,False
+2,100,0.0,0.0,0.0,1.0,True,False
+2,120,0.0,0.0,0.0,1.0,True,False
+2,0,0.0,0.0,0.0,1.0,True,False

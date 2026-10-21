@@ -1,0 +1,17 @@
+{
+  "model": "RWEC-1_oracle_joint",
+  "mode": 4,
+  "core": [
+    0.03251985432256705,
+    4.3373061797306125,
+    2.2579812034256284
+  ],
+  "alpha": 0.0,
+  "loss": 0.006353772698122976,
+  "core_fixed": false,
+  "train_events": 14,
+  "elapsed_s": 0.8192703999811783,
+  "closure": "future stage oracle only",
+  "refinement_evaluations": 70,
+  "refinement_converged": false
+}

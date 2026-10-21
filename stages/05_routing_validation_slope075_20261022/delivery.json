@@ -1,0 +1,17 @@
+{
+  "completed": true,
+  "completed_at": "2026-10-22T01:44:47+08:00",
+  "report": "REPORT.md",
+  "equations": "EQUATIONS.md",
+  "A_events": 70,
+  "A_scenarios": 172,
+  "B_pilot_floods": 20,
+  "B_main_HEC_cases": 40,
+  "B_numerical_HEC_cases": 4,
+  "static_main_figures": 7,
+  "A_gallery_events": 21,
+  "B_gallery_events": 20,
+  "sealed_test_results_opened": 0,
+  "animation_requested": false,
+  "method_independent_gain_established": false
+}

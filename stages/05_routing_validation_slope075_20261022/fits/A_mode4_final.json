@@ -1,0 +1,15 @@
+{
+  "model": "RWEC-1_oracle",
+  "mode": 4,
+  "core": [
+    0.03725298898421776,
+    8.444123015305705,
+    2.330557752838044
+  ],
+  "alpha": 0.0069278582645051325,
+  "loss": 0.09877376348314287,
+  "core_fixed": true,
+  "train_events": 49,
+  "elapsed_s": 1.2430160000221804,
+  "closure": "future stage oracle only"
+}

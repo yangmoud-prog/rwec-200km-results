@@ -1,0 +1,1027 @@
+{
+  "backend": "Python",
+  "source_preflight": {
+    "source": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures.py",
+    "backend": "python",
+    "summary": {
+      "ready": false,
+      "strict": false,
+      "counts": {
+        "PASS": 17,
+        "WARN": 2,
+        "FAIL": 1
+      }
+    },
+    "findings": [
+      {
+        "check_id": "SOURCE-SYNTAX",
+        "level": "PASS",
+        "message": "Python source parses successfully",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-FAMILY",
+        "level": "FAIL",
+        "message": "No explicit publication-safe font family found in matplotlib rcParams",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-SIZE",
+        "level": "PASS",
+        "message": "All detected text sizes are at least 5 pt (minimum 6 pt)",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-GLYPH-FLOOR",
+        "level": "PASS",
+        "message": "No mathtext superscript/subscript expression detected",
+        "evidence": []
+      },
+      {
+        "check_id": "LEGEND-LABEL-CASE",
+        "level": "WARN",
+        "message": "Literal legend labels should start with display-style capitalization while preserving canonical model names",
+        "evidence": [
+          "固定5 m参照"
+        ]
+      },
+      {
+        "check_id": "COLOR-MAP",
+        "level": "PASS",
+        "message": "No rainbow/jet/hsv color mapping detected",
+        "evidence": []
+      },
+      {
+        "check_id": "EDITABLE-TEXT",
+        "level": "PASS",
+        "message": "SVG and PDF editable-text settings are configured",
+        "evidence": []
+      },
+      {
+        "check_id": "EXPORT-VECTOR",
+        "level": "PASS",
+        "message": "Both SVG and PDF exports are present",
+        "evidence": []
+      },
+      {
+        "check_id": "EXPORT-RASTER",
+        "level": "PASS",
+        "message": "TIFF raster export is present",
+        "evidence": []
+      },
+      {
+        "check_id": "RASTER-DPI",
+        "level": "PASS",
+        "message": "A raster export of at least 600 dpi is configured",
+        "evidence": [
+          "600"
+        ]
+      },
+      {
+        "check_id": "FINAL-WIDTH",
+        "level": "WARN",
+        "message": "Detected width 4572.0 mm is not near the common 89/183 mm defaults; verify the target journal",
+        "evidence": []
+      },
+      {
+        "check_id": "DATA-SAMPLING",
+        "level": "PASS",
+        "message": "No high-confidence row-sampling operation detected",
+        "evidence": []
+      },
+      {
+        "check_id": "DATA-EXCLUSION",
+        "level": "PASS",
+        "message": "No high-confidence missing-data exclusion detected",
+        "evidence": []
+      },
+      {
+        "check_id": "DEMO-DATA",
+        "level": "PASS",
+        "message": "No obvious simulated-data generator detected",
+        "evidence": []
+      },
+      {
+        "check_id": "LOG-GUARD",
+        "level": "PASS",
+        "message": "No logarithmic transform or axis detected",
+        "evidence": []
+      },
+      {
+        "check_id": "INTERP-MONOTONIC",
+        "level": "PASS",
+        "message": "NumPy interpolation has an explicit monotonicity/reordering safeguard",
+        "evidence": [
+          "np.diff(lookup['q'])>0"
+        ]
+      },
+      {
+        "check_id": "UNCERTAINTY-ENCODING",
+        "level": "PASS",
+        "message": "No stochastic aggregate requiring a variability audit was inferred",
+        "evidence": []
+      },
+      {
+        "check_id": "ROTATION-ANCHOR",
+        "level": "PASS",
+        "message": "No rotated Matplotlib text detected",
+        "evidence": []
+      },
+      {
+        "check_id": "ANNOTATION-WORKAROUND",
+        "level": "PASS",
+        "message": "No high-risk hard-coded label height or opaque white text mask detected",
+        "evidence": []
+      },
+      {
+        "check_id": "BACKEND-EXCLUSIVE",
+        "level": "PASS",
+        "message": "No obvious cross-backend plotting reference found for python",
+        "evidence": []
+      }
+    ]
+  },
+  "user_font_override": "Times New Roman English/numbers/symbols; SimSun Chinese, overriding generic sans-serif validator",
+  "warning_width": "source parser misreads180/25.4; actual MediaBoxes all180mm",
+  "Chinese_capitalization_warning_inapplicable": true,
+  "PDF_audits": [
+    {
+      "file": "A_actual_routing_and_nonzero_gains.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_actual_routing_and_nonzero_gains.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 50,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_same_inflow_unknown_boundary.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_same_inflow_unknown_boundary.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 97,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E006.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E006.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 147,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E010.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E010.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 146,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E014.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E014.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 150,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E019.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E019.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 135,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E025.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E025.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 132,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E026.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E026.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 146,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E027.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E027.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 141,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E032.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E032.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 138,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E037.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E037.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 141,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E042.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E042.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 135,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E051.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E051.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 139,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E060.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E060.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 141,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E066.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E066.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 153,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E067.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E067.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 139,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E068.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E068.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 141,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E078.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E078.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 137,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E081.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E081.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 132,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E085.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E085.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 132,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E089.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E089.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 139,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E090.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E090.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 130,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "A_validation_E094.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\A_validation_E094.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 146,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_ablation_and_timestep.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_ablation_and_timestep.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 44,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E001.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E001.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 49,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E005.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E005.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 51,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E006.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E006.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 50,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E007.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E007.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 47,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E009.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E009.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 47,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E021.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E021.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 47,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E023.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E023.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 49,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E032.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E032.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 50,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E037.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E037.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 49,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E040.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E040.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 49,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E049.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E049.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 46,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E051.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E051.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 48,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E062.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E062.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 51,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E065.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E065.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 48,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E069.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E069.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 51,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E072.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E072.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 40,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E076.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E076.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 50,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E084.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E084.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 46,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E085.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E085.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 46,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_flood_E094.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_flood_E094.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 49,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_longitudinal_profiles.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_longitudinal_profiles.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 103,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_six_validation_flows.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_six_validation_flows.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 124,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_six_validation_lengths.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_six_validation_lengths.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 108,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    },
+    {
+      "file": "B_twenty_pilot_hydraulics.pdf",
+      "width_mm": 179.99999999998556,
+      "base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "glyph_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\figures\\B_twenty_pilot_hydraulics.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.0,
+        "text_run_count": 45,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      }
+    }
+  ],
+  "static_main_figures": 7,
+  "A_validation_gallery_events": 21,
+  "B_gallery_events": 20,
+  "animation_requested": false,
+  "uncertainty_definition": "event interquartile range; no stochastic confidence intervals",
+  "all_events_retained": true,
+  "raw_negative_flows_not_clipped": true,
+  "rendered_visual_review": {
+    "main_figures_reviewed": 7,
+    "all_gallery_pages_reviewed_via_contact_sheets": 41,
+    "curve_and_axis_labels_consistent": true,
+    "negative_truth_not_cropped": true,
+    "uncertainty_is_event_IQR_not_confidence_interval": true
+  }
+}
