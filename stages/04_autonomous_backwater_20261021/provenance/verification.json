@@ -1,0 +1,122 @@
+{
+  "raw_and_derived_sources_unchanged": true,
+  "verified_files": 242,
+  "sealed_test_results_opened": 0,
+  "experiment_B_freeze_sha256": "a1adbe6853b3a6328d0e76741767e348c7df1e3226635e8dff3053d9d3054b1d",
+  "B_pilot_cases": 8,
+  "B_input_audits": [
+    {
+      "case": "E023_control_2km_60s",
+      "hydraulic_g_p_u_inputs_unchanged": true,
+      "HEC_project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "pre_compute_sha256": "63a2c08ebdc6d3aba6aaf83ce0714298a3e1f4b949bb50430b2a2ec83a6d661d",
+          "post_HEC_save_sha256": "b1d25715f2cd963ff24a8e0fe7f1b55bfd6044eec067d9d362a8d5a1fdfe4bfb",
+          "interpretation": "HEC Project_Save added axes/DSS/GIS display metadata; hydraulic geometry, plan and boundary files unchanged"
+        }
+      ],
+      "native_balance_max_fraction": 1.755261617779952e-05,
+      "all_pilot_basic_gates_passed": true
+    },
+    {
+      "case": "E023_ref_2km_60s",
+      "hydraulic_g_p_u_inputs_unchanged": true,
+      "HEC_project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "pre_compute_sha256": "6206a76c7c56be4b0c573f5beba344892fc575376b586b659900da39d5583025",
+          "post_HEC_save_sha256": "0b4573ad41e8b477a994310c7e1ebb26595aa0f5cee53a542761a3ed4e5b3ce3",
+          "interpretation": "HEC Project_Save added axes/DSS/GIS display metadata; hydraulic geometry, plan and boundary files unchanged"
+        }
+      ],
+      "native_balance_max_fraction": 1.719006555891678e-05,
+      "all_pilot_basic_gates_passed": true
+    },
+    {
+      "case": "E006_control_2km_60s",
+      "hydraulic_g_p_u_inputs_unchanged": true,
+      "HEC_project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "pre_compute_sha256": "c002ec916fd07ce5ebe7526a2384fec4f0be27abc9bf8e26b81ae16dd5ecbf3b",
+          "post_HEC_save_sha256": "4e2fff11e86fd5f88376875ec80fd8b0df9801cab834f4eec39a1a3c87207767",
+          "interpretation": "HEC Project_Save added axes/DSS/GIS display metadata; hydraulic geometry, plan and boundary files unchanged"
+        }
+      ],
+      "native_balance_max_fraction": 1.3222678538258527e-05,
+      "all_pilot_basic_gates_passed": true
+    },
+    {
+      "case": "E006_ref_2km_60s",
+      "hydraulic_g_p_u_inputs_unchanged": true,
+      "HEC_project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "pre_compute_sha256": "c2363d9c5984f7ca5489f495185d8542eadb251fb339f2715ca52cf5bdc1f08e",
+          "post_HEC_save_sha256": "589db5d81c4e76500c74f96f6d43cc4ba767428e9055c05b78d7859f7b2f114d",
+          "interpretation": "HEC Project_Save added axes/DSS/GIS display metadata; hydraulic geometry, plan and boundary files unchanged"
+        }
+      ],
+      "native_balance_max_fraction": 1.2941382479437498e-05,
+      "all_pilot_basic_gates_passed": true
+    },
+    {
+      "case": "E007_control_2km_60s",
+      "hydraulic_g_p_u_inputs_unchanged": true,
+      "HEC_project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "pre_compute_sha256": "6f3e78e43adc173def32387906d4af89b575560d837128e1bf8485d781be5910",
+          "post_HEC_save_sha256": "2a395f44a90c6ec9563a861a19393edc062f4b3833af45b5f6559300b5c7efc6",
+          "interpretation": "HEC Project_Save added axes/DSS/GIS display metadata; hydraulic geometry, plan and boundary files unchanged"
+        }
+      ],
+      "native_balance_max_fraction": 2.7116118160501954e-05,
+      "all_pilot_basic_gates_passed": true
+    },
+    {
+      "case": "E007_ref_2km_60s",
+      "hydraulic_g_p_u_inputs_unchanged": true,
+      "HEC_project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "pre_compute_sha256": "2097783dee1a82c49b97fd58544f15df57635831b905d58da502c4e290c7c0af",
+          "post_HEC_save_sha256": "80faab567ab6c72a4fec63011765460b2c01c978960f08084fb977ee0943c724",
+          "interpretation": "HEC Project_Save added axes/DSS/GIS display metadata; hydraulic geometry, plan and boundary files unchanged"
+        }
+      ],
+      "native_balance_max_fraction": 2.6745338620587474e-05,
+      "all_pilot_basic_gates_passed": true
+    },
+    {
+      "case": "E069_control_2km_60s",
+      "hydraulic_g_p_u_inputs_unchanged": true,
+      "HEC_project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "pre_compute_sha256": "4679fd1d2a7e49be9b2097f173e60b7f0d1344240401e3ee0a3eb64cc71fda04",
+          "post_HEC_save_sha256": "89b43551018da59b820eb63803ebc0cee14abe277110acfb501ab2020e772d24",
+          "interpretation": "HEC Project_Save added axes/DSS/GIS display metadata; hydraulic geometry, plan and boundary files unchanged"
+        }
+      ],
+      "native_balance_max_fraction": 2.0920655285844388e-05,
+      "all_pilot_basic_gates_passed": true
+    },
+    {
+      "case": "E069_ref_2km_60s",
+      "hydraulic_g_p_u_inputs_unchanged": true,
+      "HEC_project_metadata_changes": [
+        {
+          "file": "Backwater200.prj",
+          "pre_compute_sha256": "0a95ba755aafe9545c2a49e6f5fa493e39348d71b76cbeb872f70f617b724669",
+          "post_HEC_save_sha256": "a43461d97d7015c26ae0bce900379d038027fc8c807c55819b9f78d122342459",
+          "interpretation": "HEC Project_Save added axes/DSS/GIS display metadata; hydraulic geometry, plan and boundary files unchanged"
+        }
+      ],
+      "native_balance_max_fraction": 2.058274255324295e-05,
+      "all_pilot_basic_gates_passed": true
+    }
+  ],
+  "B_HEC_time_space_sensitivity_complete": false
+}

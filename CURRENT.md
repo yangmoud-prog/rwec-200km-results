@@ -1,21 +1,26 @@
 # 当前阶段
 
-最新阶段：[03_internal_discovery_20261021](stages/03_internal_discovery_20261021/READING_GUIDE.md)。
+最新阶段：[04_autonomous_backwater_20261021](stages/04_autonomous_backwater_20261021/READING_GUIDE.md)。
 
 状态：**阶段交付已生成，质量结论见原报告**。
 
-[阶段报告](stages/03_internal_discovery_20261021/REPORT.md)
+[阶段报告](stages/04_autonomous_backwater_20261021/REPORT.md)
 
 本轮进度原文：
 
 ```json
 {
-  "status": "second_stage_complete_waiting_researcher_review",
-  "updated": "2026-10-21T18:24:35.857329+08:00",
-  "test_results_opened": 0,
+  "status": "initial_deliverables_complete_timestep_consistency_failed",
+  "updated": "2026-10-22T00:06:55+08:00",
+  "A_development_events": 70,
+  "A_controls": 32,
+  "B_pilot_floods": 4,
+  "B_HEC_cases": 8,
+  "B_HEC_basic_quality_pass": 8,
+  "sealed_test_results_opened": 0,
   "raw_sources_unchanged": true,
-  "scientific_next_step": "Researcher review before any sealed testing or formula extension",
-  "auto_continue_to_test": false
+  "auto_expand_B": false,
+  "scientific_next_step": "Review pilot evidence; resolve fixed-parameter time-step consistency before expanding HEC experiments"
 }
 ```
 

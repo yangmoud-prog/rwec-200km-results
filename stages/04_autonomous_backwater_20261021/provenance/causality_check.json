@@ -1,0 +1,132 @@
+{
+  "signature": "(inflow, dt, params, alpha, mode, lookup)",
+  "future_boundary_argument_present": false,
+  "prefix_tests": [
+    {
+      "event": "E023",
+      "model": "RWEC-0",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E023",
+      "model": "RWEC-L",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E023",
+      "model": "RWEC-V",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E023",
+      "model": "RWEC-H",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E006",
+      "model": "RWEC-0",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E006",
+      "model": "RWEC-L",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E006",
+      "model": "RWEC-V",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E006",
+      "model": "RWEC-H",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E007",
+      "model": "RWEC-0",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E007",
+      "model": "RWEC-L",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E007",
+      "model": "RWEC-V",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E007",
+      "model": "RWEC-H",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E069",
+      "model": "RWEC-0",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E069",
+      "model": "RWEC-L",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E069",
+      "model": "RWEC-V",
+      "future_input_prefix_difference_m3s": 0.0
+    },
+    {
+      "event": "E069",
+      "model": "RWEC-H",
+      "future_input_prefix_difference_m3s": 0.0
+    }
+  ],
+  "steady_and_zero_gain_tests": [
+    {
+      "check": "steady1000_mode0",
+      "max_error_m3s": 1.1368683772161603e-13,
+      "max_h_error_m": 0.0,
+      "max_lb_m": 0.0
+    },
+    {
+      "check": "steady1000_mode1",
+      "max_error_m3s": 1.1368683772161603e-13,
+      "max_h_error_m": 0.0,
+      "max_lb_m": 0.0
+    },
+    {
+      "check": "steady1000_mode2",
+      "max_error_m3s": 1.1368683772161603e-13,
+      "max_h_error_m": 0.0,
+      "max_lb_m": 0.0
+    },
+    {
+      "check": "steady1000_mode3",
+      "max_error_m3s": 1.1368683772161603e-13,
+      "max_h_error_m": 0.0,
+      "max_lb_m": 0.0
+    },
+    {
+      "check": "alpha0_equals_baseline_mode1",
+      "max_error_m3s": 0.0,
+      "max_h_error_m": 0.0,
+      "max_lb_m": 40429.05341613138
+    },
+    {
+      "check": "alpha0_equals_baseline_mode2",
+      "max_error_m3s": 0.0,
+      "max_h_error_m": 0.0,
+      "max_lb_m": 40429.05341613138
+    },
+    {
+      "check": "alpha0_equals_baseline_mode3",
+      "max_error_m3s": 0.0,
+      "max_h_error_m": 0.0,
+      "max_lb_m": 40429.05341613138
+    }
+  ],
+  "raw_HEC_negative_flows_clipped": false,
+  "oracle_wrapper_separate": true
+}

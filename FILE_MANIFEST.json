@@ -748,5 +748,250 @@
     "path": "stages/03_internal_discovery_20261021/write_report.py",
     "bytes": 19876,
     "sha256": "f78e060cc4c267e551785da1afc3018a38937044d0ddc0dd05929891fb002579"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/analyze_a.py",
+    "bytes": 8531,
+    "sha256": "df23386f8c22912dccef90f9c26637577c678ac1508d57c4af688bb9f46ef3e8"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/checkpoint.json",
+    "bytes": 480,
+    "sha256": "86e991b05c364f3165da052a89e60a48277ec33a1392ed2d5a5bf57f2269b3bf"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/common.py",
+    "bytes": 1407,
+    "sha256": "c751460cadf2e3415edbdd4d8f0572fc0a14c582f4a73d62b085bac0dadc7344"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/delivery.json",
+    "bytes": 449,
+    "sha256": "ee0b305d3ad6150c4cdb6305c0445dc7f023af0f947d622a842a8bab7609fbb5"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/diagnose_hydraulics.py",
+    "bytes": 2694,
+    "sha256": "7f73189741f6cec31607bce83f2f3814478da114b68233e1dc5ba2482ac15d79"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/EQUATIONS.md",
+    "bytes": 8512,
+    "sha256": "0e59f76286a9c9ddd3fe49e7a102a9f678629a7ece34b15f2ffceed0ab7eb284"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/FIGURE_CONTRACT.md",
+    "bytes": 1431,
+    "sha256": "4a8e73675a13123911626f0b4722999a1a403656806d777af7e40236be7e55f9"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/figures/A_information_and_geometry.png",
+    "bytes": 175168,
+    "sha256": "06e3ff83db4c38e0849d67359d941a152386859904c82b8c9a94c7112affa0a1"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/figures/A_length_storage_mechanism.png",
+    "bytes": 506389,
+    "sha256": "7799e6e64a1f01b1a813f97d3fc1735081f0d616e280ba024c9d6d99b21eacd9"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/figures/animation_preview.png",
+    "bytes": 254822,
+    "sha256": "59d3d06dfae61db6f35e7aeb28f49d1a28b54f523c551fe245c6cc620fde6f8c"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/figures/B_ablation_and_timestep.png",
+    "bytes": 211687,
+    "sha256": "3cd9e2c86e6e0a9c19f46a906d4cc3524183ebee2153e5eb2b98488db47f17b1"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/figures/B_dynamic_backwater_lengths.png",
+    "bytes": 213891,
+    "sha256": "dc15e14a9ae340191ab1234f8a08f9f772a1272dcfe33bbe643c43b5fa061846"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/figures/B_four_flood_hydrographs.png",
+    "bytes": 265587,
+    "sha256": "4c78063378aa361a6cf8e99a808bbe776357f7c85f915cfaa1d421f9de04fed6"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/figures/B_longitudinal_profiles.png",
+    "bytes": 250604,
+    "sha256": "d77141ba8ce61625e7588fd9bfb78f8c36ff924c69f3731555f72beccb3c2c7c"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/figures.py",
+    "bytes": 10428,
+    "sha256": "f7a3b688255dd336b532398d0289d34872b950d1d526699a4e5d38fb8a3fa648"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/fit_b.py",
+    "bytes": 9313,
+    "sha256": "2ec722a0fcc0293017116c86a5d49f1f2ba2fffccc343f875ef77584c10016fe"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/hydraulics.py",
+    "bytes": 1685,
+    "sha256": "efe440d3732f11463802c3295e96da37523a42aeb62f1685ea8d30a3a2261854"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/make_report.py",
+    "bytes": 18861,
+    "sha256": "73852a451acf0d225a28b204cd0b90350b9af31e2abbfef5d79dac6ff6ef3741"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/prepare_b.py",
+    "bytes": 3296,
+    "sha256": "7456989c3917a4ae585c39811f14e666e3875da19bd718d800f9a749f90ffa02"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/PROTOCOL.md",
+    "bytes": 4381,
+    "sha256": "87dc3dfa4832849dbdf6775c0c6f6f5e504f8a4008656a9215355eed24c28926"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/prototype.py",
+    "bytes": 4900,
+    "sha256": "bae90d01d6badfdb861de9c268d546a39415c6ff9944f8c20d39b3b78394d48e"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/provenance/causality_check.json",
+    "bytes": 3158,
+    "sha256": "7f053685ae6573f81333a37367ad3f36b61a7a7977bffefef94efcdfe1f98751"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/provenance/figure_qa.json",
+    "bytes": 8809,
+    "sha256": "1dc5d8fc5646ce3c6194fad804044db22035bfad4225a8fbe3a89db676de818a"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/provenance/frozen_protocol.json",
+    "bytes": 4800,
+    "sha256": "94e645e93c9e3a3d9688785ccd9853506f5e88d5a16bb41babb180ef6e6262b2"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/provenance/verification.json",
+    "bytes": 5607,
+    "sha256": "7f44fab013f6489b2f333ee7373477bd5e491ea5c38a225012fd14b8477f4b8f"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/REPORT.md",
+    "bytes": 16974,
+    "sha256": "af59930a3d8a373982ffc1631f0aef24d2cb1407b2e5b04309977e3876a03ee7"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/run_b.py",
+    "bytes": 1089,
+    "sha256": "243a1a60bb1e585c49faea8cac9075676d86f8cceec3a734783969131eb6cfd7"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/A_event_geometry.csv",
+    "bytes": 39270,
+    "sha256": "905dc7c7ac5b9f100f328fd465f403f6ad65221ff3b8f912add76b2b16f07af9"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/A_geometric_diagnostic_metrics.csv",
+    "bytes": 78546,
+    "sha256": "6c5396cbc7722c41ae2810ada3e0657c523db16c21487e2d26275a2897120ab7"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/A_geometric_diagnostic_parameters.csv",
+    "bytes": 811,
+    "sha256": "d6dd8c36a67964ffab5025855bfd55dd6ff6300e1072f02c234242b1e344d68a"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/A_geometric_diagnostic_summary.csv",
+    "bytes": 4510,
+    "sha256": "bfd1bd2fdaea7f3747edc6d191a9d98ea364f768d77ac9d099de235c5b1aac4a"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/A_geometry_summary.csv",
+    "bytes": 2439,
+    "sha256": "7c9163b47672c64b5046525329e7d7e8fcfdb07d06b245c045d99d95ede5d1f1"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/A_given_boundary_hydraulic_diagnostic.csv",
+    "bytes": 14752,
+    "sha256": "d675c3f5b7fcf39e2ccbad79e9b99e1da6755652eb7bdc6952e63dd82f38e541"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/A_hydraulic_diagnostic_summary.csv",
+    "bytes": 1204,
+    "sha256": "4cda8c9fc422e9192af5f230e43e41622d2bbb008e7929c3247ccf37ccd42e13"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/A_information_bounds.csv",
+    "bytes": 166868,
+    "sha256": "f0171b0d927c4f449ba52cbe9664df00a201c539da227cab85eccfb1ac697208"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/A_information_summary.csv",
+    "bytes": 7439,
+    "sha256": "4b924a7bcb40866fce7082fb7cba02a937a48c68a44442349c6c2916a2ad6185"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_event_metrics.csv",
+    "bytes": 13478,
+    "sha256": "01c38004f5a86bb96dc87623f15b08dcd7c2da44ab7b6d1d7292d84a74e0f1d9"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_flood_parameters.csv",
+    "bytes": 316,
+    "sha256": "b75412f1b02387601826b4505f7463089df99824cf75f37968e39a887962c1c2"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_gain_calibration_trials.csv",
+    "bytes": 3884,
+    "sha256": "657187b6b30b0a7bc3cb92e708f0e9c554191d5c20887861511baf4212dc7ef4"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_HEC_quality.csv",
+    "bytes": 5258,
+    "sha256": "0d9238b9d51797dd9a92c2378d0281b5e9553c4d793a54fd715270fae8f26f60"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_length_metrics.csv",
+    "bytes": 1453,
+    "sha256": "d9a7b03fe22a0e75f6cd478a6a0c8384a821c582515e08b1659a2e13daabdb90"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_length_summary.csv",
+    "bytes": 2674,
+    "sha256": "b3ffdfbb0d98c8388dee5da8f39e0b7293280b302ec25519b271e0239371831d"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_metric_summary.csv",
+    "bytes": 22413,
+    "sha256": "d77755df219e35a9ba83a00b5de5d9e51597055b3281f2930dc10b5630443778"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_numerical_causality_checks.csv",
+    "bytes": 2674,
+    "sha256": "a006ad7aa1154b41e0b95ad51cdc74a2b21bc0aa437d621efee91d7b97b48c06"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_parameters.csv",
+    "bytes": 519,
+    "sha256": "07aa3677fd3e4698b5541a581f7d8802616bb9b699ea2f1f0d62c812df4bef1d"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_pilot_response_summary.csv",
+    "bytes": 502,
+    "sha256": "fc9ba5c7bc9377bba96b8df07cec128571602da13d109c30b477372ef9d6454b"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_suppression_recovery.csv",
+    "bytes": 7097,
+    "sha256": "ad6c83c10b1bd29d169557a58a8ed961a409334b3b5064a1e1901dd75283c007"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/tables/B_timestep_sensitivity.csv",
+    "bytes": 13014,
+    "sha256": "edd87f907e6690146062a8c59a44a081853126e712ecf423ab5584f35442f818"
+  },
+  {
+    "path": "stages/04_autonomous_backwater_20261021/verify_delivery.py",
+    "bytes": 3572,
+    "sha256": "ffbf833607f4afd07e6e6f86073ffecc37a824932ba6b99f07f4afb00a36946e"
   }
 ]

@@ -1,0 +1,13 @@
+﻿xc_km,diagnostic,gain,training_events,gain_units,runtime_forecast_claimed
+20,length_only,599.9593350273083,49,m2,False
+20,boundary_height_times_length,0.3552879685680396,49,dimensionless,False
+40,length_only,497.9019114679451,49,m2,False
+40,boundary_height_times_length,0.2857786836583224,49,dimensionless,False
+60,length_only,403.635851322497,49,m2,False
+60,boundary_height_times_length,0.22392826452870226,49,dimensionless,False
+80,length_only,320.4889984712445,49,m2,False
+80,boundary_height_times_length,0.1710906994490231,49,dimensionless,False
+100,length_only,250.76463166082965,49,m2,False
+100,boundary_height_times_length,0.12799508747970123,49,dimensionless,False
+120,length_only,195.26639005494522,49,m2,False
+120,boundary_height_times_length,0.0944778739591545,49,dimensionless,False

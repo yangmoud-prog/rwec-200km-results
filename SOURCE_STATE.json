@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T18:24:35.857329+08:00",
+  "updated": "2026-10-22T00:06:55+08:00",
   "design_id": "high_stage_hold_v1",
   "active_root": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2",
   "experiment_spec": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\EXPERIMENT_NUMERICS.md",
@@ -31,15 +31,30 @@
   "parallel_scaling_decision": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\results\\parallel_scaling_decision.json",
   "formal_success_count": 232,
   "formal_failure_count": 0,
-  "analysis_stage": "second_stage_complete_waiting_researcher_review",
-  "analysis_latest": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\03_internal_discovery_20261021",
-  "analysis_findings": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\03_internal_discovery_20261021\\REPORT.md",
+  "analysis_stage": "initial_deliverables_complete_timestep_consistency_failed",
+  "analysis_latest": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021",
+  "analysis_findings": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\REPORT.md",
   "validation_pairs_held_out": 30,
   "model_comparison_development_events": 70,
   "model_comparison_test_events": 0,
   "next_action_requires_user_decision": true,
-  "internal_prediction_x_km": 100,
+  "internal_prediction_x_km": [
+    20,
+    40,
+    60,
+    80,
+    100,
+    120
+  ],
   "internal_training_events": 49,
   "internal_validation_events": 21,
-  "analysis_candidate_status": "development_hypotheses_with_unresolved_timestep_transfer"
+  "analysis_candidate_status": "causal_pilot_with_small_length_gain_and_failed_timestep_consistency",
+  "autonomous_pilot_B_root": "F:\\YDX\\200km\\variants\\mild_control_2km_60s_pilot_v1",
+  "autonomous_pilot_B_flood_events": 4,
+  "autonomous_pilot_B_HEC_cases": 8,
+  "autonomous_pilot_B_formal_expansion_started": false,
+  "experiment_A_train_events": 49,
+  "experiment_A_internal_validation_events": 21,
+  "experiment_B_train_events": 3,
+  "experiment_B_internal_validation_events": 1
 }

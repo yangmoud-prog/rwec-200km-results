@@ -1,0 +1,13 @@
+{
+  "status": "initial_deliverables_complete_timestep_consistency_failed",
+  "updated": "2026-10-22T00:06:55+08:00",
+  "A_development_events": 70,
+  "A_controls": 32,
+  "B_pilot_floods": 4,
+  "B_HEC_cases": 8,
+  "B_HEC_basic_quality_pass": 8,
+  "sealed_test_results_opened": 0,
+  "raw_sources_unchanged": true,
+  "auto_expand_B": false,
+  "scientific_next_step": "Review pilot evidence; resolve fixed-parameter time-step consistency before expanding HEC experiments"
+}

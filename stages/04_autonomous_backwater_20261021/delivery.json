@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "completed_at": "2026-10-22T00:06:55+08:00",
+  "scope": "A existing-data mechanism/information bounds, B four paired pilots, causal minimum prototype",
+  "B_simulations": 8,
+  "B_flood_events": 4,
+  "test_results_opened": 0,
+  "prototype_timestep_gate_passed": false,
+  "formal_B_expansion_started": false,
+  "report": "REPORT.md",
+  "equations": "EQUATIONS.md",
+  "figures": 6,
+  "synchronized_animations": 1
+}

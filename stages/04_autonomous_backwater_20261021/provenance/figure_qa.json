@@ -1,0 +1,279 @@
+{
+  "source_validator": {
+    "source": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\figures.py",
+    "backend": "python",
+    "summary": {
+      "ready": false,
+      "strict": false,
+      "counts": {
+        "PASS": 17,
+        "WARN": 2,
+        "FAIL": 1
+      }
+    },
+    "findings": [
+      {
+        "check_id": "SOURCE-SYNTAX",
+        "level": "PASS",
+        "message": "Python source parses successfully",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-FAMILY",
+        "level": "FAIL",
+        "message": "No explicit publication-safe font family found in matplotlib rcParams",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-SIZE",
+        "level": "PASS",
+        "message": "All detected text sizes are at least 5 pt (minimum 6 pt)",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-GLYPH-FLOOR",
+        "level": "PASS",
+        "message": "No mathtext superscript/subscript expression detected",
+        "evidence": []
+      },
+      {
+        "check_id": "LEGEND-LABEL-CASE",
+        "level": "WARN",
+        "message": "Literal legend labels should start with display-style capitalization while preserving canonical model names",
+        "evidence": [
+          "鍥哄畾5 m鍙傜収"
+        ]
+      },
+      {
+        "check_id": "COLOR-MAP",
+        "level": "PASS",
+        "message": "No rainbow/jet/hsv color mapping detected",
+        "evidence": []
+      },
+      {
+        "check_id": "EDITABLE-TEXT",
+        "level": "PASS",
+        "message": "SVG and PDF editable-text settings are configured",
+        "evidence": []
+      },
+      {
+        "check_id": "EXPORT-VECTOR",
+        "level": "PASS",
+        "message": "Both SVG and PDF exports are present",
+        "evidence": []
+      },
+      {
+        "check_id": "EXPORT-RASTER",
+        "level": "PASS",
+        "message": "TIFF raster export is present",
+        "evidence": []
+      },
+      {
+        "check_id": "RASTER-DPI",
+        "level": "PASS",
+        "message": "A raster export of at least 600 dpi is configured",
+        "evidence": [
+          "600"
+        ]
+      },
+      {
+        "check_id": "FINAL-WIDTH",
+        "level": "WARN",
+        "message": "Detected width 4572.0 mm is not near the common 89/183 mm defaults; verify the target journal",
+        "evidence": []
+      },
+      {
+        "check_id": "DATA-SAMPLING",
+        "level": "PASS",
+        "message": "No high-confidence row-sampling operation detected",
+        "evidence": []
+      },
+      {
+        "check_id": "DATA-EXCLUSION",
+        "level": "PASS",
+        "message": "No high-confidence missing-data exclusion detected",
+        "evidence": []
+      },
+      {
+        "check_id": "DEMO-DATA",
+        "level": "PASS",
+        "message": "No obvious simulated-data generator detected",
+        "evidence": []
+      },
+      {
+        "check_id": "LOG-GUARD",
+        "level": "PASS",
+        "message": "No logarithmic transform or axis detected",
+        "evidence": []
+      },
+      {
+        "check_id": "INTERP-MONOTONIC",
+        "level": "PASS",
+        "message": "NumPy interpolation has an explicit monotonicity/reordering safeguard",
+        "evidence": [
+          "np.diff(lookup['q'])>0"
+        ]
+      },
+      {
+        "check_id": "UNCERTAINTY-ENCODING",
+        "level": "PASS",
+        "message": "No stochastic aggregate requiring a variability audit was inferred",
+        "evidence": []
+      },
+      {
+        "check_id": "ROTATION-ANCHOR",
+        "level": "PASS",
+        "message": "No rotated Matplotlib text detected",
+        "evidence": []
+      },
+      {
+        "check_id": "ANNOTATION-WORKAROUND",
+        "level": "PASS",
+        "message": "No high-risk hard-coded label height or opaque white text mask detected",
+        "evidence": []
+      },
+      {
+        "check_id": "BACKEND-EXCLUSIVE",
+        "level": "PASS",
+        "message": "No obvious cross-backend plotting reference found for python",
+        "evidence": []
+      }
+    ]
+  },
+  "font_exception": "User explicitly requires Times New Roman and SimSun instead of skill sans-serif default",
+  "width_warning": "Static parser reads 180/25.4 as180 inches; actual PDF MediaBox independently checked180mm",
+  "Chinese_capitalization_warning": "English capitalization is inapplicable to Chinese label",
+  "final_size_visual_inspection": "Every static panel and complete figure checked; deterministic hydrographs have no random confidence intervals",
+  "backend": "Python only",
+  "source_data": "all70 A development pairs plus32 controls; all4 B pilot backgrounds; no event exclusions",
+  "animation_frame_interval_h": 3,
+  "animation_fps": 8,
+  "PDF_glyph_audits": [
+    {
+      "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\figures\\A_information_and_geometry.pdf",
+      "auditable": true,
+      "minimum_required_pt": 5.0,
+      "minimum_found_pt": 7.0,
+      "text_run_count": 42,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\figures\\A_length_storage_mechanism.pdf",
+      "auditable": true,
+      "minimum_required_pt": 5.0,
+      "minimum_found_pt": 6.0,
+      "text_run_count": 100,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\figures\\B_ablation_and_timestep.pdf",
+      "auditable": true,
+      "minimum_required_pt": 5.0,
+      "minimum_found_pt": 6.0,
+      "text_run_count": 49,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\figures\\B_dynamic_backwater_lengths.pdf",
+      "auditable": true,
+      "minimum_required_pt": 5.0,
+      "minimum_found_pt": 7.0,
+      "text_run_count": 91,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\figures\\B_four_flood_hydrographs.pdf",
+      "auditable": true,
+      "minimum_required_pt": 5.0,
+      "minimum_found_pt": 7.0,
+      "text_run_count": 93,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\04_autonomous_backwater_20261021\\figures\\B_longitudinal_profiles.pdf",
+      "auditable": true,
+      "minimum_required_pt": 5.0,
+      "minimum_found_pt": 6.0,
+      "text_run_count": 95,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    }
+  ],
+  "actual_PDF_font_and_width_checks": [
+    {
+      "file": "A_information_and_geometry.pdf",
+      "width_mm": 179.99999999998556,
+      "embedded_base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ]
+    },
+    {
+      "file": "A_length_storage_mechanism.pdf",
+      "width_mm": 179.99999999998556,
+      "embedded_base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ]
+    },
+    {
+      "file": "B_ablation_and_timestep.pdf",
+      "width_mm": 179.99999999998556,
+      "embedded_base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ]
+    },
+    {
+      "file": "B_dynamic_backwater_lengths.pdf",
+      "width_mm": 179.99999999998556,
+      "embedded_base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ]
+    },
+    {
+      "file": "B_four_flood_hydrographs.pdf",
+      "width_mm": 179.99999999998556,
+      "embedded_base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ]
+    },
+    {
+      "file": "B_longitudinal_profiles.pdf",
+      "width_mm": 179.99999999998556,
+      "embedded_base_fonts": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPSMT"
+      ]
+    }
+  ],
+  "MP4_decoding_metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(progressive)",
+    "fps": 8.0,
+    "source_size": [
+      2124,
+      2006
+    ],
+    "size": [
+      2124,
+      2006
+    ],
+    "rotate": 0,
+    "duration": 10.88
+  }
+}
