@@ -2,28 +2,20 @@
 
 最新阶段：[03_internal_discovery_20261021](stages/03_internal_discovery_20261021/READING_GUIDE.md)。
 
-状态：**进行中，尚无最终结果报告**。
+状态：**阶段交付已生成，质量结论见原报告**。
 
-本阶段尚无最终结果报告，暂阅冻结方案与进度。
+[阶段报告](stages/03_internal_discovery_20261021/REPORT.md)
 
 本轮进度原文：
 
 ```json
 {
-  "stage": "full_evaluation_complete",
-  "test_read": 0,
-  "models": [
-    "RWEC0",
-    "RWEC1",
-    "RWEC0J",
-    "P1",
-    "P2",
-    "NN20261021",
-    "NN20261022",
-    "SR1",
-    "SR2",
-    "SR3"
-  ]
+  "status": "second_stage_complete_waiting_researcher_review",
+  "updated": "2026-10-21T18:24:35.857329+08:00",
+  "test_results_opened": 0,
+  "raw_sources_unchanged": true,
+  "scientific_next_step": "Researcher review before any sealed testing or formula extension",
+  "auto_continue_to_test": false
 }
 ```
 

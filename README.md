@@ -6,7 +6,7 @@
 |---|---|---|
 | [01_backwater_storage_20261020](stages/01_backwater_storage_20261020/READING_GUIDE.md) | 已有阶段说明，完成与质量状态见原文 | 3.99 MiB |
 | [02_candidate_models_20261021](stages/02_candidate_models_20261021/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 4.17 MiB |
-| [03_internal_discovery_20261021](stages/03_internal_discovery_20261021/READING_GUIDE.md) | 进行中，尚无最终结果报告 | 3.05 MiB |
+| [03_internal_discovery_20261021](stages/03_internal_discovery_20261021/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 4.48 MiB |
 
 [同步与读取方法](SYNC.md) · [文件校验清单](FILE_MANIFEST.json)
 

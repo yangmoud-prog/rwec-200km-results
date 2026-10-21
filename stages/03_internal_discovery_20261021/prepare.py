@@ -121,8 +121,9 @@ def run():
         external_stage_location_km=0,not_a_dam_location=True,screen_cases=172,
         selection_uses_rwec_scores=False,resolution_h=1,sections=sections,
         selected_response=response.loc[100].to_dict()))
-    spec=next(Path(r'C:\Users\mryan\Downloads').glob('RWEC_%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5* (1).md'))
-    shutil.copyfile(spec,OUT/'provenance/USER_SPEC.md')
+    if not (OUT/'provenance/USER_SPEC.md').exists():
+        specs=list(Path(r'C:\Users\mryan\Downloads').glob('RWEC_%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5* (1).md'))
+        if specs:shutil.copyfile(specs[0],OUT/'provenance/USER_SPEC.md')
     save(OUT/'checkpoint.json',dict(stage='section_screen_complete',selected_xc_km=100,test_read=0))
     print(json.dumps(dict(selected_xc=100,min_q=float(obs.min()),training_events=len(train),validation_events=len(validation),
         response=response.loc[100].to_dict()),ensure_ascii=False,indent=2))

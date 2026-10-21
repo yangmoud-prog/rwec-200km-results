@@ -1,0 +1,65 @@
+{
+  "main_xc_km": 100,
+  "calibration_events": 49,
+  "development_validation_events": 21,
+  "sealed_test_events_used": 0,
+  "cases_screened": 172,
+  "pysr_completed": true,
+  "symbolic_candidates": [
+    {
+      "id": "SR1",
+      "complexity": 3,
+      "equation_logit": "h - 3.5332525232272065",
+      "offline_logit_loss": 0.2193418698831871,
+      "tb_h": 12.17208262689358,
+      "neural_seed": 20261021,
+      "nonnegative_capacity_envelope": true,
+      "parameters_refitted_to_validation": false
+    },
+    {
+      "id": "SR2",
+      "complexity": 7,
+      "equation_logit": "h - i - l - 2.6874291614539905",
+      "offline_logit_loss": 0.0762434288262138,
+      "tb_h": 12.17208262689358,
+      "neural_seed": 20261021,
+      "nonnegative_capacity_envelope": true,
+      "parameters_refitted_to_validation": false
+    },
+    {
+      "id": "SR3",
+      "complexity": 11,
+      "equation_logit": "h*(2.1687527388137 - i) - (i + l) - 3.054277891787369",
+      "offline_logit_loss": 0.0075960677668815,
+      "tb_h": 12.17208262689358,
+      "neural_seed": 20261021,
+      "nonnegative_capacity_envelope": true,
+      "parameters_refitted_to_validation": false
+    }
+  ],
+  "no_single_candidate_dominates_all_diagnostics": true,
+  "timestep_portability_passed": false,
+  "main_validation_mean_nse": {
+    "RWEC0": 0.9935350194945805,
+    "RWEC1": 0.9961815439639052,
+    "RWEC0J": 0.9934358548981388,
+    "P1": 0.9955890647938052,
+    "P2": 0.9966785935010336,
+    "NN20261021": 0.9983673468346492,
+    "SR1": 0.9973699844326932,
+    "SR2": 0.9974874215370096,
+    "SR3": 0.9983273196541246
+  },
+  "main_pair_response_nse_L100": {
+    "RWEC0": -1.5364979130286625e-11,
+    "RWEC1": -0.7341948985998906,
+    "RWEC0J": -1.5364979130286625e-11,
+    "P1": -0.9094207403915601,
+    "P2": -1.1443198197563198,
+    "NN20261021": 0.836058895645608,
+    "SR1": 0.13210332120310336,
+    "SR2": 0.7979485164638541,
+    "SR3": 0.7247878129992882
+  },
+  "stopping_for_researcher_review": true
+}

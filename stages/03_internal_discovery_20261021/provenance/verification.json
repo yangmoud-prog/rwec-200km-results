@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "raw_npz_files_unchanged": 172,
+  "native_hdf_cases_verified": 172,
+  "test_result_files_opened": 0,
+  "negative_predictions": 0,
+  "max_physical_balance_residual_m3": 1.2945383787155154e-07,
+  "causal_runtime_checks": true,
+  "pdf_count": 8,
+  "font_override_confirmed": [
+    "Times New Roman",
+    "SimSun"
+  ],
+  "video_metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(progressive)",
+    "fps": 12.0,
+    "source_size": [
+      1920,
+      1080
+    ],
+    "size": [
+      1920,
+      1080
+    ],
+    "rotate": 0,
+    "duration": 35.08
+  },
+  "gif": {
+    "frames": 194,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "scientific_claim_limit": "Development stage only; fixed1h model, no time-step portability pass"
+}

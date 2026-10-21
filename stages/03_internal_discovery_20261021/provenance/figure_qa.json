@@ -1,0 +1,233 @@
+{
+  "visual_review_completed": true,
+  "panels": [
+    {
+      "figure": "01_section_selection",
+      "panel": "a",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "100 km兼具已保存时序正向流与可辨识回水响应",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "01_section_selection",
+      "panel": "b",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "100 km兼具已保存时序正向流与可辨识回水响应",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "01_section_selection",
+      "panel": "c",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "100 km兼具已保存时序正向流与可辨识回水响应",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "01_section_selection",
+      "panel": "d",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "100 km兼具已保存时序正向流与可辨识回水响应",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "02_full_hydrographs",
+      "panel": "a",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "代表过程与退化案例均保留完整前后时段",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "02_full_hydrographs",
+      "panel": "b",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "代表过程与退化案例均保留完整前后时段",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "02_full_hydrographs",
+      "panel": "c",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "代表过程与退化案例均保留完整前后时段",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "02_full_hydrographs",
+      "panel": "d",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "代表过程与退化案例均保留完整前后时段",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "03_accuracy_by_length",
+      "panel": "a",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "按21场洪水比较有效演算长度效应；线为中位数，带为四分位范围",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "03_accuracy_by_length",
+      "panel": "b",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "按21场洪水比较有效演算长度效应；线为中位数，带为四分位范围",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "04_paired_boundary_responses",
+      "panel": "a",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "候选必须解释同一洪水的边界变化差值，而非只拟合洪峰",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "04_paired_boundary_responses",
+      "panel": "b",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "候选必须解释同一洪水的边界变化差值，而非只拟合洪峰",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "04_paired_boundary_responses",
+      "panel": "c",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "候选必须解释同一洪水的边界变化差值，而非只拟合洪峰",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "04_paired_boundary_responses",
+      "panel": "d",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "候选必须解释同一洪水的边界变化差值，而非只拟合洪峰",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "05_physical_and_learned_states",
+      "panel": "a",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "学习的是附加蓄泄状态而非直接替换全部流量预测",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "05_physical_and_learned_states",
+      "panel": "b",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "学习的是附加蓄泄状态而非直接替换全部流量预测",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "05_physical_and_learned_states",
+      "panel": "c",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "学习的是附加蓄泄状态而非直接替换全部流量预测",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "05_physical_and_learned_states",
+      "panel": "d",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "学习的是附加蓄泄状态而非直接替换全部流量预测",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "06_complexity_and_robustness",
+      "panel": "a",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "参数、步长与复杂度检查限制精度结论",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "06_complexity_and_robustness",
+      "panel": "b",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "参数、步长与复杂度检查限制精度结论",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "06_complexity_and_robustness",
+      "panel": "c",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "参数、步长与复杂度检查限制精度结论",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "06_complexity_and_robustness",
+      "panel": "d",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "参数、步长与复杂度检查限制精度结论",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "07_preserved_failure",
+      "panel": "a",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "总体改善不代表每场洪水、每段过程都改善",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "07_preserved_failure",
+      "panel": "b",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "总体改善不代表每场洪水、每段过程都改善",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "08_symbolic_reinsertion",
+      "panel": "a",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "解析表达式须同时保持完整过程、差值响应和失败过程",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "08_symbolic_reinsertion",
+      "panel": "b",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "解析表达式须同时保持完整过程、差值响应和失败过程",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "08_symbolic_reinsertion",
+      "panel": "c",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "解析表达式须同时保持完整过程、差值响应和失败过程",
+      "source_data_traceable": true
+    },
+    {
+      "figure": "08_symbolic_reinsertion",
+      "panel": "d",
+      "visual_review": "passed",
+      "labels_units_legend_and_collisions": "checked at rendered final dimensions",
+      "evidence_claim": "解析表达式须同时保持完整过程、差值响应和失败过程",
+      "source_data_traceable": true
+    }
+  ],
+  "source_font_exception": "Only FONT-FAMILY overridden by explicit user Times New Roman / SimSun requirement; actual embedded PDF fonts checked",
+  "warning_review": "Chinese legend text is not subject to English title-case rules; no non-font source FAIL remains",
+  "uncertainty": "Per-event IQR or full observed range defined consistently in corresponding caption; no pseudo-independent length tests",
+  "animation_review": "Beginning, rise/hold, maximum suppression, maximum recovery and final frames inspected; axes fixed and shared physical time verified"
+}

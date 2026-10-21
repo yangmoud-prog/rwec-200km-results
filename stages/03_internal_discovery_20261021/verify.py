@@ -57,15 +57,24 @@ def delivery():
     assert not changed
     balance=pd.read_csv(OUT/'tables/balance.csv');maxres=float(balance.physical_control_balance_max_m3.max());assert maxres<.001
     metrics=pd.read_csv(OUT/'tables/case_metrics.csv');assert metrics.negative_predictions.sum()==0
+    assert len(metrics)==172*10*len(configs())
+    assert np.all(np.isfinite(metrics[['NSE','KGE','RMSE']].to_numpy()))
     pdf_audits=[]
     for p in sorted((OUT/'figures').glob('*.pdf')):
         fonts={v.decode('ascii') for v in re.findall(rb'/BaseFont\s*/([^\s/<>]+)',p.read_bytes())}
         assert any('TimesNewRoman' in f for f in fonts),fonts
         assert any('SimSun' in f for f in fonts),fonts
+        assert all('TimesNewRoman' in f or 'SimSun' in f for f in fonts),fonts
+        raw=p.read_bytes();box=re.search(rb'/MediaBox\s*\[\s*([0-9.]+)\s+([0-9.]+)\s+([0-9.]+)\s+([0-9.]+)',raw)
+        width=(float(box[3])-float(box[1]))*25.4/72;assert abs(width-180)<.01
+        from PIL import Image
+        with Image.open(p.with_suffix('.tiff')) as im:dpi=[float(v) for v in im.info['dpi']]
+        assert min(dpi)>=599
+        assert '<text' in p.with_suffix('.svg').read_text(encoding='utf-8')
         tool=Path(r'C:\Users\mryan\.codex\skills\nature-figure\scripts\audit_pdf_text.py')
         result=subprocess.run([sys.executable,str(tool),str(p),'--min-pt','5','--json'],capture_output=True,text=True,encoding='utf-8')
         a=json.loads(result.stdout);assert result.returncode==0,(p,a)
-        pdf_audits.append(dict(file=p.name,fonts=sorted(fonts),glyph_audit=a))
+        pdf_audits.append(dict(file=p.name,fonts=sorted(fonts),glyph_audit=a,width_mm=width,tiff_dpi=dpi,svg_text_editable=True))
     save(OUT/'provenance/pdf_font_and_glyph_audits.json',pdf_audits)
     sys.path.insert(0,str(OUT/'.deps'))
     import imageio_ffmpeg

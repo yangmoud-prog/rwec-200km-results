@@ -71,7 +71,7 @@ def full():
                 row=dict(model=c['id'],case=m['case'],event_id=m['event_id'],subset=m['subset'],role=m['role'],kind=m['kind'],
                     Lr_km=int(L/1000),**metric(q,d['obs'][j,:N],t),
                     constrained_steps=int((act!=0).sum()),constrained_fraction=float((act!=0).sum()/max(1,N-1)),
-                    unconstrained_original_min_m3s=unmin)
+                    unconstrained_capacity_model_min_m3s=unmin)
                 records.append(row)
                 r,phys,transit=hy.balance(d['qin'][l,j,:N],s,ib,b,q,1,f['tau_h'])
                 balances.append(dict(model=c['id'],case=m['case'],event_id=m['event_id'],Lr_km=int(L/1000),

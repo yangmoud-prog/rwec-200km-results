@@ -24,12 +24,12 @@ def export(fig,name,claim,panels):
     fig.canvas.draw()
     fig.savefig(OUT/'figures'/f'{name}.pdf')
     fig.savefig(OUT/'figures'/f'{name}.svg')
-    fig.savefig(OUT/'figures'/f'{name}.png',dpi=220)
+    fig.savefig(OUT/'figures'/f'{name}.png',dpi=300)
     fig.savefig(OUT/'figures'/f'{name}.tiff',dpi=600)
     audit.append(dict(figure=name,claim=claim,archetype='quantitative grid',panels=panels,width_mm=180,
         font_override='Times New Roman Latin, SimSun Chinese',min_configured_font_pt=7.3,
         data_exclusion='none; model comparisons omit second seed only in shared legends; seed results retained in tables',
-        formats=['PDF','SVG','600dpi TIFF','220dpi PNG']))
+        formats=['PDF','SVG','600dpi TIFF','300dpi PNG']))
     plt.close(fig);print('中文图',name,flush=True)
 
 def panel(ax,s):ax.text(-.16,1.06,s,transform=ax.transAxes,fontsize=10,fontweight='bold')
@@ -61,7 +61,7 @@ def main():
     ax.set(title='严格负流量门槛：100 km首次合格',xlabel='距外部边界距离（km）',ylabel='全部172工况最小流量（m³/s）')
     ax=axs[0,1];ax.bar(S.x_km,S.negative_cases,width=6,color='#8DA3B1');ax.set(title='负流量工况数',xlabel='距外部边界距离（km）',ylabel='出现负值的工况数');grid(ax)
     for ax,col,title,ylabel in [(axs[1,0],'max_stage_increment_m','合格断面仍有水位响应','配对最大水位增量（m）'),
-        (axs[1,1],'rms_q_difference_m3s','工况A流量减工况B流量','配对流量差均方根（m³/s）')]:
+        (axs[1,1],'rms_q_difference_m3s','工况A流量减工况B流量\n（A变动水位，B固定5 m）','配对流量差均方根（m³/s）')]:
         g=R.groupby('x_km')[col];med=g.median();lo=g.min();hi=g.max()
         ax.fill_between(med.index,lo,hi,color='#E6ECEF',label='70场最小至最大');ax.plot(med.index,med,color='#3C7C9C',label='70场中位数')
         ax.axvline(100,color='#B74F4B',ls=':',lw=.8);ax.set(title=title,xlabel='距外部边界距离（km）',ylabel=ylabel);grid(ax)
@@ -130,14 +130,15 @@ def main():
         u=ts[ts.model==c['id']].RMSE_vs_1h_m3s;vals.append(u.mean());errs.append([u.mean()-u.min(),u.max()-u.mean()])
     axs[0,1].barh(range(len(models)),vals,color=[COLORS[c['id']] for c in models],height=.6)
     axs[0,1].errorbar(vals,range(len(models)),xerr=np.array(errs).T,fmt='none',color='#444444',lw=.6,capsize=2)
-    axs[0,1].set(title='固定参数的0.25 h与1 h差异',xlabel='输出差异RMSE（m³/s）',yticks=range(len(models)),yticklabels=[c['label'] for c in models])
+    shortlabels=['均衡率定基准' if c['id']=='RWEC0J' else c['label'] for c in models]
+    axs[0,1].set(title='固定参数的0.25 h与1 h差异',xlabel='输出差异RMSE（m³/s）',yticks=range(len(models)),yticklabels=shortlabels)
     complexities=[]
     for c in models:
         total=30+(0 if c['type'] in ['base','jointbase'] else 1 if c['type']=='empirical' else c['mode'] if c['type']=='physical' else 22 if c['type']=='neural' else 1+len(__import__('sympy').sympify(c['equation_logit']).atoms(__import__('sympy').Float)))
         complexities.append(dict(model=c['id'],label=c['label'],core_parameters=30,increment_parameters=total-30,total_parameters=total,
             expression_complexity=c.get('complexity',0)))
     frame(OUT/'tables/model_complexity.csv',complexities)
-    axs[1,0].barh(range(len(models)),[c['total_parameters'] for c in complexities],color=[COLORS[c['id']] for c in models]);axs[1,0].set(yticks=range(len(models)),yticklabels=[c['label'] for c in models],xlabel='最终运行参数数目',title='额外复杂度与运行参数')
+    axs[1,0].barh(range(len(models)),[c['total_parameters'] for c in complexities],color=[COLORS[c['id']] for c in models]);axs[1,0].set(yticks=range(len(models)),yticklabels=shortlabels,xlabel='最终运行参数数目',title='额外复杂度与运行参数')
     pars=pd.read_csv(OUT/'tables/base_parameters.csv');axs[1,1].plot(pars.Lr_km,pars.tau_h,'o-',ms=3,color='#566F82',label='有效传播时间')
     axs[1,1].set(xlabel='有效演算河长（km）',ylabel='基础传播时间（h）',title='基础参数跨河长变化');grid(axs[1,1])
     for ax,s in zip(axs.flat,'abcd'):panel(ax,s)
@@ -152,6 +153,26 @@ def main():
     axs[1].axhline(0,color='#555555',lw=.5);axs[1].set(title='E094：附加项可能扩大局部误差',xlabel='距洪水起点时间（h）',ylabel='预测减实际流量（m³/s）');grid(axs[1]);panel(axs[1],'b')
     legend(fig,axs[1],4)
     export(fig,'07_preserved_failure','总体改善不代表每场洪水、每段过程都改善',2)
+
+    symbolic_ids=[c['id'] for c in models if c['type']=='symbolic']
+    if symbolic_ids:
+        ids=[nn]+symbolic_ids
+        fig,axs=plt.subplots(2,2,figsize=(WIDTH,145/25.4));fig.subplots_adjust(left=.12,right=.98,top=.93,bottom=.19,hspace=.57,wspace=.35)
+        curves(axs[0,0],case('E025'),9,ids,False);axs[0,0].set_title('E025｜三条解析式回嵌完整过程');panel(axs[0,0],'a')
+        j=case('E094');N=d['ns'][j];t=np.arange(N)-48
+        for key in ids:axs[0,1].plot(t,pred[key][9,j,:N]-d['obs'][j,:N],color=COLORS[key],ls=STYLES[key],label=names[key])
+        axs[0,1].axhline(0,color='#444444',lw=.6);axs[0,1].set(title='E094｜解析式的局部误差仍保留',xlabel='距洪水起点时间（h）',ylabel='预测减实际流量（m³/s）');panel(axs[0,1],'b');grid(axs[0,1])
+        a=case('E025');b=case('E025','ref')
+        ca=next(j for j,m in enumerate(meta) if m['event_id']=='E006' and '_C05_' in m['case'])
+        cb=next(j for j,m in enumerate(meta) if m['event_id']=='E006' and '_C01_' in m['case'])
+        for ax,a,b,title,s in [(axs[1,0],a,b,'E025｜工况A（变动）流量减\n工况B（固定5 m）流量','c'),
+            (axs[1,1],ca,cb,'E006｜工况A（高幅）流量减\n工况B（低幅）流量','d')]:
+            N=min(d['ns'][a],d['ns'][b]);t=np.arange(N)-48
+            ax.plot(t,d['obs'][a,:N]-d['obs'][b,:N],color='#222222',lw=1.6,label='HEC实际流量')
+            for key in ids:ax.plot(t,pred[key][9,a,:N]-pred[key][9,b,:N],color=COLORS[key],ls=STYLES[key],label=names[key])
+            ax.axhline(0,color='#777777',lw=.5);ax.set(title=title,xlim=(t[0],t[-1]),xlabel='距洪水起点时间（h）',ylabel='工况流量差（m³/s）');panel(ax,s);grid(ax)
+        legend(fig,axs[0,0],3);fig.text(.5,.112,'差值正号表示工况A相对增流，负号表示抑流；所有模型均独立递推后相减。',ha='center',fontsize=7)
+        export(fig,'08_symbolic_reinsertion','解析表达式须同时保持完整过程、差值响应和失败过程',4)
     save(OUT/'provenance/figure_contracts.json',audit)
 
 if __name__=='__main__':main()
