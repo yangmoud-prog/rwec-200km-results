@@ -1,0 +1,4 @@
+﻿model,free_parameters,budget_cap_reach_nfev,actual_reach_nfev,common_charged_reach_nfev,additional_reach_nfev,search_elapsed_sum_s,timing_note
+RWEC-0,60,49600,40892,18668,22224,94.12271209992468,Sum of search wall times with shared initialization; parallel overlap prevents interpreting as process wall time
+RWEC-1,61,49600,42796,18668,24128,98.30603780038655,Sum of search wall times with shared initialization; parallel overlap prevents interpreting as process wall time
+RWEC-2,62,49600,43312,18668,24644,94.24858980020508,Sum of search wall times with shared initialization; parallel overlap prevents interpreting as process wall time

@@ -1,0 +1,77 @@
+{
+  "stage": "03_internal_discovery_20261021",
+  "status": "进行中，尚无最终结果报告",
+  "final_report_present": false,
+  "checkpoint": {
+    "stage": "full_evaluation_complete",
+    "test_read": 0,
+    "models": [
+      "RWEC0",
+      "RWEC1",
+      "RWEC0J",
+      "P1",
+      "P2",
+      "NN20261021",
+      "NN20261022"
+    ]
+  },
+  "delivery": {},
+  "source": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\03_internal_discovery_20261021",
+  "files": [
+    "base_core.py",
+    "checkpoint.json",
+    "evaluate.py",
+    "figures/01_section_selection.png",
+    "figures/02_full_hydrographs.png",
+    "figures/03_accuracy_by_length.png",
+    "figures/04_paired_boundary_responses.png",
+    "figures/05_physical_and_learned_states.png",
+    "figures/06_complexity_and_robustness.png",
+    "figures/07_preserved_failure.png",
+    "fit.py",
+    "models.py",
+    "PHYSICS_REVIEW.md",
+    "plot_results.py",
+    "prepare.py",
+    "PROTOCOL.md",
+    "provenance/USER_SPEC.md",
+    "ROBUSTNESS_ADDENDUM.md",
+    "selection.json",
+    "symbolic.py",
+    "tables/base_parameters.csv",
+    "tables/condition_summary.csv",
+    "tables/control_summary.csv",
+    "tables/event_improvements.csv",
+    "tables/event_metrics.csv",
+    "tables/event_summary.csv",
+    "tables/length_summary.csv",
+    "tables/model_complexity.csv",
+    "tables/negative_episodes.csv",
+    "tables/P2_parameter_profile.csv",
+    "tables/paired_hydrodynamic_response.csv",
+    "tables/paired_response_summary.csv",
+    "tables/response_summary.csv",
+    "tables/section_case_screen.csv",
+    "tables/section_screen.csv",
+    "tables/symbolic_training_sample.csv",
+    "tables/timestep_sensitivity.csv"
+  ],
+  "omitted_large_reading_files": [
+    {
+      "path": "tables/balance.csv",
+      "reason": "larger than 1 MiB; retained locally"
+    },
+    {
+      "path": "tables/case_metrics.csv",
+      "reason": "larger than 1 MiB; retained locally"
+    },
+    {
+      "path": "tables/paired_response_metrics.csv",
+      "reason": "larger than 1 MiB; retained locally"
+    },
+    {
+      "path": "tables/phase_metrics.csv",
+      "reason": "larger than 1 MiB; retained locally"
+    }
+  ]
+}

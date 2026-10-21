@@ -1,0 +1,21 @@
+{
+  "pass_all": true,
+  "checks": [
+    {
+      "model": "RWEC-0",
+      "future_input_perturbed_from_index": 100,
+      "maximum_prior_prediction_difference": 0.0
+    },
+    {
+      "model": "RWEC-1",
+      "future_input_perturbed_from_index": 100,
+      "maximum_prior_prediction_difference": 0.0
+    },
+    {
+      "model": "RWEC-2",
+      "future_input_perturbed_from_index": 100,
+      "maximum_prior_prediction_difference": 0.0
+    }
+  ],
+  "target_not_an_argument_to_route": true
+}

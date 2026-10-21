@@ -1,0 +1,11 @@
+﻿Lr_km,k,n,tau_h,k_lower_hit,k_upper_hit,n_lower_hit,n_upper_hit,tau_lower_hit,tau_upper_hit,k_near_lower,k_near_upper,n_near_lower,n_near_upper,tau_near_lower,tau_near_upper,training_loss,nfev
+10,0.021518909706340628,3.645066288087022,0.903948556168882,False,False,False,False,False,False,False,False,False,False,True,False,3.302880427012767e-05,1660
+20,0.04314897559274262,5.435999832157389,2.293205674812904,False,False,False,False,False,False,False,False,False,False,False,False,0.00013058759689422308,1656
+30,0.06620487985262391,6.945791159313267,3.6573135583673255,False,False,False,False,False,False,False,False,False,False,False,False,0.0002948901273791639,1628
+40,0.09024713269990646,8.291645554427848,5.009573578271854,False,False,False,False,False,False,False,False,False,False,False,False,0.0005335908210599958,1620
+50,0.11419832632848778,9.498281295193598,6.355084925903406,False,False,False,False,False,False,False,False,False,False,False,False,0.0008487626294800922,1608
+60,0.13948484908865258,10.59975409728825,7.676005599501935,False,False,False,False,False,False,False,False,False,False,False,False,0.0012553397799573776,1624
+70,0.1659839592634777,11.614201390136994,8.973750772979006,False,False,False,False,False,False,False,False,False,False,False,False,0.0017618993198077332,1648
+80,0.19139194564491768,12.57551666277597,10.284857235223441,False,False,False,False,False,False,False,False,False,False,False,False,0.002373550648103006,1644
+90,0.2183816887797032,13.462453597984751,11.560736626750767,False,False,False,False,False,False,False,False,False,False,False,False,0.0031042889099943734,1636
+100,0.24648758893073,14.294944796186229,12.811867205277608,False,False,False,False,False,False,False,False,False,False,False,False,0.0039639406471524575,1608

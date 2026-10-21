@@ -1,0 +1,13 @@
+{
+  "stage": "full_evaluation_complete",
+  "test_read": 0,
+  "models": [
+    "RWEC0",
+    "RWEC1",
+    "RWEC0J",
+    "P1",
+    "P2",
+    "NN20261021",
+    "NN20261022"
+  ]
+}

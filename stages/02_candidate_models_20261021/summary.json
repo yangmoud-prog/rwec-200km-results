@@ -1,0 +1,81 @@
+{
+  "created": "2026-10-21T10:02:56.589337+08:00",
+  "models": [
+    {
+      "model": "RWEC-0",
+      "free_parameters": 60,
+      "development_mean_NSE": 0.6870481640705531,
+      "development_median_NSE": 0.7811070992783098,
+      "development_mean_KGE": 0.648406605944935,
+      "development_mean_RMSE": 363.9044038014694,
+      "controls_mean_NSE": 0.6673746252054611,
+      "controls_mean_RMSE": 400.85278873652277,
+      "alpha": 0.0,
+      "theta": 0.0,
+      "ell_m": null,
+      "charged_reach_nfev": 40892,
+      "near_bounds": {
+        "near_k_bound": 0,
+        "near_n_bound": 0,
+        "near_tau_bound": 3
+      },
+      "improved_of1400": 0,
+      "worse_of1400": 0
+    },
+    {
+      "model": "RWEC-1",
+      "free_parameters": 61,
+      "development_mean_NSE": 0.8509857844862191,
+      "development_median_NSE": 0.8933683219717593,
+      "development_mean_KGE": 0.7759040188755953,
+      "development_mean_RMSE": 257.9114960587433,
+      "controls_mean_NSE": 0.8191896250522266,
+      "controls_mean_RMSE": 298.81604540662863,
+      "alpha": 0.037736872848546384,
+      "theta": 0.0,
+      "ell_m": null,
+      "charged_reach_nfev": 42796,
+      "near_bounds": {
+        "near_k_bound": 19,
+        "near_n_bound": 0,
+        "near_tau_bound": 5
+      },
+      "improved_of1400": 1319,
+      "worse_of1400": 81
+    },
+    {
+      "model": "RWEC-2",
+      "free_parameters": 62,
+      "development_mean_NSE": 0.8557905276857292,
+      "development_median_NSE": 0.8964331202034709,
+      "development_mean_KGE": 0.7864459690395386,
+      "development_mean_RMSE": 253.8925609574452,
+      "controls_mean_NSE": 0.8228188263074998,
+      "controls_mean_RMSE": 295.5314973863494,
+      "alpha": 3.2201060255052156,
+      "theta": 126.17095980802209,
+      "ell_m": 1585.150816830703,
+      "charged_reach_nfev": 43312,
+      "near_bounds": {
+        "near_k_bound": 18,
+        "near_n_bound": 0,
+        "near_tau_bound": 6
+      },
+      "improved_of1400": 1298,
+      "worse_of1400": 102
+    }
+  ],
+  "representative_events": [
+    "E023",
+    "E006",
+    "E007",
+    "E005"
+  ],
+  "test_events_used": 0,
+  "development_events": 70,
+  "controlled_runs": 32,
+  "main_event_length_cases": 1400,
+  "accuracy_scope": "In-sample development fits and unfitted boundary controls on four development flood backgrounds; not independent flood validation.",
+  "all_predictions_finite": true,
+  "all_failures_and_reversals_retained": true
+}

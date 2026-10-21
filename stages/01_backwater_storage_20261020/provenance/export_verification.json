@@ -1,0 +1,93 @@
+[
+  {
+    "figure": "01_backwater_propagation",
+    "width_mm": 179.99999999998556,
+    "height_mm": 144.99999999998442,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "02_storage_length_and_state",
+    "width_mm": 179.99999999998556,
+    "height_mm": 149.99999999999972,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "03_controlled_factor_effects",
+    "width_mm": 179.99999999998556,
+    "height_mm": 149.99999999999972,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "control_E006",
+    "width_mm": 179.99999999998556,
+    "height_mm": 190.0000000000161,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "control_E007",
+    "width_mm": 179.99999999998556,
+    "height_mm": 190.0000000000161,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "control_E023",
+    "width_mm": 179.99999999998556,
+    "height_mm": 190.0000000000161,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "control_E069",
+    "width_mm": 179.99999999998556,
+    "height_mm": 190.0000000000161,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  }
+]

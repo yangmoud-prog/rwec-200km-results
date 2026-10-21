@@ -1,0 +1,31 @@
+{
+  "status": "first_round_complete_waiting_user_decision",
+  "completed": "2026-10-21T10:18:42.936083+08:00",
+  "development_events": 70,
+  "test_events_used": 0,
+  "controls": 32,
+  "candidate_models": [
+    "RWEC-0",
+    "RWEC-1",
+    "RWEC-2"
+  ],
+  "figures": 9,
+  "primary_report": "REPORT.md",
+  "methods": "METHODS.md",
+  "candidate_frozen_for_testing": false,
+  "additional_models_created": false,
+  "original_data_unchanged": true,
+  "scientific_conclusion": "Linear boundary term improves development fit; saturation advantage not robust or identifiable; recovery and timestep limitations remain.",
+  "source_sha256": {
+    "campaign.py": "091a524b94bb772e8b64a25a59c0641d5266c62236fd9cff01cb2133ba0f82d1",
+    "evaluate.py": "a81f76a2d7222883b9a24b299518c6800add96135580eb676a2a5bd003481e99",
+    "FIGURE_LEGENDS.md": "e193fba4c1c7c91bcd479a4dddce60ac00da888ca9d4edee84a8b950c1a82165",
+    "METHODS.md": "82b80027339b3ec4ca8b212e4c8a755139c2b7aacb28027b1052f9cf3cf6ec55",
+    "models.py": "a5f12e11ed1d2fc44c29b65b4043ad2452165367ec78baf83067dc9877535974",
+    "plot_results.py": "765ad860c662df43b9b833d8b114187bf2664d5d125e87d9157729595b939178",
+    "PROTOCOL.md": "c3a990b48c30ae07be500164bae9b85e82b5513437565158a9e09fa70dd7741b",
+    "REPORT.md": "ff3255ee0d7bd66e0e1d41c8e6b6d440e4d00b73825859ab76aaddccf0dca0db",
+    "REPRODUCE.md": "0d677a45be2068de041cce273c5515c3e4f2bbbf23b98688cd32f5d82bfd1776",
+    "verify_delivery.py": "eaf5f0b782301bc4b22b10f64d78b22f7b528d07d236e8d2683a41ee813b386c"
+  }
+}

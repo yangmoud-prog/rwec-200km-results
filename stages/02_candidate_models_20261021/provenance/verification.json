@@ -1,0 +1,14 @@
+{
+  "all_numerical_checks_pass": true,
+  "validation_targets_loaded": 0,
+  "unchanged_sources": 102,
+  "finite_prediction_metric_rows": 6120,
+  "response_metric_rows": 2880,
+  "independent_validation_claimed": false,
+  "maximum_recurrence_residual_m3": 1e-06,
+  "timestep_portability_passed": false,
+  "primary_optimizer_budget_exhaustion_not_global_convergence": true,
+  "causal_prediction_check_passed": true,
+  "figures": 9,
+  "visual_review_completed": true
+}

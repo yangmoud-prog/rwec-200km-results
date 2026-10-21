@@ -1,0 +1,41 @@
+{
+  "stage": "01_backwater_storage_20261020",
+  "status": "已有阶段说明，完成与质量状态见原文",
+  "final_report_present": true,
+  "checkpoint": {},
+  "delivery": {},
+  "source": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\01_backwater_storage_20261020",
+  "files": [
+    "ANALYSIS_CONTRACT.md",
+    "analyze.py",
+    "FIGURE_LEGENDS.md",
+    "figures/01_backwater_propagation.png",
+    "figures/02_storage_length_and_state.png",
+    "figures/03_controlled_factor_effects.png",
+    "figures/control_E006.png",
+    "figures/control_E007.png",
+    "figures/control_E023.png",
+    "figures/control_E069.png",
+    "FINDINGS.md",
+    "METHODS.md",
+    "NEXT_STAGE.md",
+    "plot_stage01.py",
+    "provenance/export_verification.json",
+    "provenance/figure_qa.json",
+    "stage01_complete.json",
+    "summary.json",
+    "tables/all232_completeness_audit.csv",
+    "tables/controlled_contrasts.csv",
+    "tables/equal_boundary_stage_comparison.csv",
+    "tables/event_summary.csv",
+    "tables/factorial_effects.csv",
+    "tables/storage_by_length.csv",
+    "tables/threshold_summary.csv"
+  ],
+  "omitted_large_reading_files": [
+    {
+      "path": "tables/influence_timeseries.csv",
+      "reason": "larger than 1 MiB; retained locally"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "figure": "01_accuracy_by_length",
+    "width_mm": 179.99999999998556,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "02_complete_hydrographs",
+    "width_mm": 179.99999999998556,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "03_parameters_and_sharing",
+    "width_mm": 179.99999999998556,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "04_timestep_sensitivity",
+    "width_mm": 179.99999999998556,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "05_saturation_identifiability",
+    "width_mm": 179.99999999998556,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "control_response_E006",
+    "width_mm": 179.99999999998556,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "control_response_E007",
+    "width_mm": 179.99999999998556,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "control_response_E023",
+    "width_mm": 179.99999999998556,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  },
+  {
+    "figure": "control_response_E069",
+    "width_mm": 179.99999999998556,
+    "embedded_fonts": [
+      "FHXFSG+TimesNewRomanPS-BoldMT",
+      "FHXFSG+TimesNewRomanPSMT"
+    ],
+    "tiff_dpi": [
+      600.0,
+      600.0
+    ]
+  }
+]

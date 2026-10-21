@@ -1,0 +1,23 @@
+{
+  "stage": "01_backwater_storage",
+  "status": "complete",
+  "formal_runs_verified": 232,
+  "mechanism_main_pairs": 70,
+  "controlled_runs": 32,
+  "validation_pairs_withheld": 30,
+  "figures": 7,
+  "panels_visually_reviewed": 36,
+  "report": "FINDINGS.md",
+  "methods": "METHODS.md",
+  "captions": "FIGURE_LEGENDS.md",
+  "next_stage": "NEXT_STAGE.md",
+  "original_inputs_unchanged": true,
+  "RWEC1_formula_frozen": false,
+  "new_model_calibration_started": false,
+  "source_sha256": {
+    "analyze.py": "4e8963179054ba3cd3953a88b53e990281bda3ef9617587cb7ab36a0aed85108",
+    "plot_stage01.py": "c60252b7e840feb267fd2f45f203c4463b435a65faf048f4883a9ab413efed2d",
+    "FINDINGS.md": "4f12d812a89c92065fd8afe6be938a828ada2b46a1a42272fbc5dcb491b3c00d",
+    "METHODS.md": "f38ec5f2e56e63a33d07b24e259786a854d42d20141ab22f9d25772b7c1ed19d"
+  }
+}

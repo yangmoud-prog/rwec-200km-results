@@ -1,0 +1,199 @@
+{
+  "created": "2026-10-20T16:53:02.931200+08:00",
+  "stage": "01_backwater_storage",
+  "formal_runs": 232,
+  "calibration_pairs": 70,
+  "withheld_validation_pairs": 30,
+  "controlled_runs": 32,
+  "main_summary": {
+    "peak_200km_m3": {
+      "min": 71422035.6945436,
+      "p10": 103710855.8978752,
+      "median": 164981342.96576878,
+      "p90": 253464943.1670328,
+      "max": 314685880.317586
+    },
+    "L90_km": {
+      "min": 80.0,
+      "p10": 90.0,
+      "median": 105.0,
+      "p90": 120.0,
+      "max": 130.0
+    },
+    "L95_km": {
+      "min": 90.0,
+      "p10": 100.0,
+      "median": 120.0,
+      "p90": 140.0,
+      "max": 150.0
+    },
+    "fraction_peak_at_boundary_return": {
+      "min": 0.023851515312954947,
+      "p10": 0.03709531558681996,
+      "median": 0.05906600558768559,
+      "p90": 0.11358696035276555,
+      "max": 0.1889288201987072
+    },
+    "last_sample_above_one_pct_peak_after_return_h": {
+      "min": 12.54644309404739,
+      "p10": 19.17593076829761,
+      "median": 28.81679633018487,
+      "p90": 40.531489132212684,
+      "max": 55.05300017675954
+    },
+    "max_native_residual_over_peak200": {
+      "min": 3.3847086162886797e-06,
+      "p10": 5.865357729263623e-06,
+      "median": 1.0559212885349084e-05,
+      "p90": 1.741320783264667e-05,
+      "max": 3.207303674178328e-05
+    },
+    "geometry_crosscheck_error_m3": {
+      "min": 4.76837158203125e-07,
+      "p10": 5.630776286125183e-07,
+      "median": 7.450580596923828e-07,
+      "p90": 9.998679161071776e-07,
+      "max": 1.2926757335662842e-06
+    },
+    "final10km_peak_difference_m3": {
+      "min": 5277.707839012146,
+      "p10": 31447.33227776289,
+      "median": 121947.36737057567,
+      "p90": 538043.5349839866,
+      "max": 836016.5529040098
+    }
+  },
+  "main_nonmonotone_peak_profiles": 0,
+  "thresholds": {
+    "0.05": {
+      "max_extent_km": {
+        "min": 160.0,
+        "p10": 170.0,
+        "median": 200.0,
+        "p90": 200.0,
+        "max": 200.0
+      },
+      "boundary_censored_events": 41,
+      "disjoint_events": 0,
+      "negative_response_events": 0
+    },
+    "0.1": {
+      "max_extent_km": {
+        "min": 144.0,
+        "p10": 150.0,
+        "median": 180.0,
+        "p90": 200.0,
+        "max": 200.0
+      },
+      "boundary_censored_events": 15,
+      "disjoint_events": 0,
+      "negative_response_events": 0
+    },
+    "0.2": {
+      "max_extent_km": {
+        "min": 120.0,
+        "p10": 130.0,
+        "median": 156.0,
+        "p90": 184.0,
+        "max": 190.0
+      },
+      "boundary_censored_events": 0,
+      "disjoint_events": 0,
+      "negative_response_events": 0
+    }
+  },
+  "controlled_effects_at200km": {
+    "A": {
+      "n_flood_backgrounds": 4,
+      "n_conditional_contrasts": 16,
+      "peak_difference_m3": {
+        "min": 140292595.6647585,
+        "p10": 161925331.32379487,
+        "median": 191979175.52264115,
+        "p90": 202857894.10530818,
+        "max": 204303360.33614677
+      },
+      "positive_peak_differences": 16,
+      "integral_difference_m3_h": {
+        "min": 7831144781.607859,
+        "p10": 9509546087.21923,
+        "median": 12459396178.160751,
+        "p90": 17947766988.36985,
+        "max": 18865048025.567375
+      },
+      "by_background": {
+        "E006": 191198987.30989343,
+        "E007": 180961107.58876687,
+        "E023": 188848941.66527453,
+        "E069": 184296355.05029297
+      }
+    },
+    "B": {
+      "n_flood_backgrounds": 4,
+      "n_conditional_contrasts": 16,
+      "peak_difference_m3": {
+        "min": -107429058.65883583,
+        "p10": -64717800.47194922,
+        "median": -27449895.148635894,
+        "p90": -7983521.937036306,
+        "max": -6992911.255463898
+      },
+      "positive_peak_differences": 0,
+      "integral_difference_m3_h": {
+        "min": -3132556584.4275136,
+        "p10": -1862046810.4598455,
+        "median": -772175445.0238496,
+        "p90": 714802248.5839689,
+        "max": 2381079307.743546
+      },
+      "by_background": {
+        "E006": -25495735.52514571,
+        "E007": -56612982.47896643,
+        "E023": -35422263.95368801,
+        "E069": -25529952.104662016
+      }
+    },
+    "C": {
+      "n_flood_backgrounds": 4,
+      "n_conditional_contrasts": 16,
+      "peak_difference_m3": {
+        "min": 0.0,
+        "p10": 13195.680226325989,
+        "median": 9404801.279756635,
+        "p90": 48144823.8693538,
+        "max": 56054135.467929006
+      },
+      "positive_peak_differences": 15,
+      "integral_difference_m3_h": {
+        "min": 1430639635.5641935,
+        "p10": 1921222228.7487187,
+        "median": 3874082228.461568,
+        "p90": 8405977533.419171,
+        "max": 9788431511.965601
+      },
+      "by_background": {
+        "E006": 15859200.757259935,
+        "E007": 19423079.496172205,
+        "E023": 15847584.631267235,
+        "E069": 18042712.480827734
+      }
+    }
+  },
+  "minimum_signed_storage_m3": -9.428498804569244,
+  "max_geometry_crosscheck_error_m3": 1.2926757335662842e-06,
+  "minimum_signed_stage_m": -0.000133514404296875,
+  "equal_stage_200km_50pct_controlled_fall_minus_rise_m3": {
+    "min": -13161000.40076086,
+    "p10": 55872.7717380703,
+    "median": 33417995.81814768,
+    "p90": 111520584.52799948,
+    "max": 124236350.23461348
+  },
+  "caveats": [
+    "Finite domain; 200 km threshold hits are right censored.",
+    "Same boundary stage does not imply same inlet flow or hydraulic history.",
+    "Hold contrast includes delayed start of drawdown.",
+    "Nested reaches and factor contexts are not independent flood replicates.",
+    "No new RWEC formula fitted and no validation-target features used."
+  ]
+}

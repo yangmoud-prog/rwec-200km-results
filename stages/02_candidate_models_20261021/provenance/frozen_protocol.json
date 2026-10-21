@@ -1,0 +1,38 @@
+{
+  "created": "2026-10-21T09:57:02.467302+08:00",
+  "protocol_sha256": "c3a990b48c30ae07be500164bae9b85e82b5513437565158a9e09fa70dd7741b",
+  "model_source_sha256": "a5f12e11ed1d2fc44c29b65b4043ad2452165367ec78baf83067dc9877535974",
+  "base_bounds": {
+    "k": [
+      1e-06,
+      100
+    ],
+    "n": [
+      0.01,
+      300
+    ],
+    "tau_h": [
+      0,
+      150
+    ]
+  },
+  "alpha_bounds": [
+    0,
+    10
+  ],
+  "theta_bounds": [
+    0,
+    200
+  ],
+  "ell_min_m": 1000,
+  "linear_limit_at_theta_zero": true,
+  "common_budget_per_length": 1200,
+  "cycles": 4,
+  "baseline_refine_per_length": 320,
+  "candidate_shared_per_cycle": 80,
+  "candidate_refine_per_length": 240,
+  "max_reach_evaluations_per_model": 49600,
+  "seed": 20261021,
+  "parallel_length_workers": 2,
+  "objective": "equal-event mean1-NSE; equal-length mean for global parameters"
+}

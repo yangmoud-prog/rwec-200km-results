@@ -1,0 +1,42 @@
+[
+  {
+    "stage": "01_backwater_storage_20261020",
+    "status": "已有阶段说明，完成与质量状态见原文",
+    "report": "FINDINGS.md",
+    "checkpoint": {},
+    "files": 25,
+    "bytes": 4183851
+  },
+  {
+    "stage": "02_candidate_models_20261021",
+    "status": "阶段交付已生成，质量结论见原报告",
+    "report": "REPORT.md",
+    "checkpoint": {
+      "status": "first_round_complete_waiting_user_decision",
+      "updated": "2026-10-21T10:18:42.936083+08:00",
+      "test_results_read": false
+    },
+    "files": 67,
+    "bytes": 4374295
+  },
+  {
+    "stage": "03_internal_discovery_20261021",
+    "status": "进行中，尚无最终结果报告",
+    "report": null,
+    "checkpoint": {
+      "stage": "full_evaluation_complete",
+      "test_read": 0,
+      "models": [
+        "RWEC0",
+        "RWEC1",
+        "RWEC0J",
+        "P1",
+        "P2",
+        "NN20261021",
+        "NN20261022"
+      ]
+    },
+    "files": 37,
+    "bytes": 2807768
+  }
+]
