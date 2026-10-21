@@ -4,6 +4,7 @@
 
 本目录是本地研究目录的阅读副本。进行中的表格、参数与图均为临时输出，最终解释以本阶段报告为准。文件存在、程序返回成功与数值质量通过是不同事项。
 
+- [FIGURE_LEGENDS.md](FIGURE_LEGENDS.md)
 - [PHYSICS_REVIEW.md](PHYSICS_REVIEW.md)
 - [PROTOCOL.md](PROTOCOL.md)
 - [provenance/USER_SPEC.md](provenance/USER_SPEC.md)

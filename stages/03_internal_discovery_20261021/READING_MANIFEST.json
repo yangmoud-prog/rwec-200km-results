@@ -12,7 +12,10 @@
       "P1",
       "P2",
       "NN20261021",
-      "NN20261022"
+      "NN20261022",
+      "SR1",
+      "SR2",
+      "SR3"
     ]
   },
   "delivery": {},
@@ -21,6 +24,7 @@
     "base_core.py",
     "checkpoint.json",
     "evaluate.py",
+    "FIGURE_LEGENDS.md",
     "figures/01_section_selection.png",
     "figures/02_full_hydrographs.png",
     "figures/03_accuracy_by_length.png",
@@ -46,6 +50,7 @@
     "tables/event_summary.csv",
     "tables/length_summary.csv",
     "tables/model_complexity.csv",
+    "tables/native_hdf_verification.csv",
     "tables/negative_episodes.csv",
     "tables/P2_parameter_profile.csv",
     "tables/paired_hydrodynamic_response.csv",
@@ -53,8 +58,10 @@
     "tables/response_summary.csv",
     "tables/section_case_screen.csv",
     "tables/section_screen.csv",
+    "tables/symbolic_pareto.csv",
     "tables/symbolic_training_sample.csv",
-    "tables/timestep_sensitivity.csv"
+    "tables/timestep_sensitivity.csv",
+    "verify.py"
   ],
   "omitted_large_reading_files": [
     {

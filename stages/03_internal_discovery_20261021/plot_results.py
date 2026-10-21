@@ -120,7 +120,7 @@ def main():
     legend(fig,axs[0,0],3)
     export(fig,'05_physical_and_learned_states','学习的是附加蓄泄状态而非直接替换全部流量预测',4)
 
-    fig,axs=plt.subplots(2,2,figsize=(WIDTH,148/25.4));fig.subplots_adjust(left=.12,right=.96,top=.93,bottom=.15,hspace=.65,wspace=.42)
+    fig,axs=plt.subplots(2,2,figsize=(WIDTH,148/25.4));fig.subplots_adjust(left=.12,right=.96,top=.93,bottom=.15,hspace=.65,wspace=.80)
     p=pd.read_csv(OUT/'tables/P2_parameter_profile.csv');pp=p.pivot(index='tb_h',columns='alpha',values='train_loss')
     image=axs[0,0].pcolormesh(pp.columns,pp.index,pp.values,shading='auto',cmap='cividis')
     axs[0,0].set(yscale='log',xlabel='附加储量系数',ylabel='响应时间（h）',title='P2训练损失剖面');fig.colorbar(image,ax=axs[0,0],label='平均1−NSE',fraction=.05,pad=.04)
@@ -137,7 +137,7 @@ def main():
         complexities.append(dict(model=c['id'],label=c['label'],core_parameters=30,increment_parameters=total-30,total_parameters=total,
             expression_complexity=c.get('complexity',0)))
     frame(OUT/'tables/model_complexity.csv',complexities)
-    axs[1,0].barh(range(len(models)),[c['total_parameters'] for c in complexities],color=[COLORS[c['id']] for c in models]);axs[1,0].set(yticks=range(len(models)),yticklabels=[c['label'] for c in models],xlabel='基础与增量参数总数',title='额外复杂度必须换来可重复改善')
+    axs[1,0].barh(range(len(models)),[c['total_parameters'] for c in complexities],color=[COLORS[c['id']] for c in models]);axs[1,0].set(yticks=range(len(models)),yticklabels=[c['label'] for c in models],xlabel='最终运行参数数目',title='额外复杂度与运行参数')
     pars=pd.read_csv(OUT/'tables/base_parameters.csv');axs[1,1].plot(pars.Lr_km,pars.tau_h,'o-',ms=3,color='#566F82',label='有效传播时间')
     axs[1,1].set(xlabel='有效演算河长（km）',ylabel='基础传播时间（h）',title='基础参数跨河长变化');grid(axs[1,1])
     for ax,s in zip(axs.flat,'abcd'):panel(ax,s)

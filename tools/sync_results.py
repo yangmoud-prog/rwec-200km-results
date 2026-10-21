@@ -119,31 +119,31 @@ def git(*args):
     return subprocess.run(["git", "-C", str(REPO), *args], check=True, env=environment, capture_output=True, text=True, encoding="utf-8", errors="replace")
 
 
-def publish():
+def export_upload():
     if not (REPO / ".git").is_dir():
         git("init", "-b", "main")
-    remote = subprocess.run(["git", "-C", str(REPO), "remote", "get-url", "origin"], capture_output=True, text=True)
-    if remote.returncode:
-        git("remote", "add", "origin", REMOTE)
-    elif remote.stdout.strip() != REMOTE:
-        raise RuntimeError("Unexpected origin; refusing to change or publish it")
-    # Refuse a public or unverifiable destination. This check runs before any upload.
     git("add", "--", "README.md", "CURRENT.md", "STAGES.json", "SOURCE_STATE.json", "FILE_MANIFEST.json", "SYNC.md", ".gitignore", ".gitattributes", "tools", "stages")
     changed = git("diff", "--cached", "--name-only").stdout.strip()
     if changed:
         git("commit", "-m", "Sync RWEC reading package " + datetime.now().astimezone().isoformat(timespec="seconds"))
-    git("push", "-u", "origin", "main")
-    print(json.dumps({"published_commit": git("rev-parse", "HEAD").stdout.strip()}))
+    import base64
+    entries = []
+    for row in git("ls-tree", "-r", "HEAD").stdout.splitlines():
+        meta, path = row.split("\t", 1)
+        mode, kind, sha = meta.split()
+        if kind != "blob" or path.startswith('"'):
+            raise RuntimeError("Unexpected tracked path or object: " + path)
+        payload = subprocess.run(["git", "-C", str(REPO), "cat-file", "blob", sha], check=True, capture_output=True).stdout
+        entries.append({"path": path, "mode": mode, "sha": sha, "encoding": "base64", "content": base64.b64encode(payload).decode("ascii")})
+    destination = REPO / ".local" / "upload_bundle.json"
+    save(destination, json.dumps(entries, ensure_ascii=True, separators=(",", ":")))
+    print(json.dumps({"local_commit": git("rev-parse", "HEAD").stdout.strip(), "local_tree": git("rev-parse", "HEAD^{tree}").stdout.strip(), "files": len(entries), "upload_bundle": str(destination), "uploaded": False}))
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--publish", action="store_true", help="Push only after the private GitHub destination is verified and Git authentication is configured")
+    parser.add_argument("--export-upload", action="store_true", help="Prepare a local base64 bundle for the authorized GitHub connector; does not upload")
     arguments = parser.parse_args()
     package()
-    if arguments.publish:
-        # Publishing remains disabled until the GitHub repository is created and verified.
-        marker = read_json(REPO / ".local" / "verified_remote.json")
-        if marker.get("url") != REMOTE or marker.get("private") is not True:
-            raise SystemExit("Private remote not verified. Reading package is prepared locally; nothing uploaded.")
-        publish()
+    if arguments.export_upload:
+        export_upload()
