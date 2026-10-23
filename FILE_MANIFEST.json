@@ -1828,5 +1828,125 @@
     "path": "stages/05_routing_validation_slope075_20261022/verify_artifacts.py",
     "bytes": 3133,
     "sha256": "47c5402bf84e22966cd8628ad595cd176b6794f8f4b3bedaa72e249bb3271d45"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/analyze.py",
+    "bytes": 11038,
+    "sha256": "4b4af13958758f76b8459ef57a1c0c5e816473fe15ac9f24694946bfa6b7307b"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/checkpoint.json",
+    "bytes": 249,
+    "sha256": "8dbf0ab5559893e4af3c95857211c4aa32adfc267bef4bf60c5275c8650c55e4"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/delivery.json",
+    "bytes": 318,
+    "sha256": "dc234e959d73a1bef11e7fee7f26cf5612e3d72a371ba0390d2ecfe53e46092a"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/FIGURE_CONTRACT.md",
+    "bytes": 1071,
+    "sha256": "4120835f8ddd81ee735ad8d9002778446ce3c9ce9255db3baedc6d0ccd583553"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/FIGURE_LEGENDS.md",
+    "bytes": 901,
+    "sha256": "9b44b69cfac8d7fcd571662d357d09fed6f08837e06ab85485a69bb4d55f14c7"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/positive_flow_comparison.png",
+    "bytes": 323398,
+    "sha256": "24473e5235c884e05d4898d60e5b01acc49a1954bed043f2ab04755eae84733d"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/x100_total_and_backwater_response.png",
+    "bytes": 332587,
+    "sha256": "20428dddfdf8ae43ce00792efccc80f2367035a680cc88171bb0a7fd8eb0b202"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/finalize_stage.py",
+    "bytes": 4051,
+    "sha256": "f392566413b2a58847e40f4072b2de8c4a2fe8f05439e83bf69a51aff4144a48"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/plot_results.py",
+    "bytes": 5386,
+    "sha256": "c013ba6b31c9cb23cd10becc90247a379fccd192b1df24045878d8bd6c84fce9"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/PROTOCOL.md",
+    "bytes": 2350,
+    "sha256": "6fb6275e1476984822b090a1a753f33038f5406ce3fde90dd2950141a6af3464"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/provenance/figure_qa.json",
+    "bytes": 6312,
+    "sha256": "b414c569f052f1f7571e5fc81bbccd8520b65f2d71ac2cddd26fa1708d00b521"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/provenance/verification.json",
+    "bytes": 8284,
+    "sha256": "488cb2430acf820a89524f0e8b96f7130f43607ab4d3c14e0150687925bf77be"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/REPORT.md",
+    "bytes": 8307,
+    "sha256": "8d13d597a630c6a056077e3a4e68de0614cd5016c9d394b80df23ebe9336b886"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/summary.json",
+    "bytes": 10570,
+    "sha256": "833bf1bcfefdad5caf52045ff533f33e3e28071e558405e3e3e6148280c2dbe0"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/event_metrics.csv",
+    "bytes": 350459,
+    "sha256": "e2d309cc8ad11ad80101aa9b1b121e8fac59e7ee1a7a01725f4510c5f1a103c2"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/initialization_checks.csv",
+    "bytes": 1996,
+    "sha256": "f2a04e026baab436cdebd45cb5d7139379aac0e673eab0ed721c5ad9019dee98"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/negative_error_decomposition.csv",
+    "bytes": 20526,
+    "sha256": "79b07218e674813625c81256c4e0e53780b4763ec238e6fd94d0c73773dc3f34"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/negative_error_summary.csv",
+    "bytes": 1002,
+    "sha256": "d01b9f3848c3c5389e9ab4e91729969872e2eeaf956af77f3d4aef3c81af1ff8"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/paired_model_improvements.csv",
+    "bytes": 9584,
+    "sha256": "c17314520995767a954fc8bd2ed7ed2f5f1a931e6ab73f8859d28b5e3209e8c2"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/paired_response_metrics.csv",
+    "bytes": 65005,
+    "sha256": "45573435aefd9c22ccc5006cae313edae27d8d90bee57e7254e25a9ea1d2d6df"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/paired_response_summary.csv",
+    "bytes": 1863,
+    "sha256": "9c7b8e77b2174d0d18d6269fccf969cfb84075083c6bc1ec4b420623f395fc23"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/positive_phase_metrics.csv",
+    "bytes": 114672,
+    "sha256": "61acebac1630dd6c6d642fee12b6b49c1eeb592ac992e811c7c66e51921c4c55"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/primary_positive_comparison.csv",
+    "bytes": 2988,
+    "sha256": "36e0b274783d2691e043e57f4483f76fa3411d8c9dbaa5258c16a59492b01e85"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/window_summary.csv",
+    "bytes": 19907,
+    "sha256": "5800e5402717accc8f70154f2ca1f2fe9174dd6a5145b679a565fe980557ecfd"
   }
 ]

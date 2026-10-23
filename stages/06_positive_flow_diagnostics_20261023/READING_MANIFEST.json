@@ -1,0 +1,51 @@
+{
+  "stage": "06_positive_flow_diagnostics_20261023",
+  "status": "阶段交付已生成，质量结论见原报告",
+  "final_report_present": true,
+  "checkpoint": {
+    "status": "completed",
+    "client_date": "2026-10-23",
+    "validation_events": 21,
+    "sections": 6,
+    "tests_opened": 0,
+    "source_hashes_rechecked": 42,
+    "comparison": "frozen model parameters; user-requested nonnegative truth windows"
+  },
+  "delivery": {
+    "completed": true,
+    "source_data_unchanged": true,
+    "validation_events": 21,
+    "test_results_opened": 0,
+    "static_figures": 2,
+    "animation": false,
+    "scientific_interpretation": "Negative flow explains part, not all, of the downstream error; linear correction has no stable eventwise gain at100 km."
+  },
+  "source": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\06_positive_flow_diagnostics_20261023",
+  "files": [
+    "analyze.py",
+    "checkpoint.json",
+    "delivery.json",
+    "FIGURE_CONTRACT.md",
+    "FIGURE_LEGENDS.md",
+    "figures/positive_flow_comparison.png",
+    "figures/x100_total_and_backwater_response.png",
+    "finalize_stage.py",
+    "plot_results.py",
+    "PROTOCOL.md",
+    "provenance/figure_qa.json",
+    "provenance/verification.json",
+    "REPORT.md",
+    "summary.json",
+    "tables/event_metrics.csv",
+    "tables/initialization_checks.csv",
+    "tables/negative_error_decomposition.csv",
+    "tables/negative_error_summary.csv",
+    "tables/paired_model_improvements.csv",
+    "tables/paired_response_metrics.csv",
+    "tables/paired_response_summary.csv",
+    "tables/positive_phase_metrics.csv",
+    "tables/primary_positive_comparison.csv",
+    "tables/window_summary.csv"
+  ],
+  "omitted_large_reading_files": []
+}

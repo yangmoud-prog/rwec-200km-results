@@ -1,0 +1,205 @@
+{
+  "backend": "Python",
+  "user_fonts": [
+    "Times New Roman",
+    "SimSun"
+  ],
+  "source_preflight": {
+    "source": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\06_positive_flow_diagnostics_20261023\\plot_results.py",
+    "backend": "python",
+    "summary": {
+      "ready": false,
+      "strict": false,
+      "counts": {
+        "PASS": 17,
+        "WARN": 2,
+        "FAIL": 1
+      }
+    },
+    "findings": [
+      {
+        "check_id": "SOURCE-SYNTAX",
+        "level": "PASS",
+        "message": "Python source parses successfully",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-FAMILY",
+        "level": "FAIL",
+        "message": "No explicit publication-safe font family found in matplotlib rcParams",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-SIZE",
+        "level": "PASS",
+        "message": "All detected text sizes are at least 5 pt (minimum 6.8 pt)",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-GLYPH-FLOOR",
+        "level": "PASS",
+        "message": "No mathtext superscript/subscript expression detected",
+        "evidence": []
+      },
+      {
+        "check_id": "LEGEND-LABEL-CASE",
+        "level": "PASS",
+        "message": "Detected literal legend labels start with display-style capitalization",
+        "evidence": []
+      },
+      {
+        "check_id": "COLOR-MAP",
+        "level": "PASS",
+        "message": "No rainbow/jet/hsv color mapping detected",
+        "evidence": []
+      },
+      {
+        "check_id": "EDITABLE-TEXT",
+        "level": "PASS",
+        "message": "SVG and PDF editable-text settings are configured",
+        "evidence": []
+      },
+      {
+        "check_id": "EXPORT-VECTOR",
+        "level": "PASS",
+        "message": "Both SVG and PDF exports are present",
+        "evidence": []
+      },
+      {
+        "check_id": "EXPORT-RASTER",
+        "level": "PASS",
+        "message": "TIFF raster export is present",
+        "evidence": []
+      },
+      {
+        "check_id": "RASTER-DPI",
+        "level": "PASS",
+        "message": "A raster export of at least 600 dpi is configured",
+        "evidence": [
+          "600"
+        ]
+      },
+      {
+        "check_id": "FINAL-WIDTH",
+        "level": "WARN",
+        "message": "Detected width 4572.0 mm is not near the common 89/183 mm defaults; verify the target journal",
+        "evidence": []
+      },
+      {
+        "check_id": "DATA-SAMPLING",
+        "level": "PASS",
+        "message": "No high-confidence row-sampling operation detected",
+        "evidence": []
+      },
+      {
+        "check_id": "DATA-EXCLUSION",
+        "level": "PASS",
+        "message": "No high-confidence missing-data exclusion detected",
+        "evidence": []
+      },
+      {
+        "check_id": "DEMO-DATA",
+        "level": "WARN",
+        "message": "Simulated data appears in the plotting source without an explicit demo boundary",
+        "evidence": [
+          "np.random.default_rng("
+        ]
+      },
+      {
+        "check_id": "LOG-GUARD",
+        "level": "PASS",
+        "message": "No logarithmic transform or axis detected",
+        "evidence": []
+      },
+      {
+        "check_id": "INTERP-MONOTONIC",
+        "level": "PASS",
+        "message": "No NumPy interpolation requiring an increasing x-grid detected",
+        "evidence": []
+      },
+      {
+        "check_id": "UNCERTAINTY-ENCODING",
+        "level": "PASS",
+        "message": "No stochastic aggregate requiring a variability audit was inferred",
+        "evidence": []
+      },
+      {
+        "check_id": "ROTATION-ANCHOR",
+        "level": "PASS",
+        "message": "No rotated Matplotlib text detected",
+        "evidence": []
+      },
+      {
+        "check_id": "ANNOTATION-WORKAROUND",
+        "level": "PASS",
+        "message": "No high-risk hard-coded label height or opaque white text mask detected",
+        "evidence": []
+      },
+      {
+        "check_id": "BACKEND-EXCLUSIVE",
+        "level": "PASS",
+        "message": "No obvious cross-backend plotting reference found for python",
+        "evidence": []
+      }
+    ]
+  },
+  "resolved_generic_findings": {
+    "FONT-FAMILY": "User explicitly requires Times New Roman and SimSun; both are embedded. Generic sans-serif preference is superseded.",
+    "FINAL-WIDTH": "Static parser treats 180/25.4 incorrectly; actual PDF media boxes are verified at180 mm.",
+    "DEMO-DATA": "Random numbers only index observed event scores for bootstrap intervals; no synthetic plot values are created."
+  },
+  "figures": [
+    {
+      "figure": "positive_flow_comparison",
+      "width_mm": 179.99999999998556,
+      "pdf_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\06_positive_flow_diagnostics_20261023\\figures\\positive_flow_comparison.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.8,
+        "text_run_count": 89,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "embedded_font_names": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPS-BoldMT",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "visual_panels_reviewed": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "visual_review_passed": true
+    },
+    {
+      "figure": "x100_total_and_backwater_response",
+      "width_mm": 179.99999999998556,
+      "pdf_audit": {
+        "pdf": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\06_positive_flow_diagnostics_20261023\\figures\\x100_total_and_backwater_response.pdf",
+        "auditable": true,
+        "minimum_required_pt": 5.0,
+        "minimum_found_pt": 6.8,
+        "text_run_count": 92,
+        "below_minimum_count": 0,
+        "below_minimum": [],
+        "warnings": []
+      },
+      "embedded_font_names": [
+        "BHJLVU+SimSun",
+        "FHXFSG+TimesNewRomanPS-BoldMT",
+        "FHXFSG+TimesNewRomanPSMT"
+      ],
+      "visual_panels_reviewed": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "visual_review_passed": true
+    }
+  ]
+}

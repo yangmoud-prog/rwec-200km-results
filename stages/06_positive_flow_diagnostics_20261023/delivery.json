@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "source_data_unchanged": true,
+  "validation_events": 21,
+  "test_results_opened": 0,
+  "static_figures": 2,
+  "animation": false,
+  "scientific_interpretation": "Negative flow explains part, not all, of the downstream error; linear correction has no stable eventwise gain at100 km."
+}

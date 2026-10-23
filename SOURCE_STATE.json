@@ -31,9 +31,9 @@
   "parallel_scaling_decision": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\results\\parallel_scaling_decision.json",
   "formal_success_count": 232,
   "formal_failure_count": 0,
-  "analysis_stage": "actual_routing_and_20paired_pilots_complete",
-  "analysis_latest": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022",
-  "analysis_findings": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\REPORT.md",
+  "analysis_stage": "positive_flow_diagnostic_complete",
+  "analysis_latest": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\06_positive_flow_diagnostics_20261023",
+  "analysis_findings": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\06_positive_flow_diagnostics_20261023\\REPORT.md",
   "validation_pairs_held_out": 30,
   "model_comparison_development_events": 70,
   "model_comparison_test_events": 0,
@@ -48,7 +48,7 @@
   ],
   "internal_training_events": 49,
   "internal_validation_events": 21,
-  "analysis_candidate_status": "actual_comparison_no_nonzero_gain_retained_timestep_limit_preserved",
+  "analysis_candidate_status": "nonnegative_window_linear_no_stable_gain",
   "autonomous_pilot_B_root": "F:\\YDX\\200km\\variants\\mild_control_slope075_20pilot_v1",
   "autonomous_pilot_B_flood_events": 20,
   "autonomous_pilot_B_HEC_cases": 40,
@@ -64,5 +64,8 @@
   "autonomous_B_slope": 7.5e-05,
   "requested_computations_complete": true,
   "current_B_plan": "F:\\YDX\\200km\\variants\\mild_control_slope075_20pilot_v1\\config\\pilot_input_manifest.json",
-  "current_requested_HEC_total": 44
+  "current_requested_HEC_total": 44,
+  "analysis_previous": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022",
+  "latest_diagnostic_date": "2026-10-23",
+  "latest_diagnostic_tests_opened": 0
 }
