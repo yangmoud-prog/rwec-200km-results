@@ -201,5 +201,300 @@
       ],
       "visual_review_passed": true
     }
-  ]
+  ],
+  "requested13_x20_20261024": {
+    "client_date": "2026-10-24",
+    "requested_events": [
+      "E006",
+      "E010",
+      "E014",
+      "E026",
+      "E032",
+      "E037",
+      "E042",
+      "E051",
+      "E066",
+      "E067",
+      "E068",
+      "E081",
+      "E094"
+    ],
+    "input_event_count": 13,
+    "displayed_event_count": 13,
+    "omitted_events": 0,
+    "scenario": "old channel main dynamic-stage cases",
+    "x_from_outlet_km": 20,
+    "routing_length_km": 180,
+    "all_screenshot_minima_match": true,
+    "all_saved_HEC_flows_positive": true,
+    "samples_before": 5389,
+    "samples_after": 5389,
+    "sample_exclusions": 0,
+    "raw_truth_clipped": false,
+    "new_parameter_fits": 0,
+    "new_HEC_runs": 0,
+    "sealed_test_results_opened": 0,
+    "figure_contract": {
+      "claim": "Show all requested positive hydrographs and their model differences, without selection by accuracy.",
+      "archetype": "quantitative grid",
+      "backend": "Python",
+      "width_mm": 180,
+      "fonts": [
+        "Times New Roman",
+        "SimSun"
+      ],
+      "uncertainty": "Exact deterministic saved time series; no aggregate confidence intervals are appropriate."
+    },
+    "sources": [
+      {
+        "event": "E006",
+        "raw_sha256": "208c9cfd81e89c506f717c93be2fe910c472d646623b7385f41dcbc53dce1f74",
+        "cached_prediction_sha256": "58300577b3a3d8845a883d5c94bf91e2a8118d8e69260eb5b337f428f3438299",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E010",
+        "raw_sha256": "00bf6d173a2a30f7ca52907b9dec0bbef4c263a0af7c70f46e23af3d1a7dbf01",
+        "cached_prediction_sha256": "91f442c7d5bc59cfefcb1a4ebb45a309a799923627aa4e2cd805b14108f6fc27",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E014",
+        "raw_sha256": "4568af334618b326a2791f2e760e703329e7ccbd1cd651fe052535385a8af712",
+        "cached_prediction_sha256": "a153c1d8fdc504e6300ecc2c71315c600a42a42b426f00eb731f511e58285b07",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E026",
+        "raw_sha256": "74363cb2b01f336953ef64cdbd961f0fae4017bd9e2157ded9ce94e376cc7772",
+        "cached_prediction_sha256": "34f1f2840a1b0bf7ac1dffaa0ba790cd8f390eb3172b17812a5d30412ae0f56b",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E032",
+        "raw_sha256": "0330d2d41bd1554b45b1fec238965a851f92b88dcdc657d4591dab08fe9b0da1",
+        "cached_prediction_sha256": "94a64c9deda82ebf40413ffe9eab0106bf76d91daa57d956ae05c677cf599e3e",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E037",
+        "raw_sha256": "6f28d5bc87036f01b01ae2ac6bcbfd234a8ed02a57dfa81e78bd6412bc8a7ab2",
+        "cached_prediction_sha256": "8ef6ca2cc2b06d21a891c039dc526ba671dc4e5a952b86cb4568f1a202f90716",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E042",
+        "raw_sha256": "8087253ab2aefda2e960aec4c8cd49a16ae3328a8afbe5e35398c1d886369970",
+        "cached_prediction_sha256": "833ae0e5e04c339e2a0b2bce134e9a5df0cd682b784c1c3dc0ad0a50c6768c54",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E051",
+        "raw_sha256": "2c72f9c66d30d8ad8d53b2a6ed5f3bad6e961a6efb00dfe53e0a3e72c8c8446b",
+        "cached_prediction_sha256": "0f004ac894e9a357cef1f5822cbf5c612ae4caae89c6e14bafa7a6e6f72dbba5",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E066",
+        "raw_sha256": "4e80600a80d2097eb11d600f545096a42b69d74d75dacafb275a3ece059c9bcf",
+        "cached_prediction_sha256": "74d35f3d12030b797f6dd83ba3edf3c02498b503f574320b3708e104beb625f9",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E067",
+        "raw_sha256": "5d65906a871551aea2c2c33f73668b8dbe63d227e8326713a3101b32d8558b76",
+        "cached_prediction_sha256": "dcb07f9af7c38b7c0e27ec1c5d716bb628757ee01a384040651385d003d9ac14",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E068",
+        "raw_sha256": "764909bfdd7f5279dbf025e982e43c6281440a9b0db5f77f8813a241305d1261",
+        "cached_prediction_sha256": "6ca1c834233cf3e926f009d949176ecf6eea8b5aada386610ad4f0a632dc188e",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E081",
+        "raw_sha256": "99ff944a4ab9a523060258b8c91c3df06db16b337adaad047d87e4335f978e15",
+        "cached_prediction_sha256": "d08cacdda6231a26873a5cf1e613d02ef72583320768919b0b76188454f9afff",
+        "raw_time_series_matches_cache": true
+      },
+      {
+        "event": "E094",
+        "raw_sha256": "3503d640128ea0d4bdf72b4fa123d751c33f464b79d7fb4242e1670b4e76ab46",
+        "cached_prediction_sha256": "3fbfb568e205e35e83e5e261f01790e17c89aa4bbdf84a77cd64f1c966d39773",
+        "raw_time_series_matches_cache": true
+      }
+    ],
+    "figure_reviews": [
+      {
+        "figure": "E006_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E010_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E014_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E026_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E032_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E037_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E042_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E051_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E066_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E067_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E068_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E081_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "E094_x20_hydrograph",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "overview_01",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      },
+      {
+        "figure": "overview_02",
+        "minimum_glyph_pt": 7.0,
+        "width_mm": 179.99999999998556,
+        "fonts": [
+          "BHJLVU+SimSun",
+          "FHXFSG+TimesNewRomanPS-BoldMT",
+          "FHXFSG+TimesNewRomanPSMT"
+        ],
+        "visual_review_passed": true
+      }
+    ],
+    "source_preflight_user_overrides": {
+      "FONT-FAMILY": "Explicit user requirement Times New Roman and SimSun overrides generic sans-serif preference; actual embedded font names verified.",
+      "FINAL-WIDTH": "Actual PDF media boxes verified at180 mm; static parser misreads division by25.4."
+    }
+  }
 }

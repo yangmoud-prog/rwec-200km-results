@@ -1860,6 +1860,81 @@
     "sha256": "24473e5235c884e05d4898d60e5b01acc49a1954bed043f2ab04755eae84733d"
   },
   {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E006_x20_hydrograph.png",
+    "bytes": 124757,
+    "sha256": "1baa30397ab3033c990508ac62b4f2a2662d5e0a96742ae8ead3688ab8259cef"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E010_x20_hydrograph.png",
+    "bytes": 126046,
+    "sha256": "3bbfa39fa1ea8f01642f4cd98b92bb7b032fd7b26354dc2fc3a57701b38da0cd"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E014_x20_hydrograph.png",
+    "bytes": 130850,
+    "sha256": "e2860519cdf0953d56d6d9d0c35b643331f952de18c97cd92c8426bcf8b9e7b4"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E026_x20_hydrograph.png",
+    "bytes": 136583,
+    "sha256": "dbebcd747447a2bd1f8a73e462330aa7f2a27abc03848b1950bed636d7e93e56"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E032_x20_hydrograph.png",
+    "bytes": 127021,
+    "sha256": "ad35139195b4f30cb059d8f4e5b0b9a299edb0da1e6f04bf13aafee594a6a340"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E037_x20_hydrograph.png",
+    "bytes": 142152,
+    "sha256": "ef96409649fae1f381add4be516e3140dc5d5ba220837721046c7fdec06d114c"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E042_x20_hydrograph.png",
+    "bytes": 134344,
+    "sha256": "68e75f20362744b83c33321ce20b0094a33ced893f6c0da6b6a7e1e5807b2c5a"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E051_x20_hydrograph.png",
+    "bytes": 138966,
+    "sha256": "02ae7e2a63d53104b69a6882a66e39598b26850d5862cc20f80bfcdf6566e641"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E066_x20_hydrograph.png",
+    "bytes": 140618,
+    "sha256": "3094340a8005412b4ea8f24cce1360a492ebf966819b26dccedf800e1dd3dbba"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E067_x20_hydrograph.png",
+    "bytes": 126564,
+    "sha256": "8352113dcd60e7aa007cc8859d3dcec2b790fc904fabcb727290fc96ccf8d987"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E068_x20_hydrograph.png",
+    "bytes": 135139,
+    "sha256": "6ce169dbeedb9ad89a28149abc8c03e94103ed355e8e6980c9daf48d1894dfb9"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E081_x20_hydrograph.png",
+    "bytes": 129026,
+    "sha256": "3c8555f3edc22746cb7465be9a816c50109f6d6748bc633b601c123f63ed0451"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/E094_x20_hydrograph.png",
+    "bytes": 141752,
+    "sha256": "c44d8a0029535cde08a86863acba98cec395453b429cb375a890d766f1816528"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/overview_01.png",
+    "bytes": 434846,
+    "sha256": "87468aa175d39d97932c9a0b9d2bef10b5e95838da2669996df64b363ed7b34a"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/figures/requested13_x20_20261024/overview_02.png",
+    "bytes": 369630,
+    "sha256": "1400e8afe1e06f436cdf10b933f8916ae059779df3770664d978793b13fbee5d"
+  },
+  {
     "path": "stages/06_positive_flow_diagnostics_20261023/figures/x100_total_and_backwater_response.png",
     "bytes": 332587,
     "sha256": "20428dddfdf8ae43ce00792efccc80f2367035a680cc88171bb0a7fd8eb0b202"
@@ -1868,6 +1943,11 @@
     "path": "stages/06_positive_flow_diagnostics_20261023/finalize_stage.py",
     "bytes": 4051,
     "sha256": "f392566413b2a58847e40f4072b2de8c4a2fe8f05439e83bf69a51aff4144a48"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/plot_requested_13.py",
+    "bytes": 7519,
+    "sha256": "c2532fd1704973635685ef9843d5fc52a35107dc7106abe22ef54867d5848aca"
   },
   {
     "path": "stages/06_positive_flow_diagnostics_20261023/plot_results.py",
@@ -1881,8 +1961,8 @@
   },
   {
     "path": "stages/06_positive_flow_diagnostics_20261023/provenance/figure_qa.json",
-    "bytes": 6312,
-    "sha256": "b414c569f052f1f7571e5fc81bbccd8520b65f2d71ac2cddd26fa1708d00b521"
+    "bytes": 16387,
+    "sha256": "742fca0dcb656717482e019eb96647489afac241cb997df5d851708d6738831a"
   },
   {
     "path": "stages/06_positive_flow_diagnostics_20261023/provenance/verification.json",
@@ -1893,6 +1973,11 @@
     "path": "stages/06_positive_flow_diagnostics_20261023/REPORT.md",
     "bytes": 8307,
     "sha256": "8d13d597a630c6a056077e3a4e68de0614cd5016c9d394b80df23ebe9336b886"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/REQUESTED_13_HYDROGRAPHS.md",
+    "bytes": 2530,
+    "sha256": "526d003c1e771b1dede6c6227aa4d007f6075fda882a12cbacb30432ce3308b0"
   },
   {
     "path": "stages/06_positive_flow_diagnostics_20261023/summary.json",
@@ -1945,8 +2030,23 @@
     "sha256": "36e0b274783d2691e043e57f4483f76fa3411d8c9dbaa5258c16a59492b01e85"
   },
   {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/requested_13_x20_minima.csv",
+    "bytes": 1271,
+    "sha256": "9318f80ff2d4f6695a63431b3959a07b247561b5950be603fa3b2198db256d35"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/tables/requested_13_x20_series.csv",
+    "bytes": 347499,
+    "sha256": "272546ef8681fcc2b49f316338643178113e76c26f115d664736d34ec8c98999"
+  },
+  {
     "path": "stages/06_positive_flow_diagnostics_20261023/tables/window_summary.csv",
     "bytes": 19907,
     "sha256": "5800e5402717accc8f70154f2ca1f2fe9174dd6a5145b679a565fe980557ecfd"
+  },
+  {
+    "path": "stages/06_positive_flow_diagnostics_20261023/verify_requested_13.py",
+    "bytes": 1978,
+    "sha256": "2aa4dca27badc6934623acdb31c342c943e96361900d6026990740964bc091a0"
   }
 ]

@@ -8,5 +8,6 @@
 - [FIGURE_LEGENDS.md](FIGURE_LEGENDS.md)
 - [PROTOCOL.md](PROTOCOL.md)
 - [REPORT.md](REPORT.md)
+- [REQUESTED_13_HYDROGRAPHS.md](REQUESTED_13_HYDROGRAPHS.md)
 
 所有当前同步文件及 SHA-256 校验值见仓库根目录 FILE_MANIFEST.json。原始 HEC/HDF、完整时序和高分辨率图保存在本地；本阅读包不能单独重跑全部实验。
