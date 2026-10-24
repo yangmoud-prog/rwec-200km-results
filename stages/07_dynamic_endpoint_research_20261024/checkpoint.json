@@ -1,0 +1,16 @@
+{
+  "stage": "first_pass_delivered_with_negative_model_result",
+  "A_train": 49,
+  "A_validation": 21,
+  "B_train": 14,
+  "B_validation": 6,
+  "sealed_test_results_opened": 0,
+  "steps": {
+    "endpoint_identification": "complete",
+    "storage_release_mechanism": "first_pass_complete",
+    "fixed_origin_endpoint_forecast": "prototype_validated",
+    "dynamic_length_RWEC": "simple_delay_candidate_failed_to_improve",
+    "routing_validation": "first_pass_complete"
+  },
+  "full_moving_boundary_closure_complete": false
+}

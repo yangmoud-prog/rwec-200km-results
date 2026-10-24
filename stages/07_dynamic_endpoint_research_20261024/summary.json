@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-24",
+  "origin_h": 0,
+  "history_h": [
+    -48,
+    0
+  ],
+  "forecast_h": [
+    0,
+    240
+  ],
+  "A_train": 49,
+  "A_validation": 21,
+  "B_train": 14,
+  "B_validation": 6,
+  "test_opened": 0,
+  "endpoint_validation": [
+    {
+      "group": "A",
+      "MAE_km": 36.01754591332989,
+      "RMSE": 45.31310787429113,
+      "coverage": 0.7043650793650794,
+      "width_km": 77.24380580232517
+    },
+    {
+      "group": "B",
+      "MAE_km": 3.545319130423874,
+      "RMSE": 5.900024364359972,
+      "coverage": 0.9736111111111111,
+      "width_km": 13.202144166576852
+    }
+  ],
+  "flow_validation": [
+    {
+      "group": "A",
+      "model": "Muskingum-linear",
+      "NSE": 0.8374653128845935,
+      "RMSE": 251.24604516857613,
+      "KGE": 0.8084646030022306
+    },
+    {
+      "group": "A",
+      "model": "RWEC-0",
+      "NSE": 0.9048552875743926,
+      "RMSE": 187.1783926677659,
+      "KGE": 0.812652504098869
+    },
+    {
+      "group": "A",
+      "model": "RWEC-L-oracle",
+      "NSE": 0.9066651000805491,
+      "RMSE": 184.81204943706882,
+      "KGE": 0.8156832024644457
+    },
+    {
+      "group": "A",
+      "model": "RWEC-L-predicted",
+      "NSE": 0.9042343621438601,
+      "RMSE": 187.47440291059755,
+      "KGE": 0.8127687165116197
+    },
+    {
+      "group": "B",
+      "model": "Muskingum-linear",
+      "NSE": 0.979863862215505,
+      "RMSE": 107.29031872849214,
+      "KGE": 0.9386835951735315
+    },
+    {
+      "group": "B",
+      "model": "RWEC-0",
+      "NSE": 0.9952345390359721,
+      "RMSE": 49.146986093908836,
+      "KGE": 0.9801316687473071
+    },
+    {
+      "group": "B",
+      "model": "RWEC-L-oracle",
+      "NSE": 0.9952345390359721,
+      "RMSE": 49.146986093908836,
+      "KGE": 0.9801316687473071
+    },
+    {
+      "group": "B",
+      "model": "RWEC-L-predicted",
+      "NSE": 0.9952345390359721,
+      "RMSE": 49.146986093908836,
+      "KGE": 0.9801316687473071
+    }
+  ],
+  "same_past_strict_pairs": 38,
+  "same_past_tolerance_pairs": 39,
+  "mass_balance_max_m3": 3.576278686523437e-06,
+  "dynamic_delay_stable_gain": false,
+  "zero_shot_transfer_pass": false,
+  "fixed_parameter_timestep_pass": false,
+  "full_moving_boundary_closure_complete": false,
+  "animation": false
+}

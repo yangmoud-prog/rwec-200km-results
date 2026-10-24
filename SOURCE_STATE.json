@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T01:44:47+08:00",
+  "updated": "2026-10-24T17:47:59.064659+08:00",
   "design_id": "high_stage_hold_v1",
   "active_root": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2",
   "experiment_spec": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\EXPERIMENT_NUMERICS.md",
@@ -31,13 +31,13 @@
   "parallel_scaling_decision": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\results\\parallel_scaling_decision.json",
   "formal_success_count": 232,
   "formal_failure_count": 0,
-  "analysis_stage": "positive_flow_diagnostic_complete",
-  "analysis_latest": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\06_positive_flow_diagnostics_20261023",
-  "analysis_findings": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\06_positive_flow_diagnostics_20261023\\REPORT.md",
+  "analysis_stage": "dynamic_endpoint_first_pass_delivered",
+  "analysis_latest": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\07_dynamic_endpoint_research_20261024",
+  "analysis_findings": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\07_dynamic_endpoint_research_20261024\\REPORT.md",
   "validation_pairs_held_out": 30,
   "model_comparison_development_events": 70,
   "model_comparison_test_events": 0,
-  "next_action_requires_user_decision": true,
+  "next_action_requires_user_decision": false,
   "internal_prediction_x_km": [
     20,
     40,
@@ -48,7 +48,7 @@
   ],
   "internal_training_events": 49,
   "internal_validation_events": 21,
-  "analysis_candidate_status": "nonnegative_window_linear_no_stable_gain",
+  "analysis_candidate_status": "dynamic_length_delay_candidate_no_stable_gain",
   "autonomous_pilot_B_root": "F:\\YDX\\200km\\variants\\mild_control_slope075_20pilot_v1",
   "autonomous_pilot_B_flood_events": 20,
   "autonomous_pilot_B_HEC_cases": 40,
@@ -65,7 +65,18 @@
   "requested_computations_complete": true,
   "current_B_plan": "F:\\YDX\\200km\\variants\\mild_control_slope075_20pilot_v1\\config\\pilot_input_manifest.json",
   "current_requested_HEC_total": 44,
-  "analysis_previous": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022",
-  "latest_diagnostic_date": "2026-10-23",
-  "latest_diagnostic_tests_opened": 0
+  "analysis_previous": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\06_positive_flow_diagnostics_20261023",
+  "latest_diagnostic_date": "2026-10-24",
+  "latest_diagnostic_tests_opened": 0,
+  "forecast_origin_h": 0,
+  "forecast_history_h": [
+    -48,
+    0
+  ],
+  "forecast_window_h": [
+    0,
+    240
+  ],
+  "future_downstream_levels_used_as_predictor": false,
+  "full_research_complete": false
 }

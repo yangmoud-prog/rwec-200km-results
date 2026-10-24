@@ -1,0 +1,26 @@
+{
+  "phase": "first five-step research pass",
+  "meta_events": 90,
+  "event_metric_rows": 4320,
+  "numeric_checks": {
+    "beta_zero_regression_max_m3s": 2.6830093702301383e-11,
+    "neighbor_leakage_count": 0,
+    "prediction_query_keys": [
+      "inflow_forecast",
+      "past_H_through_origin"
+    ],
+    "future_H_prediction_input": false,
+    "sealed_tests_opened": 0,
+    "note": "Oracle true length is explicitly isolated. Geometric true volumes are used only for diagnostics. Moving-volume balance uses measured profiles at hourly resolution."
+  },
+  "finite_flow_outputs": true,
+  "volume_limit_count": 0,
+  "max_mass_residual_m3": 3.576278686523437e-06,
+  "figure_count": 5,
+  "panel_count": 20,
+  "latex_source_editable": true,
+  "full_moving_boundary_model_complete": false,
+  "time_step_quality_pass": false,
+  "forecast_improvement_proven": false,
+  "sealed_test_results_opened": 0
+}

@@ -1,0 +1,271 @@
+{
+  "automated": {
+    "ready": false,
+    "strict": false,
+    "counts": {
+      "PASS": 19,
+      "WARN": 0,
+      "FAIL": 1
+    }
+  },
+  "source_font_failure_override": "User AGENTS.md explicitly requires Times New Roman and SimSun. Actual exported PDF font resources verified; the validator only recognizes its own sans-serif whitelist.",
+  "exports": [
+    {
+      "figure": "01_endpoint_and_storage",
+      "width_mm": 179.99999999998556,
+      "minimum_glyph_pt": 7.0,
+      "fonts": [
+        "/BHJLVU+SimSun",
+        "/FHXFSG+TimesNewRomanPSMT",
+        "/FHXFSG+TimesNewRomanPS-BoldMT"
+      ],
+      "preview_pixels": [
+        2125,
+        1677
+      ],
+      "preview_bytes": 342190
+    },
+    {
+      "figure": "02_fixed_origin_endpoint_prediction",
+      "width_mm": 179.99999999998556,
+      "minimum_glyph_pt": 7.0,
+      "fonts": [
+        "/BHJLVU+SimSun",
+        "/FHXFSG+TimesNewRomanPSMT",
+        "/FHXFSG+TimesNewRomanPS-BoldMT"
+      ],
+      "preview_pixels": [
+        2125,
+        1677
+      ],
+      "preview_bytes": 286308
+    },
+    {
+      "figure": "03_joint_calibrated_routing_comparison",
+      "width_mm": 179.99999999998556,
+      "minimum_glyph_pt": 7.0,
+      "fonts": [
+        "/BHJLVU+SimSun",
+        "/FHXFSG+TimesNewRomanPSMT",
+        "/FHXFSG+TimesNewRomanPS-BoldMT"
+      ],
+      "preview_pixels": [
+        2125,
+        1677
+      ],
+      "preview_bytes": 268243
+    },
+    {
+      "figure": "04_full_hydrograph_examples",
+      "width_mm": 179.99999999998556,
+      "minimum_glyph_pt": 7.0,
+      "fonts": [
+        "/FHXFSG+TimesNewRomanPSMT",
+        "/FHXFSG+TimesNewRomanPS-BoldMT"
+      ],
+      "preview_pixels": [
+        2125,
+        1677
+      ],
+      "preview_bytes": 287189
+    },
+    {
+      "figure": "05_waterlines_and_moving_boundary",
+      "width_mm": 179.99999999998556,
+      "minimum_glyph_pt": 7.0,
+      "fonts": [
+        "/BHJLVU+SimSun",
+        "/FHXFSG+TimesNewRomanPSMT",
+        "/FHXFSG+TimesNewRomanPS-BoldMT"
+      ],
+      "preview_pixels": [
+        2125,
+        1677
+      ],
+      "preview_bytes": 291714
+    }
+  ],
+  "panel_audit": [
+    {
+      "figure": "01_endpoint_and_storage",
+      "panel": "a",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "01_endpoint_and_storage",
+      "panel": "b",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "01_endpoint_and_storage",
+      "panel": "c",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "01_endpoint_and_storage",
+      "panel": "d",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "02_fixed_origin_endpoint_prediction",
+      "panel": "a",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "02_fixed_origin_endpoint_prediction",
+      "panel": "b",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "02_fixed_origin_endpoint_prediction",
+      "panel": "c",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "02_fixed_origin_endpoint_prediction",
+      "panel": "d",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "03_joint_calibrated_routing_comparison",
+      "panel": "a",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "03_joint_calibrated_routing_comparison",
+      "panel": "b",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "03_joint_calibrated_routing_comparison",
+      "panel": "c",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "03_joint_calibrated_routing_comparison",
+      "panel": "d",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "04_full_hydrograph_examples",
+      "panel": "a",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "04_full_hydrograph_examples",
+      "panel": "b",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "04_full_hydrograph_examples",
+      "panel": "c",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "04_full_hydrograph_examples",
+      "panel": "d",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "05_waterlines_and_moving_boundary",
+      "panel": "a",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "05_waterlines_and_moving_boundary",
+      "panel": "b",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "05_waterlines_and_moving_boundary",
+      "panel": "c",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    },
+    {
+      "figure": "05_waterlines_and_moving_boundary",
+      "panel": "d",
+      "claim": "see FIGURE_CONTRACT and report captions",
+      "data_checked": true,
+      "labels_clear": true,
+      "uncertainty": "empirical neighbor range or event SD where shown; otherwise raw trajectory",
+      "font_override": "AGENTS.md requires Times New Roman and SimSun"
+    }
+  ],
+  "initial_clipping_repaired": true
+}

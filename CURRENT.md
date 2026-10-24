@@ -1,22 +1,29 @@
 # 当前阶段
 
-最新阶段：[06_positive_flow_diagnostics_20261023](stages/06_positive_flow_diagnostics_20261023/READING_GUIDE.md)。
+最新阶段：[07_dynamic_endpoint_research_20261024](stages/07_dynamic_endpoint_research_20261024/READING_GUIDE.md)。
 
 状态：**阶段交付已生成，质量结论见原报告**。
 
-[阶段报告](stages/06_positive_flow_diagnostics_20261023/REPORT.md)
+[阶段报告](stages/07_dynamic_endpoint_research_20261024/REPORT.md)
 
 本轮进度原文：
 
 ```json
 {
-  "status": "completed",
-  "client_date": "2026-10-23",
-  "validation_events": 21,
-  "sections": 6,
-  "tests_opened": 0,
-  "source_hashes_rechecked": 42,
-  "comparison": "frozen model parameters; user-requested nonnegative truth windows"
+  "stage": "first_pass_delivered_with_negative_model_result",
+  "A_train": 49,
+  "A_validation": 21,
+  "B_train": 14,
+  "B_validation": 6,
+  "sealed_test_results_opened": 0,
+  "steps": {
+    "endpoint_identification": "complete",
+    "storage_release_mechanism": "first_pass_complete",
+    "fixed_origin_endpoint_forecast": "prototype_validated",
+    "dynamic_length_RWEC": "simple_delay_candidate_failed_to_improve",
+    "routing_validation": "first_pass_complete"
+  },
+  "full_moving_boundary_closure_complete": false
 }
 ```
 
