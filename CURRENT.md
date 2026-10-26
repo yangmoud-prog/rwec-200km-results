@@ -1,29 +1,31 @@
 # 当前阶段
 
-最新阶段：[07_dynamic_endpoint_research_20261024](stages/07_dynamic_endpoint_research_20261024/READING_GUIDE.md)。
+最新阶段：[08_forward_C_moving_endpoint_20261026](stages/08_forward_C_moving_endpoint_20261026/READING_GUIDE.md)。
 
-状态：**阶段交付已生成，质量结论见原报告**。
+状态：**已有阶段说明，完成与质量状态见原文**。
 
-[阶段报告](stages/07_dynamic_endpoint_research_20261024/REPORT.md)
+[阶段报告](stages/08_forward_C_moving_endpoint_20261026/REPORT.md)
 
 本轮进度原文：
 
 ```json
 {
-  "stage": "first_pass_delivered_with_negative_model_result",
-  "A_train": 49,
-  "A_validation": 21,
-  "B_train": 14,
-  "B_validation": 6,
-  "sealed_test_results_opened": 0,
-  "steps": {
-    "endpoint_identification": "complete",
-    "storage_release_mechanism": "first_pass_complete",
-    "fixed_origin_endpoint_forecast": "prototype_validated",
-    "dynamic_length_RWEC": "simple_delay_candidate_failed_to_improve",
-    "routing_validation": "first_pass_complete"
-  },
-  "full_moving_boundary_closure_complete": false
+  "status": "local_first_pass_results_saved_quota_exhausted",
+  "created": "2026-10-26T03:08:12+08:00",
+  "pilot_runs": 24,
+  "sensitivity_runs": 4,
+  "development_events": 20,
+  "development_runs": 40,
+  "models": 5,
+  "sealed_tests_opened": 0,
+  "stopped_utc": "2026-10-25T19:12:25.260441+00:00",
+  "model_revision_after_validation": false,
+  "remote_upload_completed": false,
+  "remaining": [
+    "final_PDF_glyph_audit_and_last_visual_revision_check",
+    "private_reading_repository_sync_and_remote_readback"
+  ],
+  "next_step_requires_new_user_authorization": true
 }
 ```
 

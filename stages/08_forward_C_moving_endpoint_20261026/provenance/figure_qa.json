@@ -1,0 +1,106 @@
+{
+  "backend": "python",
+  "figures": [
+    {
+      "figure": "01_physical_screening",
+      "claim": "0.05per mille reverses in CP01; all pilot outcomes retained",
+      "panels": 2,
+      "final_width_mm": 180,
+      "font_floor_pt": 7,
+      "mean_or_raw": "means explicitly labeled; event panels raw",
+      "source": "tables and predictions",
+      "excluded_events": 0
+    },
+    {
+      "figure": "02_validation_means",
+      "claim": "Mean validation accuracy at both distance coordinates",
+      "panels": 3,
+      "final_width_mm": 180,
+      "font_floor_pt": 7,
+      "mean_or_raw": "means explicitly labeled; event panels raw",
+      "source": "tables and predictions",
+      "excluded_events": 0
+    },
+    {
+      "figure": "03_complete_hydrographs",
+      "claim": "Representatives selected by HEC suppression only; complete0-552h window",
+      "panels": 4,
+      "final_width_mm": 180,
+      "font_floor_pt": 7,
+      "mean_or_raw": "means explicitly labeled; event panels raw",
+      "source": "tables and predictions",
+      "excluded_events": 0
+    },
+    {
+      "figure": "04_endpoint_positions",
+      "claim": "All6 validation endpoints; empirical range not confidence interval",
+      "panels": 6,
+      "final_width_mm": 180,
+      "font_floor_pt": 7,
+      "mean_or_raw": "means explicitly labeled; event panels raw",
+      "source": "tables and predictions",
+      "excluded_events": 0
+    },
+    {
+      "figure": "05_endpoint_physical_flow",
+      "claim": "Every model sampled at the same true moving position; physical not relative flux",
+      "panels": 6,
+      "final_width_mm": 180,
+      "font_floor_pt": 7,
+      "mean_or_raw": "means explicitly labeled; event panels raw",
+      "source": "tables and predictions",
+      "excluded_events": 0
+    },
+    {
+      "figure": "06_longitudinal_profiles",
+      "claim": "Paired profiles and bed at4 actual times",
+      "panels": 4,
+      "final_width_mm": 180,
+      "font_floor_pt": 7,
+      "mean_or_raw": "means explicitly labeled; event panels raw",
+      "source": "tables and predictions",
+      "excluded_events": 0
+    },
+    {
+      "figure": "07_moving_storage_balance",
+      "claim": "Same-position geometry storage compared with own model states; algebraic closure distinguished from physical fit",
+      "panels": 4,
+      "final_width_mm": 180,
+      "font_floor_pt": 7,
+      "mean_or_raw": "means explicitly labeled; event panels raw",
+      "source": "tables and predictions",
+      "excluded_events": 0
+    },
+    {
+      "figure": "08_raw_event_improvements",
+      "claim": "All event improvements and failures retained, no selected best cases",
+      "panels": 2,
+      "final_width_mm": 180,
+      "font_floor_pt": 7,
+      "mean_or_raw": "means explicitly labeled; event panels raw",
+      "source": "tables and predictions",
+      "excluded_events": 0
+    },
+    {
+      "figure": "09_timestep_sensitivity",
+      "claim": "Timestep changed with all physical and empirical parameters fixed",
+      "panels": 2,
+      "final_width_mm": 180,
+      "font_floor_pt": 7,
+      "mean_or_raw": "means explicitly labeled; event panels raw",
+      "source": "tables and predictions",
+      "excluded_events": 0
+    }
+  ],
+  "font_paths": [
+    "C:\\Windows\\Fonts\\times.ttf",
+    "C:\\Windows\\Fonts\\simsun.ttc"
+  ],
+  "visual_inspection": "All9initial figures inspected; figure7 tick-density corrected, revisedfigure7 and PDFglyphaudit pending at quota cutoff",
+  "representative_selection": "HEC20km suppression maximum and median among6validation; no model score used",
+  "source_font_check_override": "User explicitly requires Times New Roman and SimSun; generic sans-serif-only validator criterion is inapplicable; both actualfontpaths verified",
+  "remaining": [
+    "PDF5pt glyphaudit",
+    "inspect revisedfigure7"
+  ]
+}

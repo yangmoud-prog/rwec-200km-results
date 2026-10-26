@@ -1,0 +1,4 @@
+﻿slope_per_mille,initial_strict_gate_pass,eligible,min_Q,median_sections,median_excursion
+0.05,False,False,-59.52036666870117,3.0,131.73102494721644
+0.075,False,True,140.38009643554688,1.5,88.89530272782142
+0.1,False,True,289.3009033203125,1.0,66.9272685884967

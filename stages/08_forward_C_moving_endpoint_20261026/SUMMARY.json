@@ -1,0 +1,23 @@
+{
+  "conclusion": "first-pass gain, not yet a timestep-robust superior model",
+  "HEC_runs": 69,
+  "development_events": 20,
+  "train_events": 14,
+  "validation_events": 6,
+  "sealed_tests_opened": 0,
+  "original_mean_NSE": 0.9811157,
+  "autonomous_mean_NSE": 0.9868257,
+  "nonlinear_Muskingum_mean_NSE": 0.983081,
+  "improved_fixed_event_sections": 37,
+  "total_fixed_event_sections": 42,
+  "endpoint_MAE_full_km": 7.088075087453834,
+  "endpoint_MAE_active_km": 10.857910037013767,
+  "retained_failures": [
+    "0.05per mille CP01 reverse flow",
+    "initial overly strict per-event hydraulic response gate",
+    "threshold disappearance spurious release",
+    "RWEC timestep sensitivity",
+    "parameters at search bounds"
+  ],
+  "interpretation": "Positive-flow C does not force original RWEC to perform poorly. Modest local gain, unresolved physical closure and timestep invariance."
+}

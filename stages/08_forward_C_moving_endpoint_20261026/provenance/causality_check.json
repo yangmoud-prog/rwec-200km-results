@@ -1,0 +1,16 @@
+{
+  "autonomous_query_inputs": [
+    "known upstream forecast",
+    "outlet history -48h through0",
+    "fixed geometry",
+    "initial steady state"
+  ],
+  "future_HEC_H_Q_storage_length_used_by_autonomous": false,
+  "ideal_true_length_separately_labeled": true,
+  "training_endpoint_forecast_event_leave_one_out": true,
+  "validation_library_training_events_only": true,
+  "all_models_same_evaluation_positions": true,
+  "no_sealed_test_read": true,
+  "models_parameters_frozen_before_validation": true,
+  "river_selected_before_routing_calibration": true
+}

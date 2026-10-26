@@ -1,0 +1,12 @@
+{
+  "completed": false,
+  "local_research_first_pass_complete": true,
+  "reason": "Second and final authorized quota window exhausted; final visual audit and mandatory remote upload remain",
+  "stopped_utc": "2026-10-25T19:12:25.260441+00:00",
+  "report": "REPORT.md",
+  "equations": "EQUATIONS.md",
+  "figures": 9,
+  "HEC_runs": 69,
+  "remote_upload_verified": false,
+  "no_further_automatic_continuation": true
+}

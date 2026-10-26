@@ -1,0 +1,85 @@
+{
+  "RWEC0": {
+    "model": "RWEC0",
+    "model_id": 0,
+    "dt_h": 2.0,
+    "theta": [
+      -3.0,
+      0.8461890403591195,
+      1.4620713071083444
+    ],
+    "loss": 0.03278108497520448,
+    "mean_training_NSE": 0.9672189150247955,
+    "evaluations": 1000,
+    "failed_parameter_evaluations": 31,
+    "elapsed_s": 3.6709999999729916,
+    "created": "2026-10-26T03:04:47+08:00"
+  },
+  "LM": {
+    "model": "LM",
+    "model_id": 1,
+    "dt_h": 0.25,
+    "theta": [
+      1.191985136350219,
+      0.0
+    ],
+    "loss": 0.055592370617503876,
+    "mean_training_NSE": 0.9444076293824961,
+    "evaluations": 1000,
+    "failed_parameter_evaluations": 1,
+    "elapsed_s": 8.093999999924563,
+    "created": "2026-10-26T03:04:55+08:00"
+  },
+  "NLM": {
+    "model": "NLM",
+    "model_id": 2,
+    "dt_h": 0.25,
+    "theta": [
+      1.5830126371032787,
+      0.0,
+      0.5060737955595196
+    ],
+    "loss": 0.03621968147628072,
+    "mean_training_NSE": 0.9637803185237193,
+    "evaluations": 1000,
+    "failed_parameter_evaluations": 0,
+    "elapsed_s": 32.84299999999348,
+    "created": "2026-10-26T03:05:35+08:00"
+  },
+  "MC_oracle": {
+    "model": "MC_oracle",
+    "model_id": 3,
+    "dt_h": 1.0,
+    "theta": [
+      -3.0,
+      1.3632105791245444,
+      1.9456791636283701,
+      0.31756226324394204,
+      3.478429439803581
+    ],
+    "loss": 0.019051628703683876,
+    "mean_training_NSE": 0.9809483712963161,
+    "evaluations": 1000,
+    "failed_parameter_evaluations": 30,
+    "elapsed_s": 6.375,
+    "created": "2026-10-26T03:06:48+08:00"
+  },
+  "MC_autonomous": {
+    "model": "MC_autonomous",
+    "model_id": 4,
+    "dt_h": 2.0,
+    "theta": [
+      -2.999759388435831,
+      0.7802600264007249,
+      1.4999892157054946,
+      0.25958658041553867,
+      5.096977576233385
+    ],
+    "loss": 0.025977486102573055,
+    "mean_training_NSE": 0.974022513897427,
+    "evaluations": 1000,
+    "failed_parameter_evaluations": 32,
+    "elapsed_s": 3.593999999924563,
+    "created": "2026-10-26T03:07:36+08:00"
+  }
+}

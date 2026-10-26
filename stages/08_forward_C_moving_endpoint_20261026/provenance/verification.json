@@ -1,0 +1,33 @@
+{
+  "HEC_quality_pass": true,
+  "all_development_flow_positive": true,
+  "sealed_tests_opened": 0,
+  "model_contract": {
+    "original_RWEC_equivalence_max_m3s": 1.1368683772161603e-12,
+    "linear_Muskingum_equivalence_max_m3s": 1.0455778465257026e-09,
+    "constant_flow_max_error_m3s": 1.0231815394945443e-12,
+    "alpha_zero_nested_exact": true,
+    "fixed_volume_balance_max_m3": 8.009374141693115e-08,
+    "moving_balance_max_m3": 2.377200871706009e-07,
+    "omitting_sweep_RMS_m3s": 795.1350162178576,
+    "forecast_API_inputs": [
+      "upstream_flow",
+      "predicted_endpoint",
+      "fixed_geometry",
+      "known_initial_state",
+      "fixed_parameters"
+    ],
+    "future_HEC_H_or_storage_argument": false,
+    "no_clipping_negative_output": true,
+    "invalid_candidate_returns_failure": true
+  },
+  "sensitivity": {
+    "passed": true,
+    "criteria": "flowRMSE/peak<2%; peak change<2%; max water-level change<0.05m; completequality+initialization+recovery+positiveflow",
+    "cases": 4,
+    "created": "2026-10-26T02:48:01+08:00"
+  },
+  "prediction_invalid_fixed_records": 0,
+  "independent_holdout_test": false,
+  "stage": "first development validation"
+}

@@ -11,6 +11,7 @@
 | [05_routing_validation_slope075_20261022](stages/05_routing_validation_slope075_20261022/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 17.23 MiB |
 | [06_positive_flow_diagnostics_20261023](stages/06_positive_flow_diagnostics_20261023/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 4.02 MiB |
 | [07_dynamic_endpoint_research_20261024](stages/07_dynamic_endpoint_research_20261024/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 3.20 MiB |
+| [08_forward_C_moving_endpoint_20261026](stages/08_forward_C_moving_endpoint_20261026/READING_GUIDE.md) | 已有阶段说明，完成与质量状态见原文 | 2.96 MiB |
 
 [同步与读取方法](SYNC.md) · [文件校验清单](FILE_MANIFEST.json)
 
