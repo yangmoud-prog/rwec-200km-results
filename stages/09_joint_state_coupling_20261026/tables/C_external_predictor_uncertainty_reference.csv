@@ -1,0 +1,7 @@
+﻿event,horizon_h,method,full_coverage,active_coverage,mean_width_km,endpoint_MAE_km
+E006,552,"existing external8NN empirical10-90percentile, not joint model",0.8372513562386981,0.6017699115044248,24.331974531120256,7.57916472379008
+E051,552,"existing external8NN empirical10-90percentile, not joint model",0.840867992766727,0.6206896551724138,23.610661619753326,11.190751577244935
+E094,552,"existing external8NN empirical10-90percentile, not joint model",1.0,1.0,23.87142509379663,6.460125071143949
+E085,552,"existing external8NN empirical10-90percentile, not joint model",1.0,1.0,21.94847408667365,4.950042395841413
+E037,552,"existing external8NN empirical10-90percentile, not joint model",0.9837251356238698,0.9571428571428572,22.358447657195953,5.220305378458014
+E032,552,"existing external8NN empirical10-90percentile, not joint model",0.9873417721518988,0.966183574879227,22.322223673253028,7.12806137824461

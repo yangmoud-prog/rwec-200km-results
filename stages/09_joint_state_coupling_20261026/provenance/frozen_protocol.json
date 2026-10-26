@@ -1,0 +1,175 @@
+{
+  "created": "2026-10-26T10:39:35.767070",
+  "stage": 9,
+  "train": [
+    "E023",
+    "E007",
+    "E069",
+    "E021",
+    "E001",
+    "E049",
+    "E065",
+    "E040",
+    "E062",
+    "E076",
+    "E084",
+    "E072",
+    "E005",
+    "E009"
+  ],
+  "validation": [
+    "E006",
+    "E051",
+    "E094",
+    "E085",
+    "E037",
+    "E032"
+  ],
+  "order": [
+    "E023",
+    "E006",
+    "E007",
+    "E069",
+    "E021",
+    "E001",
+    "E049",
+    "E065",
+    "E040",
+    "E062",
+    "E076",
+    "E084",
+    "E072",
+    "E005",
+    "E009",
+    "E051",
+    "E094",
+    "E085",
+    "E037",
+    "E032"
+  ],
+  "scope": "B joint state mechanism and forecast; C separate identifiability",
+  "future_HEC_inputs_allowed_only_for_oracle": true,
+  "sealed_test_opened": 0,
+  "new_HEC_runs": 0,
+  "window_h": [
+    0,
+    288
+  ],
+  "targets_outlet_km": [
+    120,
+    100,
+    80,
+    60,
+    40,
+    20,
+    0
+  ],
+  "shape": "initial profile + normal depth response + exponential downstream head response",
+  "shape_threshold_m": 0.1,
+  "dt_candidates_h": [
+    0.5,
+    1.0
+  ],
+  "max_objective_calls_per_model_per_dt": 320,
+  "optimizer": "48 seeded Latin-hypercube points; bounded Nelder-Mead restarts; training-only selection",
+  "new_model_parameters": [
+    "k",
+    "K20_h",
+    "lambda_multiplier"
+  ],
+  "feedback_off": "same fitted parameters; upstream flux independent of current or historical backwater state",
+  "primary_objective": "mean NSE over14trainingevents and7fixedsections",
+  "failures": "retained, no clipping and no replacement",
+  "validation_selection": false,
+  "observation_operator": "common hourly interval-average discharge: HEC and traditional outputs trapezoidal, joint native conservative means; endpoint positions evaluated at hourly endpoints",
+  "bounds": {
+    "0": [
+      [
+        -3,
+        6
+      ],
+      [
+        -1.6,
+        2.3
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "1": [
+      [
+        -3,
+        3
+      ],
+      [
+        0,
+        0.5
+      ]
+    ],
+    "2": [
+      [
+        -3,
+        3
+      ],
+      [
+        0,
+        0.5
+      ],
+      [
+        0.4,
+        2.0
+      ]
+    ],
+    "4": [
+      [
+        -3,
+        6
+      ],
+      [
+        -1.6,
+        2.3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        1.2
+      ],
+      [
+        0,
+        24
+      ]
+    ],
+    "5": [
+      [
+        -3,
+        6
+      ],
+      [
+        -1.6,
+        2.5
+      ],
+      [
+        -1.38629436112,
+        1.38629436112
+      ]
+    ],
+    "6": [
+      [
+        -3,
+        6
+      ],
+      [
+        -1.6,
+        2.5
+      ],
+      [
+        -1.38629436112,
+        1.38629436112
+      ]
+    ]
+  }
+}

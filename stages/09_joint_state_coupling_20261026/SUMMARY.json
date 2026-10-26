@@ -1,0 +1,70 @@
+{
+  "stage": 9,
+  "updated": "2026-10-26T11:06:33.486459",
+  "status": "complete_first_development_round_candidate_not_supported",
+  "validation_means": [
+    {
+      "model": "RWEC0",
+      "NSE": 0.9923458780629182,
+      "RMSE": 62.53120947969704,
+      "KGE": 0.988467670018891,
+      "peak_abs_pct": 2.776473481106126,
+      "peak_abs_h": 2.6904761904761907
+    },
+    {
+      "model": "NLM",
+      "NSE": 0.992313313964844,
+      "RMSE": 64.28748475994887,
+      "KGE": 0.9505227371343251,
+      "peak_abs_pct": 6.637940966760557,
+      "peak_abs_h": 0.4523809523809524
+    },
+    {
+      "model": "LM",
+      "NSE": 0.9797831011728694,
+      "RMSE": 101.16096121535983,
+      "KGE": 0.9402538857375046,
+      "peak_abs_pct": 4.915647414911137,
+      "peak_abs_h": 3.2857142857142856
+    },
+    {
+      "model": "Serial8",
+      "NSE": 0.9923091211813347,
+      "RMSE": 62.577606741911225,
+      "KGE": 0.9878920524173183,
+      "peak_abs_pct": 2.8444817929766053,
+      "peak_abs_h": 2.6666666666666665
+    },
+    {
+      "model": "Joint_oracle",
+      "NSE": 0.9855276667124819,
+      "RMSE": 87.52827512648253,
+      "KGE": 0.9850293817852463,
+      "peak_abs_pct": 1.666816741604719,
+      "peak_abs_h": 3.1904761904761907
+    },
+    {
+      "model": "Joint",
+      "NSE": 0.9841615201177378,
+      "RMSE": 90.97845373861921,
+      "KGE": 0.9858909451535438,
+      "peak_abs_pct": 0.5649993408453087,
+      "peak_abs_h": 3.619047619047619
+    },
+    {
+      "model": "Feedback_off",
+      "NSE": 0.9843678973314527,
+      "RMSE": 90.4825231603293,
+      "KGE": 0.9863902187638554,
+      "peak_abs_pct": 0.5492623993834208,
+      "peak_abs_h": 3.619047619047619
+    }
+  ],
+  "joint_endpoint_MAE_km": 16.97620774914009,
+  "joint_endpoint_active_MAE_km": 40.59560222168494,
+  "joint_half_dt_failed_validation_events": 6,
+  "closed_B": true,
+  "C_separate": true,
+  "new_HEC": 0,
+  "sealed_test_opened": 0
+}

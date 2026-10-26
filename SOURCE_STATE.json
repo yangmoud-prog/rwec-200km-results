@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T17:47:59.064659+08:00",
+  "updated": "2026-10-26T11:06:33.498532",
   "design_id": "high_stage_hold_v1",
   "active_root": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2",
   "experiment_spec": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\EXPERIMENT_NUMERICS.md",
@@ -31,9 +31,9 @@
   "parallel_scaling_decision": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\results\\parallel_scaling_decision.json",
   "formal_success_count": 232,
   "formal_failure_count": 0,
-  "analysis_stage": "dynamic_endpoint_first_pass_delivered",
-  "analysis_latest": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\08_forward_C_moving_endpoint_20261026",
-  "analysis_findings": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\07_dynamic_endpoint_research_20261024\\REPORT.md",
+  "analysis_stage": "stage9_joint_state_first_round_complete_candidate_not_supported",
+  "analysis_latest": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\09_joint_state_coupling_20261026",
+  "analysis_findings": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\09_joint_state_coupling_20261026\\REPORT.md",
   "validation_pairs_held_out": 30,
   "model_comparison_development_events": 70,
   "model_comparison_test_events": 0,
@@ -79,5 +79,6 @@
   ],
   "future_downstream_levels_used_as_predictor": false,
   "full_research_complete": false,
-  "analysis_latest_status": "local_first_pass_results_saved_remote_sync_pending"
+  "analysis_latest_status": "local_first_pass_results_saved_remote_sync_pending",
+  "stage9_summary": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\09_joint_state_coupling_20261026\\SUMMARY.json"
 }

@@ -1,0 +1,59 @@
+{
+  "checked": "2026-10-26T11:04:13.830240",
+  "status": "first_development_round_complete_candidate_not_supported",
+  "events": 20,
+  "train": 14,
+  "validation": 6,
+  "models": 7,
+  "fixed_section_event_metric_rows": 980,
+  "base_completed_runs": 140,
+  "base_total_runs": 140,
+  "base_negative_reconstructed_flow_count": 0,
+  "base_max_balance_flow_m3s": 1.2337562111497393e-05,
+  "joint_validation_all_complete": true,
+  "sensitivity_failed_event_model_dt_runs": 7,
+  "steady_flow_max_error_m3s": 6.62271304463502e-09,
+  "source_hashes_rechecked": true,
+  "causality": {
+    "future_upstream_suffix_changes_past_outputs": false,
+    "autonomous_ignores_future_endpoint_array": true,
+    "autonomous_future_HEC_stage_or_storage_inputs": false,
+    "initial_state_only_HEC_input": true,
+    "serial8_external_preprocessor": true,
+    "oracle_separately_labelled": true,
+    "C_not_used_to_fit_B": true,
+    "sealed_test_opened": 0
+  },
+  "no_new_HEC": true,
+  "no_animation": true,
+  "uncertainty": "six development validation events; sealed30 not used; no independent final-test claim",
+  "figure_qa_complete": true,
+  "editable_LaTeX_file": "EQUATIONS.md",
+  "source_sha256": {
+    "closure.py": "cefa251d1fa4a15621bf3bc68ee3788441d28728797665ec84774e0a7d08322a",
+    "common.py": "62aac53c439926ec0fd2ba2cd7afd40bbbb92c538f34f0b8dc1ea71ecd80819a",
+    "evaluate.py": "4568a886a6e05a1f0e111d01acb376f8521d0a136d124e2c7325d3683941bbe3",
+    "figures.py": "4b689d6810912005d7bb1ceb6dee664c66d7a76fca6cb50f88afa78258eb008e",
+    "finalize.py": "c17a41dfd64dcb6f54fa0be10dde77f64cc21cca840c6b0ec0c2cbdceef05474",
+    "fit.py": "ab64bfd562951b63c528989bcd9cdbfcb9c6df919fa80e7a2b5bd63c5bb00952",
+    "identifiability.py": "8f74d7433332d2ae7f9762d75b0da0e90f9943273abe64d9ab234c661227a978",
+    "joint.py": "ff63670e59a6e21e73226a2c7d6d679560a418e7a6b706a10ed8d6d54251c80e",
+    "prepare.py": "7a742be44198d47e44208f6e626d458f3c406923e6f02b6efbb2f29089009c7d",
+    "report.py": "9df57fac181fd4b4f86cfa4f981132f69e9ce3a333b1d6738ceacc6700e816df",
+    "verify.py": "640d6e125a5879236c50ab64e85096a9d603ce19b34405a10f3ab749b47cf381"
+  },
+  "C_identifiability": {
+    "source_sha256": [
+      "aa00eb0590d13f01226964a4de3c8cb1846e73f8e4ab8c1efcece30727a2224a",
+      "f097e1ff9040678c3d68b5e3511295e98159a8aa87dab2889cec60f42365a8e3",
+      "0552d6c8ee14f2ccd83b49b33f2a05302366a2a865a2fc5f228098a02c1efc13"
+    ],
+    "same_past_stage_max_difference_m": 0.0,
+    "same_initial_state_stage_max_difference_m": 0.0,
+    "same_upstream_HEC_flow_max_difference_m3s": 0.0,
+    "endpoint_equal_probability_RMSE_lower_bound_km": 10.266858883817294,
+    "meaning": "two physically admissible unknown future-stage scenarios, no assumed real probability or calibrated confidence interval",
+    "C_joint_deterministic_prediction_claimed": false,
+    "C_data_used_to_fit_B": false
+  }
+}

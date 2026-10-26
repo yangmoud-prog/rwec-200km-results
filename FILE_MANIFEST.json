@@ -2608,5 +2608,250 @@
     "path": "stages/08_forward_C_moving_endpoint_20261026/write_report.py",
     "bytes": 11978,
     "sha256": "2b82069d46951f622bb0a8629a531943dae3d7e9d8305bbbf471801939031f9d"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/checkpoint.json",
+    "bytes": 759,
+    "sha256": "72199fc95db22a125d6d2eee37743aa26825fc6bb317d6277483ebef05d0b62d"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/closure.py",
+    "bytes": 2669,
+    "sha256": "cefa251d1fa4a15621bf3bc68ee3788441d28728797665ec84774e0a7d08322a"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/common.py",
+    "bytes": 1832,
+    "sha256": "62aac53c439926ec0fd2ba2cd7afd40bbbb92c538f34f0b8dc1ea71ecd80819a"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/delivery.json",
+    "bytes": 623,
+    "sha256": "fce2178afef8f2b5b076ab0cdd67c32e190313622f51bcea354cde9f1f334f1f"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/EQUATIONS.md",
+    "bytes": 8956,
+    "sha256": "56ffc85f0ebc8bf97f3b0c70c182d775a6702c6892351f478b90fcfc0405d0f8"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/evaluate.py",
+    "bytes": 6319,
+    "sha256": "4568a886a6e05a1f0e111d01acb376f8521d0a136d124e2c7325d3683941bbe3"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/figures/01_validation_mean_skill.png",
+    "bytes": 392656,
+    "sha256": "ff6e1b27792bea9ec04817708117ca950415935ac3dfd5c689e682b3bc3fc375"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/figures/02_all_validation_hydrographs.png",
+    "bytes": 1205287,
+    "sha256": "0610f5bb455c01b103a1fecbc6e763698ed16a2b2303edc594d6a2850500151f"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/figures/03_endpoint_positions.png",
+    "bytes": 517413,
+    "sha256": "3c27fa9d869b6bb1f0858023a2c6c0c750c9f5dcad78e33ce7d3a887cb41b49d"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/figures/04_same_dynamic_location_flux.png",
+    "bytes": 640500,
+    "sha256": "3d5e0551bdc0950c4dd7cd44a05815261ef28c27efa00a50955ae16747ee447d"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/figures/05_storage_and_relative_flux.png",
+    "bytes": 474083,
+    "sha256": "bc46493aa0a34470df911a571054b2e00f04ba533ee509d77e8302255a67b987"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/figures/06_water_profile_closure.png",
+    "bytes": 402125,
+    "sha256": "54da1a21419ae36c53f73149f0b853ba4bf7b6232d9af498a1701568f12d0050"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/figures/07_feedback_ablation_and_dt.png",
+    "bytes": 332596,
+    "sha256": "4c16bf0f67246bf8dcb2007556a2ba78b244b40aaad247208b51244ecf59b5b8"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/figures/08_C_boundary_identifiability.png",
+    "bytes": 453564,
+    "sha256": "1f24d7680278c9fa70e0954f0fd473ca578e154d1ed27ebb00e2409addd8522e"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/figures.py",
+    "bytes": 12358,
+    "sha256": "4b689d6810912005d7bb1ceb6dee664c66d7a76fca6cb50f88afa78258eb008e"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/finalize.py",
+    "bytes": 2072,
+    "sha256": "c17a41dfd64dcb6f54fa0be10dde77f64cc21cca840c6b0ec0c2cbdceef05474"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/fit.py",
+    "bytes": 4674,
+    "sha256": "ab64bfd562951b63c528989bcd9cdbfcb9c6df919fa80e7a2b5bd63c5bb00952"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/identifiability.py",
+    "bytes": 2512,
+    "sha256": "8f74d7433332d2ae7f9762d75b0da0e90f9943273abe64d9ab234c661227a978"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/joint.py",
+    "bytes": 6114,
+    "sha256": "ff63670e59a6e21e73226a2c7d6d679560a418e7a6b706a10ed8d6d54251c80e"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/PARAMETERS.json",
+    "bytes": 2481,
+    "sha256": "d9d341320abc25f93753522d0a30c002bc65137f5395fa0517f1da35e4b9c522"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/prepare.py",
+    "bytes": 3445,
+    "sha256": "7a742be44198d47e44208f6e626d458f3c406923e6f02b6efbb2f29089009c7d"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/provenance/causality_check.json",
+    "bytes": 354,
+    "sha256": "68c038c3499e565d97b921487ab91b7e85371a5575acbe4c905acffc09ad6e7c"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/provenance/figure_qa.json",
+    "bytes": 13332,
+    "sha256": "65c9418bb23895645edda15d289b55e77f4c53b316fb76e3d0472a014b07dec9"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/provenance/frozen_protocol.json",
+    "bytes": 2869,
+    "sha256": "4865407a57347de91266cd16befb266f581ada571b1593e0fb86b7b13b430935"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/provenance/verification.json",
+    "bytes": 2926,
+    "sha256": "17d7c87a60def9b9d5e60344018b8257b5a91f306c1ac9e6fa5d81d8de56add2"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/README.md",
+    "bytes": 507,
+    "sha256": "b2703685a9ba9578d1dd680e4955ef3a2d7572d9c3307bc88f6f8873334fc3ab"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/REPORT.md",
+    "bytes": 20957,
+    "sha256": "2b5ae4994f2448d59f97c120b573479c2d8fb00d70dc5794984621420bd9780f"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/report.py",
+    "bytes": 18547,
+    "sha256": "9df57fac181fd4b4f86cfa4f981132f69e9ce3a333b1d6738ceacc6700e816df"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/SUMMARY.json",
+    "bytes": 1982,
+    "sha256": "d3e8961402010d7998fec1a83174baa0c679bd0b2d27852125bf147ce0cb9b79"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/C_external_predictor_uncertainty_reference.csv",
+    "bytes": 922,
+    "sha256": "bb934acbfad3adfbcc1f46f7caea1f7bcd1b2faa46ebad845d31b597aeca911a"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/C_identifiability_two_scenario_bounds.csv",
+    "bytes": 739,
+    "sha256": "06cfa93131d522292256d2d9f4878a75b0a3ae9fc15b0fccd72e1cab045d73c8"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/calibration_search.csv",
+    "bytes": 1847,
+    "sha256": "71b1335840e82098afb5728edb8a89f8b25e56dd7bd5a165a45f2f0a5e3bbe6d"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/dt_sensitivity_summary.csv",
+    "bytes": 758,
+    "sha256": "ebd2f8ffdd0bd3df4eb18bc08ab5b6a32ead84e23730aa83d9dac4cb41d5d612"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/dynamic_location_event_metrics.csv",
+    "bytes": 21119,
+    "sha256": "1857df14e016927a49cf3a310823486232c592970ce10a5f23825c23d49ba4a1"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/dynamic_location_validation_means.csv",
+    "bytes": 473,
+    "sha256": "ce20736faf51dc15a6e637060b8d07f81e017751d05c5d236a4bf4c239aef9b6"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/event_physics.csv",
+    "bytes": 1833,
+    "sha256": "3e140819f36b1284f38cb6152e47bd48fd43d8d24b4875779514af10763183da"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/failed_runs.csv",
+    "bytes": 234,
+    "sha256": "ce7739bd92bd7cfa0ef6abd8957f1a6b0ed8bba5e61c7fd7c8d6919a7f20b3a0"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/fixed_parameter_dt_sensitivity.csv",
+    "bytes": 54572,
+    "sha256": "947b90c6c99e41cf97845448552abbd6fd51f841d926847810a8b8c0a0a8fb2f"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/fixed_section_event_metrics.csv",
+    "bytes": 110253,
+    "sha256": "3d5e3baaf740e8a94ad4542d5a6d1b47a7842eaee26387268e974e32b5737c0e"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/fixed_section_means.csv",
+    "bytes": 15186,
+    "sha256": "3002dc10817a4258bffcf44cc115b7bee7667fc9f323f3a601b8b3f61ecf301a"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/joint_state_event_metrics.csv",
+    "bytes": 13055,
+    "sha256": "38a5cabd84b4fbb648f07a6e9d80563f97d5da6d4678b1282a8bb583bb660d00"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/known_endpoint_physical_closure.csv",
+    "bytes": 3930,
+    "sha256": "3e4513de4d95bc1d6a3fb9d4351b4aed897ca81f6e2cb75f9b3a90db44a114c2"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/paired_NSE_changes.csv",
+    "bytes": 33941,
+    "sha256": "6a22cb7b269df7a5c122a9f98c4d1afefe37e46851f4c3b51a9fd6746803fa28"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/parameter_table.csv",
+    "bytes": 603,
+    "sha256": "323844c32196ad28b5aec61ebf5b829b2723a6fc84db2654f2e8b12f2b2dd411"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/runtime_summary.csv",
+    "bytes": 219,
+    "sha256": "41d39910f23301a9eec63fe3f3e715be4116ae8fc3734da6004f15bcf5d7414e"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/solver_quality.csv",
+    "bytes": 11438,
+    "sha256": "bbea57d484ad8caf0aa6ba1c2ae67f25812e8475832de14c70d3940bd0fdd3a2"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/validation_event_mean_improvement.csv",
+    "bytes": 660,
+    "sha256": "7f0c7c4ed64f86022977203f34b342be89468d6bc344257cd6a4ad33eda638bd"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/tables/validation_overall_means.csv",
+    "bytes": 758,
+    "sha256": "bf889abf2847b83a8b4c28a865b6358fbb8587c8d7da29eb80af43174c84bc30"
+  },
+  {
+    "path": "stages/09_joint_state_coupling_20261026/verify.py",
+    "bytes": 2730,
+    "sha256": "640d6e125a5879236c50ab64e85096a9d603ce19b34405a10f3ab749b47cf381"
   }
 ]

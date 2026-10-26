@@ -1,0 +1,108 @@
+{
+  "RWEC0": {
+    "model": "RWEC0",
+    "model_id": 0,
+    "dt_h": 1.0,
+    "theta": [
+      -2.999809313306706,
+      1.3666230295021813,
+      2.0270459808879675
+    ],
+    "loss": 0.008802073048857977,
+    "mean_training_NSE": 0.9911979269511421,
+    "evaluations": 320,
+    "failed_parameter_evaluations": 10,
+    "elapsed_s": 1.311496999929659,
+    "boundary_parameters": [
+      0
+    ]
+  },
+  "LM": {
+    "model": "LM",
+    "model_id": 1,
+    "dt_h": 0.5,
+    "theta": [
+      1.2383885433624542,
+      0.0
+    ],
+    "loss": 0.027766795736994816,
+    "mean_training_NSE": 0.9722332042630052,
+    "evaluations": 320,
+    "failed_parameter_evaluations": 0,
+    "elapsed_s": 1.243379299994558,
+    "boundary_parameters": [
+      1
+    ]
+  },
+  "NLM": {
+    "model": "NLM",
+    "model_id": 2,
+    "dt_h": 0.5,
+    "theta": [
+      1.5690738007975176,
+      0.0,
+      0.5765487546107921
+    ],
+    "loss": 0.01052154526014649,
+    "mean_training_NSE": 0.9894784547398535,
+    "evaluations": 320,
+    "failed_parameter_evaluations": 2,
+    "elapsed_s": 4.643139500054531,
+    "boundary_parameters": [
+      1
+    ]
+  },
+  "Serial8": {
+    "model": "Serial8",
+    "model_id": 4,
+    "dt_h": 1.0,
+    "theta": [
+      -2.9998092052978067,
+      1.370255670446459,
+      2.021357695633451,
+      2.021313216829304e-06,
+      6.540634286827133
+    ],
+    "loss": 0.008798527100147007,
+    "mean_training_NSE": 0.9912014728998529,
+    "evaluations": 320,
+    "failed_parameter_evaluations": 10,
+    "elapsed_s": 1.1826972999842837,
+    "boundary_parameters": [
+      0,
+      3
+    ]
+  },
+  "Joint_oracle": {
+    "model": "Joint_oracle",
+    "model_id": 5,
+    "dt_h": 1.0,
+    "theta": [
+      -0.4208052410795009,
+      1.2893288535673912,
+      1.2331746137109945
+    ],
+    "loss": 0.018617570801046167,
+    "mean_training_NSE": 0.9813824291989538,
+    "evaluations": 320,
+    "failed_parameter_evaluations": 1,
+    "elapsed_s": 28.351950200041756,
+    "boundary_parameters": []
+  },
+  "Joint": {
+    "model": "Joint",
+    "model_id": 6,
+    "dt_h": 1.0,
+    "theta": [
+      -0.3413509070794021,
+      1.2587673238279256,
+      -1.2149869337937615
+    ],
+    "loss": 0.020539957232890916,
+    "mean_training_NSE": 0.9794600427671091,
+    "evaluations": 320,
+    "failed_parameter_evaluations": 36,
+    "elapsed_s": 30.524773200042546,
+    "boundary_parameters": []
+  }
+}

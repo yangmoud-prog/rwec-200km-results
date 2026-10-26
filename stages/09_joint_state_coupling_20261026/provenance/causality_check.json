@@ -1,0 +1,10 @@
+{
+  "future_upstream_suffix_changes_past_outputs": false,
+  "autonomous_ignores_future_endpoint_array": true,
+  "autonomous_future_HEC_stage_or_storage_inputs": false,
+  "initial_state_only_HEC_input": true,
+  "serial8_external_preprocessor": true,
+  "oracle_separately_labelled": true,
+  "C_not_used_to_fit_B": true,
+  "sealed_test_opened": 0
+}

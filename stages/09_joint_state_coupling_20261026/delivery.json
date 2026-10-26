@@ -1,0 +1,15 @@
+{
+  "completed": true,
+  "scope": "Stage 9 first development round, not a successful final model",
+  "quality_conclusion": "Current jointly solved candidate is not supported: poorer skill, endpoint mismatch, and half-step failures",
+  "B_train_events": 14,
+  "B_validation_events": 6,
+  "sealed_test_events_opened": 0,
+  "new_HEC_runs": 0,
+  "animations": false,
+  "editable_equations": "EQUATIONS.md",
+  "report": "REPORT.md",
+  "figures": 8,
+  "reading_repository": "yangmoud-prog/rwec-200km-results",
+  "remote_upload_receipt": "See reading repository .local/last_upload.json; this file does not claim upload success"
+}

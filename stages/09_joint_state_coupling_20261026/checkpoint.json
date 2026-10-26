@@ -1,0 +1,16 @@
+{
+  "stage": 9,
+  "status": "first_development_round_complete_candidate_failed_scientific_tests",
+  "known_endpoint_physical_closure_checked_first": true,
+  "autonomous_joint_forecasts_completed": true,
+  "feedback_off_ablation_completed": true,
+  "same_dynamic_evaluation_position_used_for_all_models": true,
+  "fixed_section_event_metric_rows": 980,
+  "C_identifiability_checked_separately": true,
+  "half_step_failures_retained": 7,
+  "sealed_test_opened": 0,
+  "rebuilding_authorized_if_physically_needed": true,
+  "rebuilding_needed_for_this_round": false,
+  "next_scientific_issue": "Causal reference-state evolution, profile closure and moving-domain solver stability; do not tune against validation skill",
+  "automatic_continuation_created": false
+}
