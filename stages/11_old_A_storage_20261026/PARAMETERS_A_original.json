@@ -1,0 +1,186 @@
+{
+  "model": "original",
+  "reaches": [
+    {
+      "model": "original",
+      "model_id": 0,
+      "reach": 0,
+      "outlet_x_km": 180,
+      "dt_h": 0.25,
+      "theta": [
+        -3.2404588541250696,
+        3.1843399210635086,
+        2.5877625161447275
+      ],
+      "loss": 0.00020858873034285653,
+      "training_NSE": 0.9997914112696571,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 42.99874930002261,
+      "boundary_parameters": []
+    },
+    {
+      "model": "original",
+      "model_id": 0,
+      "reach": 1,
+      "outlet_x_km": 160,
+      "dt_h": 2.0,
+      "theta": [
+        -3.2035279896545124,
+        1.284685442365023,
+        1.7878267343967575
+      ],
+      "loss": 0.0009136234590079659,
+      "training_NSE": 0.9990863765409921,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 11.94327620009426,
+      "boundary_parameters": []
+    },
+    {
+      "model": "original",
+      "model_id": 0,
+      "reach": 2,
+      "outlet_x_km": 140,
+      "dt_h": 2.0,
+      "theta": [
+        -3.222122652453911,
+        1.3893127218382904,
+        1.851067852336052
+      ],
+      "loss": 0.002827375367998947,
+      "training_NSE": 0.9971726246320011,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 12.026110000093468,
+      "boundary_parameters": []
+    },
+    {
+      "model": "original",
+      "model_id": 0,
+      "reach": 3,
+      "outlet_x_km": 120,
+      "dt_h": 2.0,
+      "theta": [
+        -3.350782697163514,
+        1.7968402718922065,
+        2.0471578932559926
+      ],
+      "loss": 0.008263376395141237,
+      "training_NSE": 0.9917366236048588,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 12.861648499965668,
+      "boundary_parameters": []
+    },
+    {
+      "model": "original",
+      "model_id": 0,
+      "reach": 4,
+      "outlet_x_km": 100,
+      "dt_h": 2.0,
+      "theta": [
+        -3.2000061696983018,
+        1.9732151467350802,
+        1.9368173793518306
+      ],
+      "loss": 0.023289014566343583,
+      "training_NSE": 0.9767109854336564,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 10.472308099968359,
+      "boundary_parameters": []
+    },
+    {
+      "model": "original",
+      "model_id": 0,
+      "reach": 5,
+      "outlet_x_km": 80,
+      "dt_h": 0.25,
+      "theta": [
+        -2.98108476124019,
+        4.27169304128394,
+        2.8084366363174365
+      ],
+      "loss": 0.06105492683420506,
+      "training_NSE": 0.9389450731657949,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 38.06429869995918,
+      "boundary_parameters": []
+    },
+    {
+      "model": "original",
+      "model_id": 0,
+      "reach": 6,
+      "outlet_x_km": 60,
+      "dt_h": 0.25,
+      "theta": [
+        -2.6598622295768566,
+        4.356818386245422,
+        2.645631672613112
+      ],
+      "loss": 0.14258966103324444,
+      "training_NSE": 0.8574103389667556,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 37.815820800024085,
+      "boundary_parameters": []
+    },
+    {
+      "model": "original",
+      "model_id": 0,
+      "reach": 7,
+      "outlet_x_km": 40,
+      "dt_h": 0.25,
+      "theta": [
+        -2.6291624611029922,
+        4.2719097722182715,
+        2.6990282814465862
+      ],
+      "loss": 0.26147854982166685,
+      "training_NSE": 0.7385214501783331,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 36.57946260005701,
+      "boundary_parameters": []
+    },
+    {
+      "model": "original",
+      "model_id": 0,
+      "reach": 8,
+      "outlet_x_km": 20,
+      "dt_h": 0.25,
+      "theta": [
+        -3.033555279653835,
+        3.9550215158659228,
+        2.392468166232864
+      ],
+      "loss": 0.3683478293889976,
+      "training_NSE": 0.6316521706110023,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 38.238060700008646,
+      "boundary_parameters": []
+    },
+    {
+      "model": "original",
+      "model_id": 0,
+      "reach": 9,
+      "outlet_x_km": 0,
+      "dt_h": 0.25,
+      "theta": [
+        -3.3652516926177762,
+        3.662574882390942,
+        1.557014967227172
+      ],
+      "loss": 0.4537853898411171,
+      "training_NSE": 0.546214610158883,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 41.339843899942935,
+      "boundary_parameters": []
+    }
+  ],
+  "complete": true
+}

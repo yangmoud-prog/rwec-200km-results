@@ -1,0 +1,93 @@
+{
+  "posthoc_score_alignment": true,
+  "refitting": false,
+  "current_parameters_changed": false,
+  "selection_by_validation": false,
+  "reference": "Stage5 original RWEC shared parameters trained across paired scenarios; separate context from new per-reach dynamic-only fit",
+  "sources": [
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E006_RWEC-0.npz",
+      "sha256": "eb32d15ce3d98c2c371a03b18c564790b188494ae285d71be3a87d50e2e34f49"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E010_RWEC-0.npz",
+      "sha256": "085e8e100b0dc554d4e6620543ea0c0d8fc1e2464ee79378ef2e360fa64ef9d1"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E014_RWEC-0.npz",
+      "sha256": "b88197e17c8e2c42f72b8f44db0a5d52879d2119040122476fb912ebe9506973"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E019_RWEC-0.npz",
+      "sha256": "7410df9a5e236443c2df9cb3074b4bb2d62a1462e002570f0abeca23b3ac4245"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E025_RWEC-0.npz",
+      "sha256": "84d086521f89898b5720bfd651f20cdee2a8ea2561a0c67b06aadb8d454745b3"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E026_RWEC-0.npz",
+      "sha256": "350491a4a95cdf708d1abe98d563fbee0612208858ed23c85f13b071f2f86953"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E027_RWEC-0.npz",
+      "sha256": "d3ab0aeef263be4fb378f3c152fe29e087926f21ec96aa91a2f39e6b5de57fca"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E032_RWEC-0.npz",
+      "sha256": "d8d86927c040bde4aa5bcd65327aad0d53916feed88cdd5418f02e6de1eef204"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E037_RWEC-0.npz",
+      "sha256": "3fcdff428a078b57beb2692180f14b5aa7a6e4b9fca7f334716816e165fe2371"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E042_RWEC-0.npz",
+      "sha256": "aa70e8937717399ccc9ce10abb5ef77f3a5c1e313df1c01494fcec9a09c7e794"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E051_RWEC-0.npz",
+      "sha256": "608c03cb71f9eb4b4d8a965bf52bf2620f2863e3a33c8ae42d3bb02801deeb22"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E060_RWEC-0.npz",
+      "sha256": "90c3f6b9ed0a9e6ca0efb8ff3cf1f051317517c1154fa4a96ab22d7963cb4dc1"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E066_RWEC-0.npz",
+      "sha256": "0fae33b5cf935857941ccb8abef8e4a67215042987dee9ba14656f06cf85ba03"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E067_RWEC-0.npz",
+      "sha256": "4991b069b8360bad2ae73db7eab3d9a48c0466ae428aa89ab7e5eec55815f0ca"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E068_RWEC-0.npz",
+      "sha256": "f8a61487b4d46e4ea442dab6905b76effb92b4e72dd1d27cdf1841d942180d72"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E078_RWEC-0.npz",
+      "sha256": "685538eb13b11c950676377eb41607908fd1dac9109089fbcb35313bfc6ff60a"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E081_RWEC-0.npz",
+      "sha256": "89d332d90d11dd6ab8292b0f021434d58df37f147660d05166e6634dc65d2b92"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E085_RWEC-0.npz",
+      "sha256": "7bd94bbbbe36bee7930128ac15632abb9341b9081b02686a273a85b87ea64732"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E089_RWEC-0.npz",
+      "sha256": "722bbce297803d3fe85c44540400a967353ccab38bf4096056858feb3946679c"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E090_RWEC-0.npz",
+      "sha256": "b9ce83f81224780a20d3581f1f8b61e1b5879274a6818b277d0e0c24f6a63d29"
+    },
+    {
+      "path": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\05_routing_validation_slope075_20261022\\predictions\\A_E094_RWEC-0.npz",
+      "sha256": "f8410d94015f911df5d589037de20875a0b0040fd26405310b86baae3ce8542f"
+    }
+  ]
+}

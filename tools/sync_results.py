@@ -128,13 +128,29 @@ def export_upload():
         git("commit", "-m", "Sync RWEC reading package " + datetime.now().astimezone().isoformat(timespec="seconds"))
     import base64
     entries = []
+    objects = []
     for row in git("ls-tree", "-r", "HEAD").stdout.splitlines():
         meta, path = row.split("\t", 1)
         mode, kind, sha = meta.split()
         if kind != "blob" or path.startswith('"'):
             raise RuntimeError("Unexpected tracked path or object: " + path)
-        payload = subprocess.run(["git", "-C", str(REPO), "cat-file", "blob", sha], check=True, capture_output=True).stdout
+        objects.append((path, mode, sha))
+    # One Git process avoids hundreds of process launches on the external drive.
+    raw = subprocess.run(["git", "-C", str(REPO), "cat-file", "--batch"], input=("\n".join(row[2] for row in objects) + "\n").encode("ascii"), check=True, capture_output=True).stdout
+    cursor = 0
+    for path, mode, sha in objects:
+        newline = raw.index(b"\n", cursor)
+        actual_sha, kind, length = raw[cursor:newline].decode("ascii").split()
+        length = int(length)
+        cursor = newline + 1
+        payload = raw[cursor:cursor + length]
+        cursor += length
+        if actual_sha != sha or kind != "blob" or raw[cursor:cursor + 1] != b"\n" or hashlib.sha1(b"blob " + str(length).encode("ascii") + b"\0" + payload).hexdigest() != sha:
+            raise RuntimeError("Git batch content verification failed: " + path)
+        cursor += 1
         entries.append({"path": path, "mode": mode, "sha": sha, "encoding": "base64", "content": base64.b64encode(payload).decode("ascii")})
+    if cursor != len(raw):
+        raise RuntimeError("Unexpected trailing Git batch output")
     destination = REPO / ".local" / "upload_bundle.json"
     save(destination, json.dumps(entries, ensure_ascii=True, separators=(",", ":")))
     print(json.dumps({"local_commit": git("rev-parse", "HEAD").stdout.strip(), "local_tree": git("rev-parse", "HEAD^{tree}").stdout.strip(), "files": len(entries), "upload_bundle": str(destination), "uploaded": False}))

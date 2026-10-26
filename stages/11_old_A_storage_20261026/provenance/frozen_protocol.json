@@ -1,0 +1,182 @@
+{
+  "stage": 11,
+  "created": "2026-10-26T21:54:00.227818+08:00",
+  "river": "original A, 200 km, slope 0.05 per mille",
+  "train": [
+    "E001",
+    "E003",
+    "E004",
+    "E005",
+    "E007",
+    "E008",
+    "E009",
+    "E011",
+    "E012",
+    "E016",
+    "E017",
+    "E018",
+    "E021",
+    "E023",
+    "E024",
+    "E028",
+    "E029",
+    "E031",
+    "E038",
+    "E040",
+    "E041",
+    "E043",
+    "E044",
+    "E046",
+    "E047",
+    "E049",
+    "E050",
+    "E055",
+    "E057",
+    "E058",
+    "E061",
+    "E062",
+    "E063",
+    "E064",
+    "E065",
+    "E069",
+    "E070",
+    "E071",
+    "E072",
+    "E073",
+    "E076",
+    "E077",
+    "E083",
+    "E084",
+    "E087",
+    "E088",
+    "E091",
+    "E093",
+    "E096"
+  ],
+  "validation": [
+    "E006",
+    "E010",
+    "E014",
+    "E019",
+    "E025",
+    "E026",
+    "E027",
+    "E032",
+    "E037",
+    "E042",
+    "E051",
+    "E060",
+    "E066",
+    "E067",
+    "E068",
+    "E078",
+    "E081",
+    "E085",
+    "E089",
+    "E090",
+    "E094"
+  ],
+  "old_sealed_tests_read": 0,
+  "targets_outlet_km": [
+    120,
+    100,
+    80,
+    60,
+    40,
+    20,
+    0
+  ],
+  "dt_candidates_h": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "bounds": {
+    "original": [
+      [
+        -9.210340371976182,
+        6.0
+      ],
+      [
+        -1.8971199848858813,
+        5.0106352940962555
+      ],
+      [
+        0.0,
+        8.0
+      ]
+    ],
+    "new": [
+      [
+        -9.210340371976182,
+        6.0
+      ],
+      [
+        -1.8971199848858813,
+        5.0106352940962555
+      ],
+      [
+        0.0,
+        8.0
+      ]
+    ],
+    "general": [
+      [
+        -9.210340371976182,
+        6.0
+      ],
+      [
+        -9.210340371976182,
+        6.0
+      ],
+      [
+        -1.8971199848858813,
+        5.0106352940962555
+      ],
+      [
+        0.0,
+        8.0
+      ]
+    ],
+    "NLM": [
+      [
+        -2.995732273553991,
+        2.995732273553991
+      ],
+      [
+        0.0,
+        0.5
+      ],
+      [
+        0.4,
+        2.0
+      ]
+    ]
+  },
+  "seed": 202610260,
+  "objective": "event-equally weighted full post-origin hourly NSE at each 20 km reach outlet",
+  "calls_per_model_reach_dt": 2000,
+  "total_calls_per_model": 80000,
+  "independent_parameters_per_20km": true,
+  "fitter_reads_validation": false,
+  "training_boundary": "main independent-stage case only; paired fixed5 evaluated with identical predictions",
+  "comparison_windows": [
+    "full",
+    "nonnegative_hour_endpoints",
+    "after_last_negative_plus12h"
+  ],
+  "positive_mask": "Both hourly HEC endpoint flows >=0; same post-prediction mask for every model, no state reset",
+  "forecast_inputs": [
+    "upstream boundary inflow hydrograph",
+    "known pre-event constant-flow initialization",
+    "fixed geometry initial volumes",
+    "frozen trained parameters"
+  ],
+  "future_downstream_stage_input": false,
+  "initialization_start_h": -48,
+  "model_code_source": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\10_new_storage_D_reservoir_20261026",
+  "HEC_rerun": false,
+  "validation_rule": "one locked evaluation after all models frozen; this is further development on previously inspected events, not fresh independent testing",
+  "bounds_note": "Set before any stage11 calibration: retain old A k/n/tau search range, extend positive coefficient maximum equally for all RWEC families; no validation-score-based adjustment"
+}

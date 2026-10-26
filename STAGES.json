@@ -192,5 +192,23 @@
     },
     "files": 157,
     "bytes": 11027157
+  },
+  {
+    "stage": "11_old_A_storage_20261026",
+    "status": "阶段交付已生成，质量结论见原报告",
+    "report": "REPORT.md",
+    "checkpoint": {
+      "stage": 11,
+      "status": "local_comparison_complete",
+      "train": 49,
+      "development_validation": 21,
+      "models": 4,
+      "objective_calls_per_model": 80000,
+      "HEC_rerun": false,
+      "future_H_input": false,
+      "old_sealed_tests_read": 0
+    },
+    "files": 91,
+    "bytes": 14426766
   }
 ]

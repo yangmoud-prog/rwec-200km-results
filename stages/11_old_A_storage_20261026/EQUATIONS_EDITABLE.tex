@@ -1,0 +1,49 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{mathspec}
+\setmainfont{Times New Roman}
+\setmathsfont(Digits,Latin,Greek){Times New Roman}
+\setmathrm{Times New Roman}
+\title{Old channel A: independent potential storage comparison}
+\date{}
+\begin{document}\maketitle
+All volumes are in $\mathrm{m^3}$ and time in seconds. Let
+\begin{align}
+V_{\tau,t}&=\int_{t-\Delta t}^t I(s-\tau)\,ds, & S_{W,t}&=S_{t-1}+V_{\tau,t},\\
+S_{E,t}&=aS_{t-1}+bV_{\tau,t}, & S_t&=(S_{W,t}^{-n}+S_{E,t}^{-n})^{-1/n},\\
+\overline Q_t&=(S_{W,t}-S_t)/\Delta t.
+\end{align}
+The original family has $(a,b)=(1,k)$; the new family has $(a,b)=(k,1)$. The generalized family estimates $a,b$ separately.
+\section*{Independent steady initialization}
+For $I_0>0$, set $r=S^*/(I_0\Delta t)$. The unique positive equilibrium solves
+\begin{equation}
+\left(\frac{r}{r+1}\right)^n+\left(\frac{r}{ar+b}\right)^n=1.
+\end{equation}
+For $a,b,n>0$ the left side increases strictly from zero to $1+a^{-n}>1$. Thus initialize $S_0=rI_0\Delta t$, $T_0=I_0\tau$ and $Q_0=I_0$ independently for every family and every computational time step.
+For $n=1$,
+\begin{equation}
+r=\frac{a-1+\sqrt{(a-1)^2+4b}}{2},\quad r_{\rm original}=\sqrt{k},\quad r_{\rm new}=\frac{k-1+\sqrt{(k-1)^2+4}}{2}.
+\end{equation}
+The linearized storage memory is
+\begin{equation}
+\rho=\left(\frac{r}{r+1}\right)^{n+1}+a\left(\frac{r}{ar+b}\right)^{n+1},\qquad 0<\rho<1.
+\end{equation}
+Hence the local recession time is $-\Delta t/\log\rho$. Equal numerical $k$ across families does not mean equal storage or memory.
+\section*{Water balance and physical interpretation}
+\begin{align}
+T_t-T_{t-1}&=V_{I,t}-V_{\tau,t},\\
+(S_t+T_t)-(S_{t-1}+T_{t-1})&=V_{I,t}-\overline Q_t\Delta t.
+\end{align}
+Effective RWEC storage is not automatically the geometrical river volume. For the established nodal-output/trapezoidal observation convention, the bookkeeping state is
+\begin{equation}
+V_{{\rm model},t}=V_{{\rm geom},0}+(S_t-S_0)+(T_t-T_0)+\frac{\Delta t}{2}(Q_t-Q_0).
+\end{equation}
+This identity is not evidence that the predicted water surface is physically correct.
+\section*{Nonlinear Muskingum comparator}
+With $t_{\rm ref}$ expressed in hours, independently calibrate
+\begin{equation}
+S_M=3600K_h[XI+(1-X)Q]^m,\qquad K_h=\frac{t_{\rm ref}}{mQ_{\rm ref}^{m-1}},\qquad Q_{\rm ref}=1000\,\mathrm{m^3/s}.
+\end{equation}
+Solve this relation together with trapezoidal continuity at every step. Estimate storage scale, inflow weight, exponent and computational time step separately for each 20 km reach, with the same objective-call budget as each RWEC family.
+\end{document}

@@ -1,0 +1,11 @@
+{
+  "stage": 11,
+  "status": "local_comparison_complete",
+  "train": 49,
+  "development_validation": 21,
+  "models": 4,
+  "objective_calls_per_model": 80000,
+  "HEC_rerun": false,
+  "future_H_input": false,
+  "old_sealed_tests_read": 0
+}

@@ -31,9 +31,9 @@
   "parallel_scaling_decision": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\results\\parallel_scaling_decision.json",
   "formal_success_count": 232,
   "formal_failure_count": 0,
-  "analysis_stage": "stage10_formula_D_baselines_delivered_physical_coupling_gate_failed",
-  "analysis_latest": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\10_new_storage_D_reservoir_20261026",
-  "analysis_findings": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\10_new_storage_D_reservoir_20261026\\REPORT.md",
+  "analysis_stage": "stage11_original_A_storage_formulas_delivered",
+  "analysis_latest": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\11_old_A_storage_20261026",
+  "analysis_findings": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\11_old_A_storage_20261026\\REPORT.md",
   "validation_pairs_held_out": 30,
   "model_comparison_development_events": 70,
   "model_comparison_test_events": 0,
@@ -73,18 +73,22 @@
     -48,
     0
   ],
-  "forecast_window_h": [
-    0,
-    720
-  ],
+  "forecast_window_h": "individual original event full windows, common start 0 h",
   "future_downstream_levels_used_as_predictor": false,
   "full_research_complete": false,
-  "analysis_latest_status": "stage_result_delivery_local_complete_repository_sync_pending",
+  "analysis_latest_status": "local_complete_repository_sync_pending",
   "stage9_summary": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\09_joint_state_coupling_20261026\\SUMMARY.json",
   "analysis_previous_stage9": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\09_joint_state_coupling_20261026",
   "stage10_D_root": "F:\\YDX\\200km\\variants\\compound_reservoir_D_20261026",
   "stage10_summary": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\10_new_storage_D_reservoir_20261026\\SUMMARY.json",
   "stage10_HEC_formal_cases": 80,
   "stage10_HEC_passed": 80,
-  "stage10_autonomous_coupling_validated": false
+  "stage10_autonomous_coupling_validated": false,
+  "stage10_remote_commit": "4f34179cd6c9c57b394a84d33fff790ed120cb34",
+  "stage10_remote_verified_files": 757,
+  "stage10_actual_readbacks_verified": 10,
+  "analysis_previous_stage10": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\10_new_storage_D_reservoir_20261026",
+  "stage11_data": 70,
+  "stage11_old_sealed_tests_read": 0,
+  "stage11_summary": "F:\\YDX\\200km\\variants\\high_stage_hold_2km_60s_v2\\analysis\\11_old_A_storage_20261026\\SUMMARY.json"
 }

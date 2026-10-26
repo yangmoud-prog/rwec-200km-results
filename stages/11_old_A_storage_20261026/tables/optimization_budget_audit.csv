@@ -1,0 +1,5 @@
+﻿model,candidate_fits,objective_calls,failed_parameter_calls,summed_worker_wall_s
+original,40,80000,0,905.9388237003004
+new,40,80000,753,891.8949245996773
+general,40,80000,848,941.180433300091
+NLM,40,80000,4,1062.729327299865

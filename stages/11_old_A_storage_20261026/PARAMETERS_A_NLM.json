@@ -1,0 +1,213 @@
+{
+  "model": "NLM",
+  "reaches": [
+    {
+      "model": "NLM",
+      "model_id": 3,
+      "reach": 0,
+      "outlet_x_km": 180,
+      "dt_h": 2.0,
+      "theta": [
+        1.6298264263062792,
+        0.0,
+        0.5331301585333876
+      ],
+      "loss": 0.0010750331409771978,
+      "training_NSE": 0.9989249668590228,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 12.640306600020267,
+      "boundary_parameters": [
+        1
+      ]
+    },
+    {
+      "model": "NLM",
+      "model_id": 3,
+      "reach": 1,
+      "outlet_x_km": 160,
+      "dt_h": 0.25,
+      "theta": [
+        1.6233376532508,
+        0.0,
+        0.5672014658747153
+      ],
+      "loss": 0.004513359376659282,
+      "training_NSE": 0.9954866406233407,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 48.93466510006692,
+      "boundary_parameters": [
+        1
+      ]
+    },
+    {
+      "model": "NLM",
+      "model_id": 3,
+      "reach": 2,
+      "outlet_x_km": 140,
+      "dt_h": 2.0,
+      "theta": [
+        1.6476250822748955,
+        0.0,
+        0.5449001082679431
+      ],
+      "loss": 0.011166029126093477,
+      "training_NSE": 0.9888339708739066,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 12.726306599914096,
+      "boundary_parameters": [
+        1
+      ]
+    },
+    {
+      "model": "NLM",
+      "model_id": 3,
+      "reach": 3,
+      "outlet_x_km": 120,
+      "dt_h": 0.25,
+      "theta": [
+        1.6319379643853673,
+        0.0,
+        0.5791591709173274
+      ],
+      "loss": 0.025154667235632935,
+      "training_NSE": 0.974845332764367,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 52.310021199984476,
+      "boundary_parameters": [
+        1
+      ]
+    },
+    {
+      "model": "NLM",
+      "model_id": 3,
+      "reach": 4,
+      "outlet_x_km": 100,
+      "dt_h": 2.0,
+      "theta": [
+        1.6730406614518096,
+        0.0,
+        0.5110002033026355
+      ],
+      "loss": 0.056649514880818236,
+      "training_NSE": 0.9433504851191817,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 11.310675099957734,
+      "boundary_parameters": [
+        1
+      ]
+    },
+    {
+      "model": "NLM",
+      "model_id": 3,
+      "reach": 5,
+      "outlet_x_km": 80,
+      "dt_h": 0.25,
+      "theta": [
+        1.8166595092235513,
+        0.0,
+        0.4
+      ],
+      "loss": 0.1285523661149899,
+      "training_NSE": 0.8714476338850101,
+      "evaluations": 2000,
+      "failed_evaluations": 1,
+      "seconds": 46.988863199949265,
+      "boundary_parameters": [
+        1,
+        2
+      ]
+    },
+    {
+      "model": "NLM",
+      "model_id": 3,
+      "reach": 6,
+      "outlet_x_km": 60,
+      "dt_h": 2.0,
+      "theta": [
+        2.0186536240167476,
+        0.0,
+        0.4
+      ],
+      "loss": 0.2707223363493935,
+      "training_NSE": 0.7292776636506064,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 11.817385400063358,
+      "boundary_parameters": [
+        1,
+        2
+      ]
+    },
+    {
+      "model": "NLM",
+      "model_id": 3,
+      "reach": 7,
+      "outlet_x_km": 40,
+      "dt_h": 0.25,
+      "theta": [
+        2.536007370862984,
+        0.0,
+        0.4
+      ],
+      "loss": 0.4411515989711925,
+      "training_NSE": 0.5588484010288075,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 51.56446829997003,
+      "boundary_parameters": [
+        1,
+        2
+      ]
+    },
+    {
+      "model": "NLM",
+      "model_id": 3,
+      "reach": 8,
+      "outlet_x_km": 20,
+      "dt_h": 2.0,
+      "theta": [
+        -2.995732273553991,
+        0.0,
+        0.4
+      ],
+      "loss": 0.5233975616390696,
+      "training_NSE": 0.4766024383609304,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 9.78715710004326,
+      "boundary_parameters": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "model": "NLM",
+      "model_id": 3,
+      "reach": 9,
+      "outlet_x_km": 0,
+      "dt_h": 2.0,
+      "theta": [
+        2.995732273553991,
+        0.0,
+        0.4
+      ],
+      "loss": 0.5947811650312965,
+      "training_NSE": 0.4052188349687035,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 10.316545699955896,
+      "boundary_parameters": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "complete": true
+}

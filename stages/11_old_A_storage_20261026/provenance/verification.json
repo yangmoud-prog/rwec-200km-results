@@ -1,0 +1,50 @@
+{
+  "complete": true,
+  "events": 70,
+  "validation": 21,
+  "train": 49,
+  "metric_rows": 11760,
+  "steady_all_passed": true,
+  "negative_forecast_reach_runs": 0,
+  "failed_reach_runs": 0,
+  "sensitivity_failed_target_rows": 0,
+  "cascade_residual_max_fraction": 0.0016834125634625197,
+  "parameter_revision_after_validation": false,
+  "source_hashes_rechecked": true,
+  "formula_kernels_match_previous_stage": true,
+  "objective_calls_total": 320000,
+  "budgets_equal": true,
+  "all21_validation_events_retained": true,
+  "at100km_full_equals_nonnegative_verified": true,
+  "causality": {
+    "checks": [
+      {
+        "model": "original",
+        "future_HEC_fields_ignored": true,
+        "upstream_suffix_preserves_earlier_predictions": true
+      },
+      {
+        "model": "new",
+        "future_HEC_fields_ignored": true,
+        "upstream_suffix_preserves_earlier_predictions": true
+      },
+      {
+        "model": "general",
+        "future_HEC_fields_ignored": true,
+        "upstream_suffix_preserves_earlier_predictions": true
+      },
+      {
+        "model": "NLM",
+        "future_HEC_fields_ignored": true,
+        "upstream_suffix_preserves_earlier_predictions": true
+      }
+    ],
+    "sealed_tests_read": 0,
+    "downstream_future_H_input": false,
+    "negative_mask_is_evaluation_only": true
+  },
+  "figures": 28,
+  "figure_machine_QA_passed": true,
+  "LaTeX_compiled_successfully": true,
+  "old_sealed_tests_read": 0
+}

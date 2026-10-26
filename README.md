@@ -14,6 +14,7 @@
 | [08_forward_C_moving_endpoint_20261026](stages/08_forward_C_moving_endpoint_20261026/READING_GUIDE.md) | 已有阶段说明，完成与质量状态见原文 | 2.96 MiB |
 | [09_joint_state_coupling_20261026](stages/09_joint_state_coupling_20261026/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 4.59 MiB |
 | [10_new_storage_D_reservoir_20261026](stages/10_new_storage_D_reservoir_20261026/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 10.52 MiB |
+| [11_old_A_storage_20261026](stages/11_old_A_storage_20261026/READING_GUIDE.md) | 阶段交付已生成，质量结论见原报告 | 13.76 MiB |
 
 [同步与读取方法](SYNC.md) · [文件校验清单](FILE_MANIFEST.json)
 

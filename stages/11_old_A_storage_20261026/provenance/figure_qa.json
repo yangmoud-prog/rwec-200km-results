@@ -1,0 +1,207 @@
+{
+  "figures": 28,
+  "all_machine_checks_passed": true,
+  "rows": [
+    {
+      "figure": "01_A_mean_skill_full_and_nonnegative",
+      "PDF_minimum_pt": 7.0,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1834
+    },
+    {
+      "figure": "02_A_all21_paired_gains",
+      "PDF_minimum_pt": 7.0,
+      "passed": true,
+      "width_px": 3124,
+      "height_px": 1954
+    },
+    {
+      "figure": "03_A_full_hydrographs_remaining_positive_examples",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 2524
+    },
+    {
+      "figure": "03_A_full_hydrographs_representative",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3485,
+      "height_px": 2524
+    },
+    {
+      "figure": "04_A_fixed_parameter_step_sensitivity",
+      "PDF_minimum_pt": 7.0,
+      "passed": true,
+      "width_px": 3124,
+      "height_px": 1174
+    },
+    {
+      "figure": "05_A_storage_and_interfaces",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1144
+    },
+    {
+      "figure": "06_A_boundary_response_identifiability",
+      "PDF_minimum_pt": 7.0,
+      "passed": true,
+      "width_px": 3124,
+      "height_px": 1174
+    },
+    {
+      "figure": "event_E006_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3485,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E010_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E014_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3485,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E019_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E025_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E026_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E027_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E032_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E037_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E042_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E051_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E060_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E066_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3485,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E067_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E068_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E078_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E081_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E085_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E089_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E090_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    },
+    {
+      "figure": "event_E094_full_hydrographs",
+      "PDF_minimum_pt": 6.5,
+      "passed": true,
+      "width_px": 3484,
+      "height_px": 1024
+    }
+  ],
+  "font_override": "User requested Times New Roman / SimSun",
+  "visual_inspection": "full-size summary panels plus every event panel on contact sheets to be inspected before delivery",
+  "purpose": "research reading figures, not a journal final-width claim",
+  "uncertainty": "event paired changes displayed individually; mean curves are actual event means, no range bands",
+  "exclusion": "post-prediction common nonnegative hourly endpoints; all 21 validation events retained"
+}

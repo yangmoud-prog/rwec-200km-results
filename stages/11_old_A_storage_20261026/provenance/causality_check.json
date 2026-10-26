@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "model": "original",
+      "future_HEC_fields_ignored": true,
+      "upstream_suffix_preserves_earlier_predictions": true
+    },
+    {
+      "model": "new",
+      "future_HEC_fields_ignored": true,
+      "upstream_suffix_preserves_earlier_predictions": true
+    },
+    {
+      "model": "general",
+      "future_HEC_fields_ignored": true,
+      "upstream_suffix_preserves_earlier_predictions": true
+    },
+    {
+      "model": "NLM",
+      "future_HEC_fields_ignored": true,
+      "upstream_suffix_preserves_earlier_predictions": true
+    }
+  ],
+  "sealed_tests_read": 0,
+  "downstream_future_H_input": false,
+  "negative_mask_is_evaluation_only": true
+}
