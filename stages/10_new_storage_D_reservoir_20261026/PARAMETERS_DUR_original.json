@@ -1,0 +1,218 @@
+{
+  "model": "original",
+  "domain": "DUR",
+  "reaches": [
+    {
+      "domain": "DUR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 0,
+      "outlet_x_km": 180,
+      "dt_h": 1.0,
+      "theta": [
+        -3.0,
+        1.3850895734342688,
+        1.908136049026896
+      ],
+      "loss": 0.0003242817782710624,
+      "training_NSE": 0.999675718221729,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 7.8004470999585465,
+      "boundary_parameters": [
+        0
+      ]
+    },
+    {
+      "domain": "DUR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 1,
+      "outlet_x_km": 160,
+      "dt_h": 1.0,
+      "theta": [
+        -3.0,
+        1.3768217374924565,
+        1.9310861728126154
+      ],
+      "loss": 0.0011665910314978334,
+      "training_NSE": 0.9988334089685021,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 7.820393400033936,
+      "boundary_parameters": [
+        0
+      ]
+    },
+    {
+      "domain": "DUR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 2,
+      "outlet_x_km": 140,
+      "dt_h": 1.0,
+      "theta": [
+        -3.0,
+        1.3719740603745132,
+        1.9512765816239512
+      ],
+      "loss": 0.0023716572754900168,
+      "training_NSE": 0.99762834272451,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 7.41902269993443,
+      "boundary_parameters": [
+        0
+      ]
+    },
+    {
+      "domain": "DUR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 3,
+      "outlet_x_km": 120,
+      "dt_h": 1.0,
+      "theta": [
+        -3.0,
+        1.370360493643875,
+        1.9679494781897418
+      ],
+      "loss": 0.0038306720391945077,
+      "training_NSE": 0.9961693279608055,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 6.94731249997858,
+      "boundary_parameters": [
+        0
+      ]
+    },
+    {
+      "domain": "DUR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 4,
+      "outlet_x_km": 100,
+      "dt_h": 1.0,
+      "theta": [
+        -3.0,
+        1.3873522953469903,
+        1.9758966276130618
+      ],
+      "loss": 0.00548916440719978,
+      "training_NSE": 0.9945108355928002,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 7.018862499971874,
+      "boundary_parameters": [
+        0
+      ]
+    },
+    {
+      "domain": "DUR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 5,
+      "outlet_x_km": 80,
+      "dt_h": 0.25,
+      "theta": [
+        -3.0,
+        -1.6,
+        3.0414256442367695
+      ],
+      "loss": 0.007208653631989444,
+      "training_NSE": 0.9927913463680106,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 18.047056599985808,
+      "boundary_parameters": [
+        0,
+        1
+      ]
+    },
+    {
+      "domain": "DUR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 6,
+      "outlet_x_km": 60,
+      "dt_h": 1.0,
+      "theta": [
+        -3.0,
+        2.3,
+        2.013736612057125
+      ],
+      "loss": 0.007388823992716966,
+      "training_NSE": 0.992611176007283,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 7.1456502000801265,
+      "boundary_parameters": [
+        0,
+        1
+      ]
+    },
+    {
+      "domain": "DUR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 7,
+      "outlet_x_km": 40,
+      "dt_h": 0.25,
+      "theta": [
+        -3.0,
+        -1.6,
+        2.8954523252738094
+      ],
+      "loss": 0.009813681159917978,
+      "training_NSE": 0.990186318840082,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 18.38979019992985,
+      "boundary_parameters": [
+        0,
+        1
+      ]
+    },
+    {
+      "domain": "DUR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 8,
+      "outlet_x_km": 20,
+      "dt_h": 2.0,
+      "theta": [
+        -2.9151548417752577,
+        2.097123567595834,
+        1.0094665445388573
+      ],
+      "loss": 0.009460690177842438,
+      "training_NSE": 0.9905393098221575,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 5.814101800089702,
+      "boundary_parameters": []
+    },
+    {
+      "domain": "DUR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 9,
+      "outlet_x_km": 0,
+      "dt_h": 1.0,
+      "theta": [
+        -2.983740438772916,
+        2.3,
+        0.6114074754184649
+      ],
+      "loss": 0.007910982242419522,
+      "training_NSE": 0.9920890177575805,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 6.995087200077251,
+      "boundary_parameters": [
+        1
+      ]
+    }
+  ],
+  "complete": true
+}

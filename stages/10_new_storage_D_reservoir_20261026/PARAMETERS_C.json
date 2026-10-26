@@ -1,0 +1,80 @@
+{
+  "original": {
+    "domain": "C",
+    "model": "original",
+    "model_id": 0,
+    "dt_h": 2.0,
+    "theta": [
+      -3.0,
+      0.8464602798988592,
+      1.4618079173979532
+    ],
+    "loss": 0.03276245935376822,
+    "mean_training_NSE": 0.9672375406462318,
+    "evaluations": 2000,
+    "failed_parameter_evaluations": 43,
+    "elapsed_s": 9.317813899950124,
+    "boundary_parameters": [
+      0
+    ]
+  },
+  "new": {
+    "domain": "C",
+    "model": "new",
+    "model_id": 1,
+    "dt_h": 2.0,
+    "theta": [
+      2.0998037866960857,
+      -0.5760633189018145,
+      0.0
+    ],
+    "loss": 0.047864301085592295,
+    "mean_training_NSE": 0.9521356989144077,
+    "evaluations": 2000,
+    "failed_parameter_evaluations": 12,
+    "elapsed_s": 8.951771200052463,
+    "boundary_parameters": [
+      2
+    ]
+  },
+  "general": {
+    "domain": "C",
+    "model": "general",
+    "model_id": 2,
+    "dt_h": 1.0,
+    "theta": [
+      -0.02652365907488541,
+      -2.9999999999999876,
+      2.3,
+      2.242586611818303
+    ],
+    "loss": 0.02435739998595239,
+    "mean_training_NSE": 0.9756426000140476,
+    "evaluations": 2000,
+    "failed_parameter_evaluations": 37,
+    "elapsed_s": 14.77359230001457,
+    "boundary_parameters": [
+      1,
+      2
+    ]
+  },
+  "NLM": {
+    "domain": "C",
+    "model": "NLM",
+    "model_id": 3,
+    "dt_h": 0.25,
+    "theta": [
+      1.583203956075776,
+      0.0,
+      0.5059797276796549
+    ],
+    "loss": 0.03622354925171931,
+    "mean_training_NSE": 0.9637764507482807,
+    "evaluations": 2000,
+    "failed_parameter_evaluations": 2,
+    "elapsed_s": 88.41660309990402,
+    "boundary_parameters": [
+      1
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "future_HEC_state_scramble_identical": true,
+  "upstream_future_suffix_perturbation_preserves_earlier_predictions": true,
+  "forecast_inputs": [
+    "upstream forecast",
+    "known initial geometric volumes",
+    "frozen parameters"
+  ],
+  "coupled_candidates_run": false,
+  "reason": "oracle geometric and flux closure gates failed",
+  "sealed_tests_read": 0
+}

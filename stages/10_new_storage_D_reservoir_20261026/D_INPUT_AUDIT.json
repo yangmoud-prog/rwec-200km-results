@@ -1,0 +1,1304 @@
+{
+  "cases": [
+    {
+      "event": "D001",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D001",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D001",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D001",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D002",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D002",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D002",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D002",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D003",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D003",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D003",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D003",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D004",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D004",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D004",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D004",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D005",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D005",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D005",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D005",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D006",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D006",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D006",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D006",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D007",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D007",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D007",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D007",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D008",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D008",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D008",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D008",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D009",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D009",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D009",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D009",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D010",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D010",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D010",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D010",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D011",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D011",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D011",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D011",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D012",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D012",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D012",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D012",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D013",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D013",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D013",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D013",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D014",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D014",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D014",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D014",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D015",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D015",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D015",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D015",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D016",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D016",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D016",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D016",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D017",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D017",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D017",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D017",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D018",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D018",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D018",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D018",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D019",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D019",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D019",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D019",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D020",
+      "geometry": "uniform",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D020",
+      "geometry": "uniform",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D020",
+      "geometry": "complex",
+      "boundary": "fixed",
+      "stage_hydrograph_count": 1,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": false,
+      "native_reservoir_connection": false,
+      "reservoir_continuity_native": false,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    },
+    {
+      "event": "D020",
+      "geometry": "complex",
+      "boundary": "reservoir",
+      "stage_hydrograph_count": 0,
+      "rating_curve_count": 0,
+      "initial_reservoir_given": true,
+      "native_reservoir_connection": true,
+      "reservoir_continuity_native": true,
+      "input_hash_matches": {
+        "Backwater200.g01": true,
+        "Backwater200.p01": true,
+        "Backwater200.prj": false,
+        "Backwater200.u01": true
+      }
+    }
+  ],
+  "passed": true,
+  "future_reservoir_stage_supplied": false,
+  "unused_legacy_event_fields": [
+    "H0_m",
+    "deltaH_m",
+    "Hmax_m",
+    "tb_ratio",
+    "Tr_ratio",
+    "Th_ratio",
+    "Tf_ratio",
+    "tb_h",
+    "Tr_h",
+    "Th_h",
+    "Tf_h",
+    "Hpeak_h",
+    "Hfall_start_h",
+    "Hend_h"
+  ],
+  "explanation": "The shared gamma-event helper retains old stage-generator metadata. These fields never enter D reservoir boundary equations. boundary.csv stage_m is a fixed-reference placeholder from the base builder; only upstream flow is copied into reservoir unsteady inputs. The .u01 and .g01 checks above verify native storage-area closure.",
+  "source_files_originals_preserved": true
+}

@@ -1,0 +1,216 @@
+{
+  "model": "new",
+  "domain": "DUF",
+  "reaches": [
+    {
+      "domain": "DUF",
+      "model": "new",
+      "model_id": 1,
+      "reach": 0,
+      "outlet_x_km": 180,
+      "dt_h": 1.0,
+      "theta": [
+        0.771727454985327,
+        0.1876986725667502,
+        0.10090816032579608
+      ],
+      "loss": 0.0008110764048992411,
+      "training_NSE": 0.9991889235951008,
+      "evaluations": 2000,
+      "failed_evaluations": 6,
+      "seconds": 7.308421300025657,
+      "boundary_parameters": []
+    },
+    {
+      "domain": "DUF",
+      "model": "new",
+      "model_id": 1,
+      "reach": 1,
+      "outlet_x_km": 160,
+      "dt_h": 2.0,
+      "theta": [
+        1.40864878589041,
+        -0.39957047670677914,
+        0.0
+      ],
+      "loss": 0.0028716666369849324,
+      "training_NSE": 0.9971283333630151,
+      "evaluations": 2000,
+      "failed_evaluations": 8,
+      "seconds": 5.220283500035293,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DUF",
+      "model": "new",
+      "model_id": 1,
+      "reach": 2,
+      "outlet_x_km": 140,
+      "dt_h": 2.0,
+      "theta": [
+        1.5930399170134582,
+        -0.44099189227998936,
+        0.0
+      ],
+      "loss": 0.005679562976039327,
+      "training_NSE": 0.9943204370239607,
+      "evaluations": 2000,
+      "failed_evaluations": 10,
+      "seconds": 5.140403000055812,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DUF",
+      "model": "new",
+      "model_id": 1,
+      "reach": 3,
+      "outlet_x_km": 120,
+      "dt_h": 2.0,
+      "theta": [
+        1.7672489412732242,
+        -0.4796867762937127,
+        0.0
+      ],
+      "loss": 0.008905301396722251,
+      "training_NSE": 0.9910946986032777,
+      "evaluations": 2000,
+      "failed_evaluations": 14,
+      "seconds": 5.124100100016221,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DUF",
+      "model": "new",
+      "model_id": 1,
+      "reach": 4,
+      "outlet_x_km": 100,
+      "dt_h": 2.0,
+      "theta": [
+        1.8785795084872738,
+        -0.5014029074690207,
+        0.0
+      ],
+      "loss": 0.012281941203260358,
+      "training_NSE": 0.9877180587967397,
+      "evaluations": 2000,
+      "failed_evaluations": 7,
+      "seconds": 5.142947899992578,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DUF",
+      "model": "new",
+      "model_id": 1,
+      "reach": 5,
+      "outlet_x_km": 80,
+      "dt_h": 2.0,
+      "theta": [
+        1.9407096007906217,
+        -0.5112034714690632,
+        0.0
+      ],
+      "loss": 0.015579766326397628,
+      "training_NSE": 0.9844202336736023,
+      "evaluations": 2000,
+      "failed_evaluations": 4,
+      "seconds": 5.2000380998943,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DUF",
+      "model": "new",
+      "model_id": 1,
+      "reach": 6,
+      "outlet_x_km": 60,
+      "dt_h": 2.0,
+      "theta": [
+        1.967844520826037,
+        -0.5169950263479197,
+        0.0
+      ],
+      "loss": 0.0186278900599012,
+      "training_NSE": 0.9813721099400988,
+      "evaluations": 2000,
+      "failed_evaluations": 7,
+      "seconds": 5.911306100082584,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DUF",
+      "model": "new",
+      "model_id": 1,
+      "reach": 7,
+      "outlet_x_km": 40,
+      "dt_h": 2.0,
+      "theta": [
+        1.9744930167911638,
+        -0.5406630076076973,
+        0.0
+      ],
+      "loss": 0.021279610556773635,
+      "training_NSE": 0.9787203894432264,
+      "evaluations": 2000,
+      "failed_evaluations": 7,
+      "seconds": 5.445224100025371,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DUF",
+      "model": "new",
+      "model_id": 1,
+      "reach": 8,
+      "outlet_x_km": 20,
+      "dt_h": 2.0,
+      "theta": [
+        1.872326554486448,
+        -0.6274682542876789,
+        0.0
+      ],
+      "loss": 0.02241100098624163,
+      "training_NSE": 0.9775889990137584,
+      "evaluations": 2000,
+      "failed_evaluations": 9,
+      "seconds": 5.190811799955554,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DUF",
+      "model": "new",
+      "model_id": 1,
+      "reach": 9,
+      "outlet_x_km": 0,
+      "dt_h": 0.25,
+      "theta": [
+        -3.0,
+        -1.6,
+        1.0868864613379696
+      ],
+      "loss": 0.02097592462191863,
+      "training_NSE": 0.9790240753780813,
+      "evaluations": 2000,
+      "failed_evaluations": 5,
+      "seconds": 18.19649510004092,
+      "boundary_parameters": [
+        0,
+        1
+      ]
+    }
+  ],
+  "complete": true
+}

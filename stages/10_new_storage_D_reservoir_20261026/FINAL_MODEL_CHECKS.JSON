@@ -1,0 +1,10 @@
+{
+  "steady_checks": 160,
+  "steady_all_passed": true,
+  "minimum_full_run_Q_m3s": 999.9999999999984,
+  "maximum_step_balance_m3s": 2.512115315767005e-07,
+  "failed_reach_runs": 0,
+  "sensitivity_failed_target_rows": 0,
+  "validation_target_rows": 672,
+  "all_calibrated_parameters_reported": true
+}

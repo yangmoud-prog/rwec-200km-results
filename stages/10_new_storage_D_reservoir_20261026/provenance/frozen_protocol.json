@@ -1,0 +1,134 @@
+{
+  "stage": 10,
+  "created": "2026-10-26T19:01:47.132265",
+  "status": "frozen_before_stage10_calibration",
+  "train": [
+    "E023",
+    "E007",
+    "E069",
+    "E021",
+    "E001",
+    "E049",
+    "E065",
+    "E040",
+    "E062",
+    "E076",
+    "E084",
+    "E072",
+    "E005",
+    "E009"
+  ],
+  "validation": [
+    "E006",
+    "E051",
+    "E094",
+    "E085",
+    "E037",
+    "E032"
+  ],
+  "sealed_test_read": false,
+  "existing_domains": [
+    "B",
+    "C"
+  ],
+  "independent_calibration_per_domain": true,
+  "targets_outlet_km": [
+    120,
+    100,
+    80,
+    60,
+    40,
+    20,
+    0
+  ],
+  "dt_candidates_h": [
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "budget_per_model_per_dt": 1000,
+  "seed": 202610260,
+  "formulas": {
+    "original": [
+      1,
+      "k"
+    ],
+    "new": [
+      "k",
+      1
+    ],
+    "general": [
+      "a",
+      "b"
+    ]
+  },
+  "bounds": {
+    "original": [
+      [
+        -3,
+        6
+      ],
+      [
+        -1.6,
+        2.3
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "new": [
+      [
+        -3,
+        6
+      ],
+      [
+        -1.6,
+        2.3
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "general": [
+      [
+        -3,
+        6
+      ],
+      [
+        -3,
+        6
+      ],
+      [
+        -1.6,
+        2.3
+      ],
+      [
+        0,
+        6
+      ]
+    ],
+    "NLM": [
+      [
+        -3,
+        3
+      ],
+      [
+        0,
+        0.5
+      ],
+      [
+        0.4,
+        2.0
+      ]
+    ]
+  },
+  "steady_ratio_numerical_limit": 10000000000.0,
+  "observation_operator": "hourly trapezoidal mean for all HEC and baseline predicted nodal discharge",
+  "validation_rule": "one locked evaluation after all domain parameters frozen; no validation-based revisions",
+  "D_gate": "physical HEC quality and positive flow, never validation NSE",
+  "coupling_gate": "oracle endpoint profile/storage/rate/flux closure before autonomous coupling",
+  "sealed_test_count": 0
+}

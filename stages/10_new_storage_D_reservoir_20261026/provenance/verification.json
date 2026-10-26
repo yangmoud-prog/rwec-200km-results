@@ -1,0 +1,51 @@
+{
+  "steady_cases_passed": 8,
+  "nonnegative_causal_pulse_cases_passed": 3,
+  "math": "unique stable positive equilibrium for a,b,n>0",
+  "numerical_condition_limit_r": 10000000000.0,
+  "stage10_delivery": "independent_formula_and_factorial_benchmarks_complete_coupling_blocked_by_physical_gate",
+  "D_checks": {
+    "steady_checks": 160,
+    "steady_all_passed": true,
+    "minimum_full_run_Q_m3s": 999.9999999999984,
+    "maximum_step_balance_m3s": 2.512115315767005e-07,
+    "failed_reach_runs": 0,
+    "sensitivity_failed_target_rows": 0,
+    "validation_target_rows": 672,
+    "all_calibrated_parameters_reported": true
+  },
+  "causality": {
+    "future_HEC_state_scramble_identical": true,
+    "upstream_future_suffix_perturbation_preserves_earlier_predictions": true,
+    "forecast_inputs": [
+      "upstream forecast",
+      "known initial geometric volumes",
+      "frozen parameters"
+    ],
+    "coupled_candidates_run": false,
+    "reason": "oracle geometric and flux closure gates failed",
+    "sealed_tests_read": 0
+  },
+  "HEC_formal_cases": 80,
+  "HEC_passed": 80,
+  "oracle_closure_failed": 16,
+  "autonomous_coupling_not_validated": true,
+  "old_sealed_test_access": false,
+  "time_alignment": {
+    "cases": 80,
+    "passed": true,
+    "HEC_extractions_rebuilt": 112,
+    "maximum_jitter_h": 5.341007636161521e-10
+  },
+  "figure_machine_QA_passed": true,
+  "LaTeX_compiled_with_desktop_editor": true,
+  "storage_and_interface_audit": {
+    "predictions_reproduced_identically": 320,
+    "model_changed": false,
+    "parameters_changed": false,
+    "maximum_cascade_residual_fraction": 0.0015025540269034997,
+    "maximum_unadjusted_volume_residual_m3": 1064441.2903996706,
+    "maximum_projection_corrected_residual_m3": 1.8477439880371094e-06,
+    "interpretation": "Native reach mass balance does not remove inter-reach time-resampling discrepancies. Their numerical projection volumes are recorded explicitly; they are not physical backwater storage and do not prove a geometric closure."
+  }
+}

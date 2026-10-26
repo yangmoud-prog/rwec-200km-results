@@ -1,0 +1,11 @@
+{
+  "independent_formula_validation": "complete",
+  "D_native_HEC_factorial": "80 of 80 numeric gates passed",
+  "D_formal_baselines": "four independently trained baselines, four factorial conditions",
+  "joint_model": "physical oracle closure failed; autonomous forecast and feedback ablation intentionally gated",
+  "all_negative_results_preserved": true,
+  "remote_upload": "requires verified repository synchronization",
+  "completed": true,
+  "complete_means": "initial formula, HEC, baseline and physical-gate result package delivered; autonomous coupling remains scientifically unvalidated",
+  "full_research_complete": false
+}

@@ -1,0 +1,34 @@
+{
+  "replayed_from_corrected_extraction": [
+    {
+      "version": "v2",
+      "eligible": true,
+      "physical_strength": 92.58453369140625
+    },
+    {
+      "version": "v3",
+      "eligible": true,
+      "physical_strength": 167.19302368164062
+    }
+  ],
+  "selected": "v3",
+  "original_frozen_record": {
+    "candidates": [
+      {
+        "version": "v2",
+        "eligible": false,
+        "physical_strength": 106.5159912109375
+      },
+      {
+        "version": "v3",
+        "eligible": true,
+        "physical_strength": 167.19302368164062
+      }
+    ],
+    "rule": "all pilot numeric and full-process positivity gates; identifiable motion and both storage/release; prefer greater physical suppression/recovery, no NSE used"
+  },
+  "selected_design_unchanged": true,
+  "geometry_or_boundary_changed": false,
+  "NSE_used": false,
+  "interpretation": "The original v2 eligibility flag was false while v3 was selected. Complete re-extraction makes v2 eligible too; the predeclared physical-strength criterion still selects v3. Both records are retained."
+}

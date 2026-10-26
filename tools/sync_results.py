@@ -50,7 +50,7 @@ def eligible(relative, complete):
     if any(p in {"__pycache__", "data", "predictions", "animation"} for p in relative.parts):
         return False
     if len(relative.parts) == 1:
-        return relative.suffix.lower() in {".md", ".py", ".json"}
+        return relative.suffix.lower() in {".md", ".py", ".json", ".tex"}
     if relative.parts[0] == "figures":
         return relative.suffix.lower() == ".png"
     if relative.parts[0] == "tables":

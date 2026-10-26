@@ -1,0 +1,9 @@
+{
+  "predictions_reproduced_identically": 320,
+  "model_changed": false,
+  "parameters_changed": false,
+  "maximum_cascade_residual_fraction": 0.0015025540269034997,
+  "maximum_unadjusted_volume_residual_m3": 1064441.2903996706,
+  "maximum_projection_corrected_residual_m3": 1.8477439880371094e-06,
+  "interpretation": "Native reach mass balance does not remove inter-reach time-resampling discrepancies. Their numerical projection volumes are recorded explicitly; they are not physical backwater storage and do not prove a geometric closure."
+}

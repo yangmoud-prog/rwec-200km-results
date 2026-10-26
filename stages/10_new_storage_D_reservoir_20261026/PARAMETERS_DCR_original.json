@@ -1,0 +1,207 @@
+{
+  "model": "original",
+  "domain": "DCR",
+  "reaches": [
+    {
+      "domain": "DCR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 0,
+      "outlet_x_km": 180,
+      "dt_h": 2.0,
+      "theta": [
+        -2.3708233186130085,
+        1.446208326339407,
+        4.259332866948743
+      ],
+      "loss": 0.0018275972777884442,
+      "training_NSE": 0.9981724027222115,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 5.5460131000727415,
+      "boundary_parameters": []
+    },
+    {
+      "domain": "DCR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 1,
+      "outlet_x_km": 160,
+      "dt_h": 1.0,
+      "theta": [
+        -2.5283768879656447,
+        2.2470037793122146,
+        5.197878712571212
+      ],
+      "loss": 0.004070378241673998,
+      "training_NSE": 0.995929621758326,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 7.71698180004023,
+      "boundary_parameters": []
+    },
+    {
+      "domain": "DCR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 2,
+      "outlet_x_km": 140,
+      "dt_h": 1.0,
+      "theta": [
+        -2.570289150759793,
+        2.2881772997226393,
+        5.38484310235938
+      ],
+      "loss": 0.007162637245466439,
+      "training_NSE": 0.9928373627545336,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 7.38750039995648,
+      "boundary_parameters": []
+    },
+    {
+      "domain": "DCR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 3,
+      "outlet_x_km": 120,
+      "dt_h": 1.0,
+      "theta": [
+        -2.5460681579467694,
+        2.3,
+        5.555805607155892
+      ],
+      "loss": 0.011439607804745424,
+      "training_NSE": 0.9885603921952546,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 6.981309199938551,
+      "boundary_parameters": [
+        1
+      ]
+    },
+    {
+      "domain": "DCR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 4,
+      "outlet_x_km": 100,
+      "dt_h": 2.0,
+      "theta": [
+        -2.240325181037855,
+        1.4864883162164149,
+        4.59497074702088
+      ],
+      "loss": 0.015379493647645669,
+      "training_NSE": 0.9846205063523543,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 5.229967699968256,
+      "boundary_parameters": []
+    },
+    {
+      "domain": "DCR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 5,
+      "outlet_x_km": 80,
+      "dt_h": 1.0,
+      "theta": [
+        -0.2882442789499784,
+        1.818287198424391,
+        0.0
+      ],
+      "loss": 0.014565064346340561,
+      "training_NSE": 0.9854349356536595,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 7.060233399970457,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DCR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 6,
+      "outlet_x_km": 60,
+      "dt_h": 1.0,
+      "theta": [
+        -0.44078306915512044,
+        1.7877962271059156,
+        0.0
+      ],
+      "loss": 0.010571166599665066,
+      "training_NSE": 0.9894288334003349,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 7.045159599976614,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DCR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 7,
+      "outlet_x_km": 40,
+      "dt_h": 1.0,
+      "theta": [
+        -0.7729384446803005,
+        1.8672855150482497,
+        0.0
+      ],
+      "loss": 0.00785080724164068,
+      "training_NSE": 0.9921491927583593,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 7.900982200051658,
+      "boundary_parameters": [
+        2
+      ]
+    },
+    {
+      "domain": "DCR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 8,
+      "outlet_x_km": 20,
+      "dt_h": 2.0,
+      "theta": [
+        -2.334431111300634,
+        2.1816910432904226,
+        2.4077077269409974
+      ],
+      "loss": 0.007896067511672508,
+      "training_NSE": 0.9921039324883275,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 5.769676199997775,
+      "boundary_parameters": []
+    },
+    {
+      "domain": "DCR",
+      "model": "original",
+      "model_id": 0,
+      "reach": 9,
+      "outlet_x_km": 0,
+      "dt_h": 2.0,
+      "theta": [
+        -1.5898520199967743,
+        2.3,
+        0.522847107638662
+      ],
+      "loss": 0.005104263810388749,
+      "training_NSE": 0.9948957361896112,
+      "evaluations": 2000,
+      "failed_evaluations": 0,
+      "seconds": 5.239975200034678,
+      "boundary_parameters": [
+        1
+      ]
+    }
+  ],
+  "complete": true
+}

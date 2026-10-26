@@ -1,0 +1,15 @@
+{
+  "candidates": [
+    {
+      "version": "v2",
+      "eligible": false,
+      "physical_strength": 106.5159912109375
+    },
+    {
+      "version": "v3",
+      "eligible": true,
+      "physical_strength": 167.19302368164062
+    }
+  ],
+  "rule": "all pilot numeric and full-process positivity gates; identifiable motion and both storage/release; prefer greater physical suppression/recovery, no NSE used"
+}

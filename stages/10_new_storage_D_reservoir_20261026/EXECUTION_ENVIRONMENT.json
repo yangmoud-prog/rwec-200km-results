@@ -1,0 +1,16 @@
+{
+  "python": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "D:\\04-Tools\\Anaconda\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "HEC_RAS": "6.3.1",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.2",
+    "numba": "0.59.1",
+    "h5py": "3.11.0",
+    "matplotlib": "3.8.4",
+    "pywin32": "305.1",
+    "psutil": "5.9.0"
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "figures": 17,
+  "all_machine_checks_passed": true,
+  "font_override": "User requested Times New Roman / SimSun; supersedes generic journal Arial suggestion.",
+  "output_purpose": "scientific research reading figures; PNG 300 dpi, editable SVG, vector PDF; not final journal-size layout",
+  "rows": [
+    {
+      "figure": "01_existing_formula_comparison",
+      "width_px": 3484,
+      "height_px": 1834,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 8.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "02_existing_paired_gains",
+      "width_px": 2734,
+      "height_px": 1054,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 8.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "03_B_full_hydrographs",
+      "width_px": 3274,
+      "height_px": 2494,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 8.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "03_C_full_hydrographs",
+      "width_px": 3274,
+      "height_px": 2494,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 8.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "04_formula_time_step_sensitivity",
+      "width_px": 2674,
+      "height_px": 1054,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 8.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "05_D_physical_pilots",
+      "width_px": 3034,
+      "height_px": 1954,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 8.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "06_D_reservoir_backwater_process",
+      "width_px": 3184,
+      "height_px": 1924,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "07_oracle_shape_and_physical_flux",
+      "width_px": 3154,
+      "height_px": 1954,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "08_D_four_conditions_mean_skill",
+      "width_px": 3484,
+      "height_px": 3274,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "09_DCR_full_hydrographs",
+      "width_px": 3484,
+      "height_px": 1864,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "09_DUR_full_hydrographs",
+      "width_px": 3484,
+      "height_px": 1864,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "10_D_event_paired_gains",
+      "width_px": 2884,
+      "height_px": 1954,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "11_D_geometry_backwater_attribution",
+      "width_px": 3184,
+      "height_px": 1114,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "12_D_storage_release_phase_errors",
+      "width_px": 2854,
+      "height_px": 1114,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "13_D_fixed_parameter_step_sensitivity",
+      "width_px": 2884,
+      "height_px": 1834,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "14_D_geometry_and_reservoir",
+      "width_px": 3214,
+      "height_px": 1864,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    },
+    {
+      "figure": "15_D_effective_storage_and_numerical_interfaces",
+      "width_px": 3484,
+      "height_px": 1834,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "PDF_minimum_pt": 7.0,
+      "PDF_text_auditable": true,
+      "PDF_below_5pt": 0,
+      "SVG_editable_text": true,
+      "Times_New_Roman_declared": true,
+      "SimSun_declared": true,
+      "passed": true
+    }
+  ],
+  "visual_inspection": "contact sheets and full-size key figures inspected by agent; see delivery notes"
+}

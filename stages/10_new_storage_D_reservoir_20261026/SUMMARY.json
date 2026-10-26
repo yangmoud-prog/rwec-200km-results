@@ -1,0 +1,232 @@
+{
+  "stage": 10,
+  "created": "2026-10-26T21:34:25.114882+08:00",
+  "status": "independent_formula_and_factorial_benchmarks_complete_coupling_blocked_by_physical_gate",
+  "research_complete": false,
+  "HEC_formal_cases": 80,
+  "HEC_numerical_pass": 80,
+  "old_sealed_tests_read": 0,
+  "D_train": [
+    "D001",
+    "D002",
+    "D003",
+    "D004",
+    "D006",
+    "D007",
+    "D009",
+    "D011",
+    "D013",
+    "D014",
+    "D015",
+    "D016",
+    "D017",
+    "D018"
+  ],
+  "D_validation": [
+    "D005",
+    "D008",
+    "D010",
+    "D012",
+    "D019",
+    "D020"
+  ],
+  "validation_means": [
+    {
+      "domain": "DCF",
+      "model": "NLM",
+      "NSE": 0.9928845610460313,
+      "RMSE": 43.866364294436195,
+      "KGE": 0.9747828620569589
+    },
+    {
+      "domain": "DCF",
+      "model": "general",
+      "NSE": 0.9922300517831785,
+      "RMSE": 46.18859801182342,
+      "KGE": 0.9857409040683907
+    },
+    {
+      "domain": "DCF",
+      "model": "new",
+      "NSE": 0.9854111735567861,
+      "RMSE": 64.1596431295983,
+      "KGE": 0.9827981804279388
+    },
+    {
+      "domain": "DCF",
+      "model": "original",
+      "NSE": 0.9918997107463955,
+      "RMSE": 46.79390003720013,
+      "KGE": 0.9852806192226761
+    },
+    {
+      "domain": "DCR",
+      "model": "NLM",
+      "NSE": 0.9812906542197917,
+      "RMSE": 58.554234691505805,
+      "KGE": 0.943450750783992
+    },
+    {
+      "domain": "DCR",
+      "model": "general",
+      "NSE": 0.9929954569992833,
+      "RMSE": 43.10218580647607,
+      "KGE": 0.9910949961279943
+    },
+    {
+      "domain": "DCR",
+      "model": "new",
+      "NSE": 0.9754029174323359,
+      "RMSE": 78.86728043240394,
+      "KGE": 0.9519870029763231
+    },
+    {
+      "domain": "DCR",
+      "model": "original",
+      "NSE": 0.992815040417657,
+      "RMSE": 43.48695675828443,
+      "KGE": 0.9893651198350836
+    },
+    {
+      "domain": "DUF",
+      "model": "NLM",
+      "NSE": 0.9942171403156875,
+      "RMSE": 46.10414332089938,
+      "KGE": 0.9638959334512126
+    },
+    {
+      "domain": "DUF",
+      "model": "general",
+      "NSE": 0.9966817094452707,
+      "RMSE": 34.79601000983379,
+      "KGE": 0.990776638446986
+    },
+    {
+      "domain": "DUF",
+      "model": "new",
+      "NSE": 0.9882961975563821,
+      "RMSE": 66.78235859234168,
+      "KGE": 0.9835227070490709
+    },
+    {
+      "domain": "DUF",
+      "model": "original",
+      "NSE": 0.9962779156137677,
+      "RMSE": 38.19889702579932,
+      "KGE": 0.9905729340352627
+    },
+    {
+      "domain": "DUR",
+      "model": "NLM",
+      "NSE": 0.9855435048995519,
+      "RMSE": 63.99611532399312,
+      "KGE": 0.9367826002600158
+    },
+    {
+      "domain": "DUR",
+      "model": "general",
+      "NSE": 0.996584444279642,
+      "RMSE": 35.00603922151309,
+      "KGE": 0.9890970812561002
+    },
+    {
+      "domain": "DUR",
+      "model": "new",
+      "NSE": 0.9800599811597528,
+      "RMSE": 80.18570157514169,
+      "KGE": 0.9579728918433444
+    },
+    {
+      "domain": "DUR",
+      "model": "original",
+      "NSE": 0.9960534439473409,
+      "RMSE": 38.885190854440324,
+      "KGE": 0.9891794938501546
+    }
+  ],
+  "existing_B_C_validation_means": [
+    {
+      "domain": "B",
+      "model": "NLM",
+      "NSE": 0.9923187770864266,
+      "RMSE": 64.26295383804907,
+      "KGE": 0.9504536498550722
+    },
+    {
+      "domain": "B",
+      "model": "general",
+      "NSE": 0.9944677288834652,
+      "RMSE": 49.70248148985335,
+      "KGE": 0.9825369999347554
+    },
+    {
+      "domain": "B",
+      "model": "new",
+      "NSE": 0.9840580235808589,
+      "RMSE": 91.00484109243382,
+      "KGE": 0.9798631897052071
+    },
+    {
+      "domain": "B",
+      "model": "original",
+      "NSE": 0.9923109073986263,
+      "RMSE": 62.5746662133423,
+      "KGE": 0.9878873225944198
+    },
+    {
+      "domain": "C",
+      "model": "NLM",
+      "NSE": 0.9830832643256177,
+      "RMSE": 61.74905723051419,
+      "KGE": 0.9343151561942
+    },
+    {
+      "domain": "C",
+      "model": "general",
+      "NSE": 0.985710933437945,
+      "RMSE": 58.636222992773796,
+      "KGE": 0.9558860011242982
+    },
+    {
+      "domain": "C",
+      "model": "new",
+      "NSE": 0.9739100856294977,
+      "RMSE": 78.82452694101119,
+      "KGE": 0.9569806261368189
+    },
+    {
+      "domain": "C",
+      "model": "original",
+      "NSE": 0.981130208149211,
+      "RMSE": 65.8277443326966,
+      "KGE": 0.970864587839437
+    }
+  ],
+  "oracle_shape_tests": 16,
+  "oracle_shape_passed": 0,
+  "autonomous_coupled_models_validated": false,
+  "coupling_feedback_ablation_performed": false,
+  "reason": "Both parameter-free oracle shape candidates fail physical profile/storage/rate/flux closure; do not invent autonomous or ablation scores.",
+  "minimum_HEC_Q_m3s": 999.9967041015624,
+  "HEC_max_volume_error_pct": 0.004988,
+  "checks": {
+    "steady_checks": 160,
+    "steady_all_passed": true,
+    "minimum_full_run_Q_m3s": 999.9999999999984,
+    "maximum_step_balance_m3s": 2.512115315767005e-07,
+    "failed_reach_runs": 0,
+    "sensitivity_failed_target_rows": 0,
+    "validation_target_rows": 672,
+    "all_calibrated_parameters_reported": true
+  },
+  "animations_created": false,
+  "storage_and_interface_audit": {
+    "predictions_reproduced_identically": 320,
+    "model_changed": false,
+    "parameters_changed": false,
+    "maximum_cascade_residual_fraction": 0.0015025540269034997,
+    "maximum_unadjusted_volume_residual_m3": 1064441.2903996706,
+    "maximum_projection_corrected_residual_m3": 1.8477439880371094e-06,
+    "interpretation": "Native reach mass balance does not remove inter-reach time-resampling discrepancies. Their numerical projection volumes are recorded explicitly; they are not physical backwater storage and do not prove a geometric closure."
+  }
+}

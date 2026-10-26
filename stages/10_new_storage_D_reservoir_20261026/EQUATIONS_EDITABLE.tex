@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{mathspec}
+\setmainfont{Times New Roman}
+\setmathsfont(Digits,Latin,Greek){Times New Roman}
+\setmathrm{Times New Roman}
+\title{Stage 10: Potential storage and moving-domain conservation}
+\date{}
+\begin{document}\maketitle
+All volumes are in $\mathrm{m^3}$ and time in seconds. Let
+\begin{align}
+V_{\tau,t}&=\int_{t-\Delta t}^t I(s-\tau)\,ds, & S_{W,t}&=S_{t-1}+V_{\tau,t},\\
+S_{E,t}&=aS_{t-1}+bV_{\tau,t}, & S_t&=(S_{W,t}^{-n}+S_{E,t}^{-n})^{-1/n},\\
+\overline Q_t&=(S_{W,t}-S_t)/\Delta t.
+\end{align}
+The original family has $(a,b)=(1,k)$; the new family has $(a,b)=(k,1)$. The generalized family estimates $a,b$ separately.
+\section*{Independent steady initialization}
+For $I_0>0$, set $r=S^*/(I_0\Delta t)$. The unique positive equilibrium solves
+\begin{equation}
+\left(\frac{r}{r+1}\right)^n+\left(\frac{r}{ar+b}\right)^n=1.
+\end{equation}
+For $a,b,n>0$ the left side increases strictly from zero to $1+a^{-n}>1$. Thus initialize $S_0=rI_0\Delta t$, $T_0=I_0\tau$ and $Q_0=I_0$ independently for every family and every computational time step.
+For $n=1$,
+\begin{equation}
+r=\frac{a-1+\sqrt{(a-1)^2+4b}}{2},\quad r_{\rm original}=\sqrt{k},\quad r_{\rm new}=\frac{k-1+\sqrt{(k-1)^2+4}}{2}.
+\end{equation}
+The linearized storage memory is
+\begin{equation}
+\rho=\left(\frac{r}{r+1}\right)^{n+1}+a\left(\frac{r}{ar+b}\right)^{n+1},\qquad 0<\rho<1.
+\end{equation}
+Hence the local recession time is $-\Delta t/\log\rho$. Equal numerical $k$ across families does not mean equal storage or memory.
+\section*{Water balance and physical interpretation}
+\begin{align}
+T_t-T_{t-1}&=V_{I,t}-V_{\tau,t},\\
+(S_t+T_t)-(S_{t-1}+T_{t-1})&=V_{I,t}-\overline Q_t\Delta t.
+\end{align}
+Effective RWEC storage is not automatically the geometrical river volume. For the established nodal-output/trapezoidal observation convention, the bookkeeping state is
+\begin{equation}
+V_{{\rm model},t}=V_{{\rm geom},0}+(S_t-S_0)+(T_t-T_0)+\frac{\Delta t}{2}(Q_t-Q_0).
+\end{equation}
+This identity is not evidence that the predicted water surface is physically correct.
+\section*{Nonlinear Muskingum comparator}
+With $t_{\rm ref}$ expressed in hours, independently calibrate
+\begin{equation}
+S_M=3600K_h[XI+(1-X)Q]^m,\qquad K_h=\frac{t_{\rm ref}}{mQ_{\rm ref}^{m-1}},\qquad Q_{\rm ref}=1000\,\mathrm{m^3/s}.
+\end{equation}
+Solve this relation together with trapezoidal continuity at every step. Estimate storage scale, inflow weight, exponent and computational time step separately for each 20 km reach, with the same objective-call budget as each RWEC family.
+\section*{Reservoir closure}
+\begin{equation}
+V_R=A_RH_R,\quad A_R=6\times10^7\,\mathrm{m^2},\quad \dot V_R=Q_0-C_wB_w[H_R-z_c]_+^{3/2}.
+\end{equation}
+The fixed passive outlet has $C_w=1.7\,\mathrm{m^{1/2}/s}$. Its width is prescribed from a base release of $1000\,\mathrm{m^3/s}$ at $H_R=5\,\mathrm m$. Pilot crest alternatives are $z_c=3.5$ and $2.0\,\mathrm m$; the frozen design uses $z_c=2.0\,\mathrm m$, selected from hydrodynamic checks alone.
+\section*{Moving influence boundary}
+Let $x$ increase upstream from the outlet and let downstream flow be positive. For $b(t)$ defined from the difference between the dynamic and the time-evolving fixed-boundary reference,
+\begin{align}
+S_U&=\int_b^{L_0}A(x,t)\,dx, & \dot S_U&=I-Q_b-A_b\dot b,\\
+S_B&=\int_0^bA(x,t)\,dx, & \dot S_B&=Q_b-Q_0+A_b\dot b,\\
+\frac{d}{dt}(S_U+S_B+V_R)&=I-Q_{\rm release}.
+\end{align}
+$Q_b$ is physical cross-sectional discharge; $Q_b+A_b\dot b$ is relative interface flux. Compute swept volume by area integration over the interval crossed by $b$, not by treating a threshold jump as a material-front velocity. Extra geometrical storage must enter only once.
+\begin{align}
+V_{{\rm sweep},t}&=\int_{b_{t-1}}^{b_t}\frac{A(x,t)+A(x,t-1)}2\,dx,\\
+\overline Q_{b,t}^{\rm shape}&=\overline Q_{0,t}+\frac{S_{B,t}-S_{B,t-1}-V_{{\rm sweep},t}}{\Delta t}.
+\end{align}
+The oracle physical-flux test averages discharge at each time's own moving endpoint. The separate baseline-location comparison interpolates all four models and HEC at the same hourly mean endpoint position. These different integration diagnostics are not combined into a single model ranking.
+\section*{Oracle shape falsification}
+With the true influence endpoint and the true unsteady fixed-boundary reference, test two parameter-free profiles:
+\begin{equation}
+\delta H(x,t)=\delta H(0,t)\exp\left[-\log\!\left(\frac{\delta H(0,t)}{0.1\,\mathrm m}\right)\frac{\xi(x,t)}{\xi(b,t)}\right].
+\end{equation}
+The elementary profile uses $\xi=x$. The hydraulic-coordinate profile uses
+\begin{equation}
+\xi(x,t)=\int_0^x\frac{2Q_{\rm ref}^2K'(H_{\rm ref})}{K(H_{\rm ref})^3(1-Fr_{\rm ref}^2)}\,dx.
+\end{equation}
+Here the true reference quantities are used only to falsify a proposed shape under favourable oracle information. They are forbidden as autonomous forecast inputs. Compute geometrical area from the actual compound cross-section, then independently test storage, its rate of change and swept-volume flux. Autonomous coupling is gated on these physical tests, not on discharge NSE alone.
+\end{document}

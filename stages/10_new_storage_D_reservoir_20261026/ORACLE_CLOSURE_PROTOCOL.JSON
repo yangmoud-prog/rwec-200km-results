@@ -1,0 +1,16 @@
+{
+  "created_before_oracle_results": true,
+  "fit_parameters": 0,
+  "candidates": [
+    "exponential",
+    "hydraulic_coordinate"
+  ],
+  "thresholds": {
+    "stage_active_RMSE_m": 0.1,
+    "extra_volume_NRMSE_range": 0.05,
+    "flux_RMSE_m3s": "max(10,5*HEC hourly residual)",
+    "endpoint_flow_NSE": 0.95
+  },
+  "interpretation": "A pass only removes this shape falsification; it does not establish autonomous forecast skill. A fail blocks using this shape as a joint-state geometric closure.",
+  "future_truth": "only diagnostic upper-bound oracle; no fitted model is driven by these inputs"
+}
